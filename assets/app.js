@@ -15,3 +15,5 @@ navLinks.forEach((link) => {
 window.addEventListener('scroll', () => {
 	sections.forEach((section) => {
 		const top = section.offsetTop
+	}
+	
