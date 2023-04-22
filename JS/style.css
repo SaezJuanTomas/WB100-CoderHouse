@@ -1,72 +1,100 @@
 body {
-	margin: 0;
+	margin: 15;
 	padding: 0;
+	font-family: sans-serif;
+}
+
+header {
+	background-color: #f7f7f7;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 10px;
 }
 
 nav {
-	background-color: #333;
-}
-
-nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
 	display: flex;
-}
-
-nav li {
-	margin: 0;
-	padding: 0;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 nav a {
-	display: block;
-	color: white;
 	text-decoration: none;
-	padding: 1rem;
+	color: #333;
+	font-size: 18px;
+	padding: 10px;
+	transition: color 0.2s ease-in-out;
 }
 
 nav a:hover {
-	background-color: white;
-	color: #333;
+	color: #ff6600;
 }
 
-.section1, .section2, .section3, .section4 {
-	height: 100vh;
+nav form {
+	display: flex;
+	align-items: center;
+}
+
+nav input[type="text"] {
+	border: none;
+	border-bottom: 2px solid #333;
+	padding: 5px;
+	margin-right: 10px;
+}
+
+nav button[type="submit"] {
+	background-color: #333;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 20px;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #f7f7f7;
+	padding: 20px;
+}
+
+.box {
+	background-size: cover;
+	background-position: center center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-}
-
-.section1 {
-	background-color: #f1c40f;
-}
-
-.section2 {
-	background-color: #e67e22;
-}
-
-.section3 {
-	background-color: #3498db;
-}
-
-.section4 {
-	background-color: #27ae60;
-}
-
-h1, p {
-	margin: 0;
-	padding: 0;
 	color: white;
 	text-align: center;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-h1 {
-	font-size: 3rem;
-	margin-bottom: 1rem;
+/* Estilos para cada imagen de fondo */
+.box-1 {
+	background-image: url('https://via.placeholder.com/300x300?text=Imagen+1');
 }
 
-p {
-	font-size: 1.5rem;
+.box-2 {
+	background-image: url('https://via.placeholder.com/300x300?text=Imagen+2');
+}
+
+.box-3 {
+	background-image: url('https://via.placeholder.com/300x300?text=Imagen+3');
+}
+
+.box-4 {
+	background-image: url('https://via.placeholder.com/300x300?text=Imagen+4');
+}
+
+.box-5 {
+	background-image: url('https://via.placeholder.com/300x300?text=Imagen+5');
+}
+
+.box-6 {
+	background-image: url('https://via.placeholder.com/300x300?text=Imagen+6');
 }
