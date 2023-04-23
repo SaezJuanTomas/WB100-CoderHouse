@@ -1,0 +1,661 @@
+[
+    {
+        "nombre": "Casablanca",
+        "año": "1942",
+        "director": "Michael Curtiz",
+        "genero": "Drama",
+        "rating": 100
+    },
+    {
+        "nombre": "Creed",
+        "año": "2015",
+        "director": "Ryan Coogler",
+        "genero": "Drama",
+        "rating": 100
+    },
+    {
+        "nombre": "Creed II",
+        "año": "2018",
+        "director": "Steven Caple Jr.",
+        "genero": "Drama",
+        "rating": 100
+    },
+    {
+        "nombre": "Creed III",
+        "año": "2023",
+        "director": "Michael B. Jordan",
+        "genero": "Drama",
+        "rating": 100
+    },
+    {
+        "nombre": "A star is born",
+        "año": "2018",
+        "director": "Bradley Cooper",
+        "genero": "Drama",
+        "rating": 100
+    },
+    {
+        "nombre": "Elvis",
+        "año": "2021",
+        "director": "Baz Luhrmann",
+        "genero": "Biografía",
+        "rating": 100
+    },
+    {
+        "nombre": "El Gran Gatsby",
+        "año": "2013",
+        "director": "Baz Luhrmann",
+        "genero": "Drama",
+        "rating": 100
+    },
+    {
+        "nombre": "El mago de oz",
+        "año": "1939",
+        "director": "Victor Fleming",
+        "genero": "Fantasía",
+        "rating": 100
+    },
+    {
+        "nombre": "Harry Potter y la piedra filosofal",
+        "año": "2001",
+        "director": "Chris Columbus",
+        "genero": "Fantasía",
+        "rating": 100
+    },
+    {
+        "nombre": "Harry Potter y la cámara secreta",
+        "año": "2002",
+        "director": "Chris Columbus",
+        "genero": "Fantasía",
+        "rating": 100
+    },
+    {
+        "nombre": "Harry Potter y el prisionero de Azkaban",
+        "año": "2004",
+        "director": "Alfonso Cuarón",
+        "genero": "Fantasía",
+        "rating": 100
+    },
+    {
+        "nombre": "Harry Potter y el cáliz de fuego",
+        "año": "2005",
+        "director": "Mike Newell",
+        "genero": "Fantasía",
+        "rating": 100
+    },
+    {
+        "nombre": "Harry Potter y la Orden del Fénix",
+        "año": "2007",
+        "director": "David Yates",
+        "genero": "Fantasía",
+        "rating": 100
+    },
+    {
+        "nombre": "Harry Potter y el misterio del príncipe",
+        "año": "2009",
+        "director": "David Yates",
+        "genero": "Fantasía",
+        "rating": 100
+    },
+    {
+        "nombre": "Harry Potter y las reliquias de la muerte parte 1",
+        "año": "2011",
+        "director": "David Yates",
+        "genero": "Fantasía",
+        "rating": 100
+    },
+    {
+        "nombre": "Harry Potter y las reliquias de la muerte parte 2",
+        "año": "2012",
+        "director": "David Yates",
+        "genero": "Fantasía",
+        "rating": 100
+    },
+    {
+        "nombre": "Animales fantasticos y donde encontrarlos",
+        "año": "2016",
+        "director": "David Yates",
+        "genero": "Fantasia",
+        "rating": 100
+    },
+    {
+        "nombre": "Animales fantasticos: Los crimenes de Grindelwald",
+        "año": "2018",
+        "director": "David Yates",
+        "genero": "Fantasia",
+        "rating": 100
+    },
+    {
+        "nombre": "Animales fantasticos: Los secretos de Dumbledore",
+        "año": "2022",
+        "director": "David Yates",
+        "genero": "Fantasia",
+        "rating": 100
+    },
+    {
+        "nombre": "El señor de los anillos: La comunidad del anillo",
+        "año": "2001",
+        "director": "Peter Jackson",
+        "genero": "Fantasia",
+        "rating": 100
+    },
+    {
+        "nombre": "El señor de los anillos: Las dos torres",
+        "año": "2002",
+        "director": "Peter Jackson",
+        "genero": "Fantasia",
+        "rating": 100
+    },
+    {
+        "nombre": "El señor de los anillos: El retorno del rey",
+        "año": "2003",
+        "director": "Peter Jackson",
+        "genero": "Fantasia",
+        "rating": 100
+    },
+    {
+        "nombre": "El hobbit: Un viaje inesperado",
+        "año": "2012",
+        "director": "Peter Jackson",
+        "genero": "Fantasia",
+        "rating": 100
+    },
+    {
+        "nombre": "El hobbit: La desolacion de Smaug",
+        "año": "2013",
+        "director": "Peter Jackson",
+        "genero": "Fantasia",
+        "rating": 100
+    },
+    {
+        "nombre": "El hobbit: La batalla de los cinco ejercitos",
+        "año": "2014",
+        "director": "Peter Jackson",
+        "genero": "Fantasia",
+        "rating": 100
+    },
+    {
+        "nombre": "Juego de tronos",
+        "año": "2011",
+        "director": "David Benioff, D. B. Weiss",
+        "genero": "Fantasia",
+        "rating": 100
+    },
+    {
+        "nombre": "La casa del dragon",
+        "año": "2022",
+        "director": "Ryan Condal",
+        "genero": "Fantasia",
+        "rating": 100
+    },
+    {
+        "nombre": "La materia oscura",
+        "año": "2019",
+        "director": "Tom Hooper",
+        "genero": "Fantasia",
+        "rating": 100
+    },
+    {
+        "nombre": "Los nevers",
+        "año": "2021",
+        "director": "Joss Whedon",
+        "genero": "Fantasia",
+        "rating": 100
+    },
+    {
+        "nombre": "Más alla del jardin",
+        "año": "2014",
+        "director": "Patrick McHale",
+        "genero": "Fantasia",
+        "rating": 100
+    },
+    {
+        "nombre": "Godzilla",
+        "año": "2012",
+        "director": "",
+        "genero": "Fantasia",
+        "rating": 100
+    },
+    {
+        "nombre": "Kong",
+        "año": "2014",
+        "director": "",
+        "genero": "Fantasia",
+        "rating": 100
+    },
+    {
+        "nombre": "Godzilla rey de los monstruos",
+        "año": "2016",
+        "director": "",
+        "genero": "Fantasia",
+        "rating": 100
+    },
+    {
+        "nombre": "Godzilla vs Kong",
+        "año": "2021",
+        "director": "",
+        "genero": "Fantasia",
+        "rating": 100
+    },
+    {
+        "nombre": "Memento",
+        "año": 2000,
+        "director": "Christopher Nolan",
+        "genero": "Drama",
+        "rating": 100
+    },
+    {
+        "nombre": "El origen (Inception)",
+        "año": 2010,
+        "director": "Christopher Nolan",
+        "genero": "Ciencia ficción",
+        "rating": 100
+    },
+    {
+        "nombre": "Interestelar (Interstellar)",
+        "año": 2014,
+        "director": "Christopher Nolan",
+        "genero": "Ciencia ficción",
+        "rating": 100
+    },
+    {
+        "nombre": "Tenet",
+        "año": 2020,
+        "director": "Christopher Nolan",
+        "genero": "Ciencia ficción",
+        "rating": 100
+    },
+    {
+        "nombre": "Westworld",
+        "año": 2014,
+        "director": "Christopher Nolan",
+        "genero": "Ciencia ficción",
+        "rating": 100
+    },
+    {
+        "nombre": "Raised by wolves",
+        "año": 2020,
+        "director": "Ridley Scott",
+        "genero": "Ciencia ficción",
+        "rating": 100
+    },
+    {
+        "nombre": "The Last of Us",
+        "año": 2023,
+        "director": "Craig Mazin",
+        "genero": "Ciencia ficción",
+        "rating": 100
+    },
+    {
+        "nombre": "Chernobyl",
+        "año": 2018,
+        "director": "Craig Mazin",
+        "genero": "Drama",
+        "rating": 100
+    },
+    {
+        "nombre": "Duna (2021)",
+        "año": 2021,
+        "director": "Denis Villeneuve",
+        "genero": "Ciencia ficción",
+        "rating": 100
+    },
+    {
+        "nombre": "Blade Runner",
+        "año": 1982,
+        "director": "Ridley Scott",
+        "genero": "Ciencia ficción",
+        "rating": 100
+    },
+    {
+        "nombre": "Blade Runner 2049",
+        "año": 2017,
+        "director": "Denis Villeneuve",
+        "genero": "Ciencia ficción",
+        "rating": 100
+    },
+    {
+        "nombre": "The Matrix",
+        "año": 1999,
+        "director": "Hermanas Wachowski",
+        "genero": "Ciencia ficción",
+        "rating": 100
+    },
+    {
+        "nombre": "The Matrix recargado",
+        "año": 2003,
+        "director": "Hermanas Wachowski",
+        "genero": "Ciencia ficción",
+        "rating": 100
+    },
+    {
+        "nombre": "The Matrix revoluciones",
+        "año": 2003,
+        "director": "Hermanas Wachowski",
+        "genero": "Ciencia ficción",
+        "rating": 100
+    },
+    {
+        "nombre": "The Matrix resurrecciones",
+        "año": 2021,
+        "director": "Hermanas Wachowski",
+        "genero": "Ciencia ficción",
+        "rating": 100
+    },
+    {
+        "nombre": "Mad Max: Fury Road",
+        "año": 2015,
+        "director": "George Miller",
+        "genero": "Ciencia ficción",
+        "rating": 100
+    },
+    {
+        "nombre": "Lovecraft Country",
+        "año": 2020,
+        "director": "Masha Green",
+        "genero": "Terror, drama",
+        "rating": 100
+    },
+    {
+        "nombre": "It capitulo 1",
+        "año": 2016,
+        "director": "Andy Muschietti",
+        "genero": "Terror",
+        "rating": 100
+    },
+    {
+        "nombre": "It capitulo 2",
+        "año": 2018,
+        "director": "Andy Muschietti",
+        "genero": "Terror",
+        "rating": 100
+    },
+    {
+        "nombre": "El Conjuro",
+        "año": 2013,
+        "director": "James Wan",
+        "genero": "Terror",
+        "rating": 100
+    },
+    {
+        "nombre": "El Conjuro 2",
+        "año": 2016,
+        "director": "James Wan",
+        "genero": "Terror",
+        "rating": 100
+    },
+    {
+        "nombre": "El Conjuro 3",
+        "año": 2021,
+        "director": "Michael Chaves",
+        "genero": "Terror",
+        "rating": 100
+    },
+    {
+        "nombre": "Annabelle",
+        "año": 2014,
+        "director": "Gary Dauberman",
+        "genero": "Terror",
+        "rating": 100
+    },
+    {
+        "nombre": "Annabelle creación",
+        "año": 2017,
+        "director": "David S. Sandberg",
+        "genero": "Terror",
+        "rating": 100
+    },
+    {
+        "nombre": "Annabelle vuelve a casa",
+        "año": 2019,
+        "director": "Gary Dauberman",
+        "genero": "Terror",
+        "rating": 100
+    },
+    {
+        "nombre": "La monja",
+        "año": 2018,
+        "director": "Michael Chaves",
+        "genero": "Terror",
+        "rating": 100
+    },
+    {
+        "nombre": "La monja 2",
+        "año": 2023,
+        "director": "Michael Chaves",
+        "genero": "Terror",
+        "rating": 100
+    },
+    {
+        "nombre": "La maldición de la llorona",
+        "año": 2019,
+        "director": "Michael Chaves",
+        "genero": "Terror",
+        "rating": 100
+    },
+    {
+        "nombre": "El resplandor",
+        "año": 1980,
+        "director": "Stanley Kubrick",
+        "genero": "Terror",
+        "rating": 100
+    },
+    {
+        "nombre": "Doctor sueño",
+        "año": 2019,
+        "director": "Stanley Kubrick",
+        "genero": "Terror",
+        "rating": 100
+    },
+    {
+        "nombre": "Evil Dead Rise",
+        "año": 2023,
+        "director": "Lee Cronin",
+        "genero": "Terror",
+        "rating": 100
+    },
+    {
+        "name": "Wonder woman",
+        "director": "Patty Jenkins",
+        "year": "2017",
+        "genre": null,
+        "category": null,
+        "rating": 100
+    },
+    {
+        "name": "Aquaman",
+        "director": "James Wan",
+        "year": "2018",
+        "genre": null,
+        "category": null,
+        "rating": 100
+    },
+    {
+        "name": "Peacemaker",
+        "director": "James Gunn",
+        "year": "2021",
+        "genre": null,
+        "category": null,
+        "rating": 100
+    },
+    {
+        "name": "The penguin",
+        "director": "Matt Reeves",
+        "year": "2024",
+        "genre": null,
+        "category": null,
+        "rating": 100
+    },
+    {
+        "name": "Wonder woman 1984",
+        "director": "Patty Jenkins",
+        "year": "2020",
+        "genre": null,
+        "category": null,
+        "rating": 100
+    },
+    {
+        "name": "Suicide squad",
+        "director": "David Ayer",
+        "year": "2016",
+        "genre": null,
+        "category": null,
+        "rating": 100
+    },
+    {
+        "name": "The suicide squad",
+        "director": "James Gunn",
+        "year": "2021",
+        "genre": null,
+        "category": null,
+        "rating": 100
+    },
+    {
+        "name": "Shazam!",
+        "director": "David S. Sandberg",
+        "year": "2019",
+        "genre": null,
+        "category": null,
+        "rating": 100
+    },
+    {
+        "name": "Shazam! fury of the gods",
+        "director": "David S. Sandberg",
+        "year": "2022",
+        "genre": null,
+        "category": null,
+        "rating": 100
+    },
+    {
+        "name": "Birds of prey",
+        "director": "Cathty Yan",
+        "year": "2020",
+        "genre": null,
+        "category": null,
+        "rating": 100
+    },
+    {
+        "name": "Black adam",
+        "director": "David S. Sandberg",
+        "year": "2022",
+        "genre": null,
+        "category": null,
+        "rating": 100
+    },
+    {
+        "name": "Joker",
+        "director": "Todd Phillips",
+        "year": "2019",
+        "genre": null,
+        "category": null,
+        "rating": 100
+    },
+    {
+        "name": "Joker folie e deux",
+        "director": "Todd Phillips",
+        "year": "2023",
+        "genre": null,
+        "category": null,
+        "rating": 100
+    },
+    {
+        "name": "The batman part 2",
+        "director": "Matt Reeves",
+        "year": "2025",
+        "genre": null,
+        "category": null,
+        "rating": 100
+    },
+    {
+        "name": "The batman",
+        "director": "Matt Reeves",
+        "year": "2022",
+        "genre": null,
+        "category": null,
+        "rating": 100
+    },
+    {
+        "name": "Superman",
+        "director": "Richard Donner",
+        "year": "1978",
+        "genre": null,
+        "rating": 100
+    },
+    {
+        "name": "Superman 2 de Richard Donner",
+        "director": "Richard Donner",
+        "year": "2006",
+        "genre": null,
+        "rating": 100
+    },
+    {
+        "name": "Superman regresa",
+        "director": "Richard Donner",
+        "year": "2006",
+        "genre": null,
+        "rating": 100
+    },
+    {
+        "name": "Batman",
+        "director": "Tim Burton",
+        "year": "1989",
+        "genre": null,
+        "rating": 100
+    },
+    {
+        "name": "Batman regresa",
+        "director": "Tim Burton",
+        "year": "1992",
+        "genre": null,
+        "rating": 100
+    },
+    {
+        "name": "Batman comienza",
+        "director": "Christopher Nolan",
+        "year": "2005",
+        "genre": null,
+        "rating": 100
+    },
+    {
+        "name": "El caballero de la noche",
+        "director": "Christopher Nolan",
+        "year": "2007",
+        "genre": null,
+        "rating": 100
+    },
+    {
+        "name": "El caballero de la noche asciende",
+        "director": "Christopher Nolan",
+        "year": "2011",
+        "genre": null,
+        "rating": 100
+    },
+    {
+        "name": "Watchmen",
+        "director": "Zack Snyder",
+        "year": "2009",
+        "genre": null,
+        "rating": 100
+    },
+    {
+        "name": "Hombre de acero",
+        "director": "Zack Snyder",
+        "year": "2013",
+        "genre": null,
+        "rating": 100
+    },
+    {
+        "name": "Batman v Superman",
+        "director": "Zack Snyder",
+        "year": "2016",
+        "genre": null,
+        "rating": 100
+    },
+    {
+        "name": "La Liga de la Justicia de Zack Snyder",
+        "director": "Zack Snyder",
+        "year": "2021",
+        "genre": null,
+        "rating": 100
+    }
+]
