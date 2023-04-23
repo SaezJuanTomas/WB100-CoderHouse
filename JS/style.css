@@ -54,11 +54,11 @@ nav button[type="submit"] {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(3, 1fr);
-	grid-gap: 20px;
+	grid-gap: 10px;
 	align-items: center;
-	min-height: 100vh;
+	height: 900px;
 	background-color: #f7f7f7;
-	padding: 20px;
+	padding: 0px;
 }
 
 .box {
@@ -66,35 +66,41 @@ nav button[type="submit"] {
 	background-position: center center;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	display: flex;
+	height: 400px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	color: white;
 	text-align: center;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	transition: transform 0.2s ease-in-out;
 }
+
+.box:hover {
+	transform: scale(0.95);
+  }
 
 /* Estilos para cada imagen de fondo */
 .box-1 {
-	background-image: url('https://via.placeholder.com/300x300?text=Imagen+1');
+	background-image: url('https://theclothesline.com.au/wp-content/uploads/2018/01/Well-Always-Have-Casablanca-header-Noah-Isenberg-Allen-Unwin-Faber-The-Clothesline.jpg');
 }
 
 .box-2 {
-	background-image: url('https://via.placeholder.com/300x300?text=Imagen+2');
+	background-image: url('https://sm.ign.com/ign_pt/screenshot/default/raised-by-wolves-1-1140x641_8bn5.jpg');
 }
 
 .box-3 {
-	background-image: url('https://via.placeholder.com/300x300?text=Imagen+3');
+	background-image: url('https://image.tmdb.org/t/p/w780/6GIpI3X65J6DT2nSTSga9LnanGJ.jpg');
 }
 
 .box-4 {
-	background-image: url('https://via.placeholder.com/300x300?text=Imagen+4');
+	background-image: url('https://wallpaperaccess.com/full/541374.jpg');
 }
 
 .box-5 {
-	background-image: url('https://via.placeholder.com/300x300?text=Imagen+5');
+	background-image: url('https://wallpapercave.com/wp/wp2223293.jpg');
 }
 
 .box-6 {
-	background-image: url('https://via.placeholder.com/300x300?text=Imagen+6');
+	background-image: url('https://wallpapercave.com/wp/wp4924466.jpg');
 }
