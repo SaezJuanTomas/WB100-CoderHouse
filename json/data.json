@@ -353,309 +353,294 @@
         "nombre": "Lovecraft Country",
         "año": 2020,
         "director": "Masha Green",
-        "genero": "Terror, drama",
+        "genero": "horror, drama",
         "rating": 100
     },
     {
         "nombre": "It capitulo 1",
         "año": 2016,
         "director": "Andy Muschietti",
-        "genero": "Terror",
+        "genero": "horror",
         "rating": 100
     },
     {
         "nombre": "It capitulo 2",
         "año": 2018,
         "director": "Andy Muschietti",
-        "genero": "Terror",
+        "genero": "horror",
         "rating": 100
     },
     {
         "nombre": "El Conjuro",
         "año": 2013,
         "director": "James Wan",
-        "genero": "Terror",
+        "genero": "horror",
         "rating": 100
     },
     {
         "nombre": "El Conjuro 2",
         "año": 2016,
         "director": "James Wan",
-        "genero": "Terror",
+        "genero": "horror",
         "rating": 100
     },
     {
         "nombre": "El Conjuro 3",
         "año": 2021,
         "director": "Michael Chaves",
-        "genero": "Terror",
+        "genero": "horror",
         "rating": 100
     },
     {
         "nombre": "Annabelle",
         "año": 2014,
         "director": "Gary Dauberman",
-        "genero": "Terror",
+        "genero": "horror",
         "rating": 100
     },
     {
         "nombre": "Annabelle creación",
         "año": 2017,
         "director": "David S. Sandberg",
-        "genero": "Terror",
+        "genero": "horror",
         "rating": 100
     },
     {
         "nombre": "Annabelle vuelve a casa",
         "año": 2019,
         "director": "Gary Dauberman",
-        "genero": "Terror",
+        "genero": "horror",
         "rating": 100
     },
     {
         "nombre": "La monja",
         "año": 2018,
         "director": "Michael Chaves",
-        "genero": "Terror",
+        "genero": "horror",
         "rating": 100
     },
     {
         "nombre": "La monja 2",
         "año": 2023,
         "director": "Michael Chaves",
-        "genero": "Terror",
+        "genero": "horror",
         "rating": 100
     },
     {
         "nombre": "La maldición de la llorona",
         "año": 2019,
         "director": "Michael Chaves",
-        "genero": "Terror",
+        "genero": "horror",
         "rating": 100
     },
     {
         "nombre": "El resplandor",
         "año": 1980,
         "director": "Stanley Kubrick",
-        "genero": "Terror",
+        "genero": "horror",
         "rating": 100
     },
     {
         "nombre": "Doctor sueño",
         "año": 2019,
         "director": "Stanley Kubrick",
-        "genero": "Terror",
+        "genero": "horror",
         "rating": 100
     },
     {
         "nombre": "Evil Dead Rise",
         "año": 2023,
         "director": "Lee Cronin",
-        "genero": "Terror",
+        "genero": "horror",
         "rating": 100
     },
     {
-        "name": "Wonder woman",
+        "nombre": "Wonder woman",
         "director": "Patty Jenkins",
-        "year": "2017",
-        "genre": null,
-        "category": null,
+        "año": "2017",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Aquaman",
+        "nombre": "Aquaman",
         "director": "James Wan",
-        "year": "2018",
-        "genre": null,
-        "category": null,
+        "año": "2018",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Peacemaker",
+        "nombre": "Peacemaker",
         "director": "James Gunn",
-        "year": "2021",
-        "genre": null,
-        "category": null,
+        "año": "2021",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "The penguin",
+        "nombre": "The penguin",
         "director": "Matt Reeves",
-        "year": "2024",
-        "genre": null,
-        "category": null,
+        "año": "2024",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Wonder woman 1984",
+        "nombre": "Wonder woman 1984",
         "director": "Patty Jenkins",
-        "year": "2020",
-        "genre": null,
-        "category": null,
+        "año": "2020",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Suicide squad",
+        "nombre": "Suicide squad",
         "director": "David Ayer",
-        "year": "2016",
-        "genre": null,
-        "category": null,
+        "año": "2016",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "The suicide squad",
+        "nombre": "The suicide squad",
         "director": "James Gunn",
-        "year": "2021",
-        "genre": null,
-        "category": null,
+        "año": "2021",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Shazam!",
+        "nombre": "Shazam!",
         "director": "David S. Sandberg",
-        "year": "2019",
-        "genre": null,
-        "category": null,
+        "año": "2019",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Shazam! fury of the gods",
+        "nombre": "Shazam! fury of the gods",
         "director": "David S. Sandberg",
-        "year": "2022",
-        "genre": null,
-        "category": null,
+        "año": "2022",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Birds of prey",
+        "nombre": "Birds of prey",
         "director": "Cathty Yan",
-        "year": "2020",
-        "genre": null,
-        "category": null,
+        "año": "2020",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Black adam",
+        "nombre": "Black adam",
         "director": "David S. Sandberg",
-        "year": "2022",
-        "genre": null,
-        "category": null,
+        "año": "2022",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Joker",
+        "nombre": "Joker",
         "director": "Todd Phillips",
-        "year": "2019",
-        "genre": null,
-        "category": null,
+        "año": "2019",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Joker folie e deux",
+        "nombre": "Joker folie e deux",
         "director": "Todd Phillips",
-        "year": "2023",
-        "genre": null,
-        "category": null,
+        "año": "2023",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "The batman part 2",
+        "nombre": "The batman part 2",
         "director": "Matt Reeves",
-        "year": "2025",
-        "genre": null,
-        "category": null,
+        "año": "2025",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "The batman",
+        "nombre": "The batman",
         "director": "Matt Reeves",
-        "year": "2022",
-        "genre": null,
-        "category": null,
+        "año": "2022",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Superman",
+        "nombre": "Superman",
         "director": "Richard Donner",
-        "year": "1978",
-        "genre": null,
+        "año": "1978",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Superman 2 de Richard Donner",
+        "nombre": "Superman 2 de Richard Donner",
         "director": "Richard Donner",
-        "year": "2006",
-        "genre": null,
+        "año": "2006",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Superman regresa",
+        "nombre": "Superman regresa",
         "director": "Richard Donner",
-        "year": "2006",
-        "genre": null,
+        "año": "2006",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Batman",
+        "nombre": "Batman",
         "director": "Tim Burton",
-        "year": "1989",
-        "genre": null,
+        "año": "1989",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Batman regresa",
+        "nombre": "Batman regresa",
         "director": "Tim Burton",
-        "year": "1992",
-        "genre": null,
+        "año": "1992",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Batman comienza",
+        "nombre": "Batman comienza",
         "director": "Christopher Nolan",
-        "year": "2005",
-        "genre": null,
+        "año": "2005",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "El caballero de la noche",
+        "nombre": "El caballero de la noche",
         "director": "Christopher Nolan",
-        "year": "2007",
-        "genre": null,
+        "año": "2007",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "El caballero de la noche asciende",
+        "nombre": "El caballero de la noche asciende",
         "director": "Christopher Nolan",
-        "year": "2011",
-        "genre": null,
+        "año": "2011",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Watchmen",
+        "nombre": "Watchmen",
         "director": "Zack Snyder",
-        "year": "2009",
-        "genre": null,
+        "año": "2009",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Hombre de acero",
+        "nombre": "Hombre de acero",
         "director": "Zack Snyder",
-        "year": "2013",
-        "genre": null,
+        "año": "2013",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "Batman v Superman",
+        "nombre": "Batman v Superman",
         "director": "Zack Snyder",
-        "year": "2016",
-        "genre": null,
+        "año": "2016",
+        "genero": "DCEU",
         "rating": 100
     },
     {
-        "name": "La Liga de la Justicia de Zack Snyder",
+        "nombre": "La Liga de la Justicia de Zack Snyder",
         "director": "Zack Snyder",
-        "year": "2021",
-        "genre": null,
+        "año": "2021",
+        "genero": "DCEU",
         "rating": 100
     }
 ]
