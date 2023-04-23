@@ -124,15 +124,15 @@ nav button[type="submit"] {
 }
 
 .boxs-2{
-	background-image: url(/imagenes/cat\ cf.png)
+	background-image: url(/imagenes/cat\_cf.png)
 }
 
 .boxs-3{
-	background-image: url(/imagenes/cat\ dc.png);
+	background-image: url(/imagenes/cat\_dc.png);
 }
 
 .boxs-4{
-	background-image: url(/imagenes/cat\ f.png);
+	background-image: url(/imagenes/cat\_f.png);
 }
 
 .boxs-5{
@@ -140,7 +140,7 @@ nav button[type="submit"] {
 }
 
 .boxs-6{
-	background-image: url(/imagenes/cat\ p.png);
+	background-image: url(/imagenes/cat\_p.png);
 }
 
   .grid-container {
