@@ -5,7 +5,7 @@
         "director": "Olivia Wilde",
         "genero": "Ciencia ficción",
         "rating": 100,
-        "poster": ""
+        "poster": "https://wchsinsight.org/wp-content/uploads/2022/10/IMG_8266-636x900.jpg"
     },
     {
         "nombre": "Ready player one",
@@ -13,7 +13,7 @@
         "director": "Steven Spielberg",
         "genero": "Ciencia ficción",
         "rating": 100,
-        "poster": ""
+        "poster": "https://www.sobretiza.com.ar/wp-content/uploads/2018/04/ready-player-one-poster.jpg"
     },
     {
         "nombre": "Edge of tomorrow",
@@ -21,7 +21,7 @@
         "director": "Doug Liman",
         "genero": "Ciencia ficción",
         "rating": 100,
-        "poster": ""
+        "poster": "https://m.media-amazon.com/images/I/71C93vSwpIL._AC_UF894,1000_QL80_.jpg"
     },
     {
         "nombre": "Contagion",
@@ -29,7 +29,7 @@
         "director": "Steven Soderbergh",
         "genero": "Ciencia ficción",
         "rating": 100,
-        "poster": ""
+        "poster": "https://img.ecartelera.com/noticias/fotos/8600/8616/1.jpg"
     },
     {
         "nombre": "Furiosa",
@@ -37,7 +37,7 @@
         "director": "George Miller",
         "genero": "Ciencia ficción",
         "rating": 100,
-        "poster": ""
+        "poster": "https://posterspy.com/wp-content/uploads/2022/07/Furiosa_Poster.jpg"
     },
     {
         "nombre": "Mickey 17",
@@ -45,7 +45,7 @@
         "director": "Bong Joon Ho",
         "genero": "Ciencia ficción",
         "rating": 100,
-        "poster": ""
+        "poster": "https://images.justwatch.com/poster/301972937/s718/mickey-17.%7Bformat%7D"
     },
     {
         "nombre": "Meg",
@@ -53,7 +53,7 @@
         "director": "Jon Turteltaub",
         "genero": "Ciencia ficción",
         "rating": 100,
-        "poster": ""
+        "poster": "https://www.themoviedb.org/t/p/original/eyWICPcxOuTcDDDbTMOZawoOn8d.jpg"
     },
     {
         "nombre": "Cadaver de la novia",
@@ -61,7 +61,7 @@
         "director": "Tim Burton",
         "genero": "Fantasia",
         "rating": 100,
-        "poster": ""
+        "poster": "https://www.themoviedb.org/t/p/original/isb2Qow76GpqYmsSyfdMfsYAjts.jpg"
     },
     {
         "nombre": "Las brujas",
@@ -69,7 +69,7 @@
         "director": "Robert Zemeckis",
         "genero": "Fantasia",
         "rating": 100,
-        "poster": ""
+        "poster": "https://palomaynacho.com/wp-content/uploads/2020/10/Las-brujas-2020-poster.jpg"
     },
     {
         "nombre": "Tarzan",
@@ -77,15 +77,15 @@
         "director": "David Yates",
         "genero": "Fantasia",
         "rating": 100,
-        "poster": ""
+        "poster": "https://www.the-leaky-cauldron.org/wp-content/uploads/assets/CVzOIJWUAAAEfkb.jpg"
     },
     {
-        "nombre": "Choque de titanes",
+        "nombre": "Furia de titanes",
         "año": 2010,
         "director": "Louis Leterrier",
         "genero": "Fantasia",
         "rating": 100,
-        "poster": ""
+        "poster": "https://images.justwatch.com/poster/162204077/s592/furia-de-titanes"
     },
     {
         "nombre": "Pan",
@@ -93,7 +93,7 @@
         "director": "Joe Wright",
         "genero": "Fantasia",
         "rating": 100,
-        "poster": ""
+        "poster": "https://movieposters2.com/images/1300540-b.jpg"
     },
     {
         "nombre": "The war of Rohirrim",
@@ -101,7 +101,7 @@
         "director": "Peter Jackson",
         "genero": "Fantasia",
         "rating": 100,
-        "poster": ""
+        "poster": "https://es.web.img3.acsta.net/pictures/21/06/11/09/55/5971700.jpg"
     },
     {
         "nombre": "Succession",
@@ -109,7 +109,7 @@
         "director": "Adam McKay",
         "genero": "Drama",
         "rating": "100",
-        "poster": ""
+        "poster": "https://www.bolsamania.com/seriesadictos/wp-content/uploads/2018/05/DdKmgPUVMAAmwam_595_Mini-Logo-TV-white-Gallery.jpg"
     },
     {
         "nombre": "The sopranos",
@@ -117,7 +117,7 @@
         "director": "David Chase",
         "genero": "Drama",
         "rating": "100",
-        "poster": ""
+        "poster": "https://cdn.shopify.com/s/files/1/2356/1293/products/sopranos_ver21_xxlg_800x.jpg?v=1642762887"
     },
     {
         "nombre": "The wire",
@@ -125,7 +125,7 @@
         "director": "Clark Johnson",
         "genero": "Drama",
         "rating": "100",
-        "poster": ""
+        "poster": "https://i.ebayimg.com/images/g/yYwAAOSwML9i7Guh/s-l500.jpg"
     },
     {
         "nombre": "True detective",
@@ -133,7 +133,7 @@
         "director": "Cary Joji Fukunaga",
         "genero": "Drama",
         "rating": "100",
-        "poster": ""
+        "poster": "https://pics.filmaffinity.com/True_Detective_III_Miniserie_de_TV-257181940-large.jpg"
     },
     {
         "nombre": "The white lotus",
@@ -141,7 +141,7 @@
         "director": "Mike White",
         "genero": "Drama",
         "rating": "100",
-        "poster": ""
+        "poster": "https://1.bp.blogspot.com/-DcZ0SUBHspY/YNQ38BDqPYI/AAAAAAABV6I/qjlq5EqOkdYOPuIeE0rju9pRX_OOjvVVQCLcBGAsYHQ/s640/white_lotus-poster-agua.jpeg"
     },
     {
         "nombre": "Big little lies",
@@ -149,7 +149,7 @@
         "director": "Jean-Marc Vallée",
         "genero": "Drama",
         "rating": "100",
-        "poster": ""
+        "poster": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/poster-big-little-lies-1557598360.jpg?crop=1xw:1xh;center,top&resize=480:*"
     },
     {
         "nombre": "Sharp objects",
@@ -157,7 +157,7 @@
         "director": "Jean-Marc Vallée",
         "genero": "Drama",
         "rating": "100",
-        "poster": ""
+        "poster": "https://i0.wp.com/netflixyseries.com/wp-content/uploads/2018/05/Sharp-Objects-01.jpg?fit=450%2C667&ssl=1"
     },
     {
         "nombre": "The undoing",
@@ -165,7 +165,7 @@
         "director": "Susanne Bier",
         "genero": "Drama",
         "rating": "100",
-        "poster": ""
+        "poster": "https://www.kibit.cl/wp-content/uploads/2020/10/THE-UNDOING-KA-SPANISH-VERSION.jpg"
     },
     {
         "nombre": "Mare of easttown",
@@ -173,7 +173,7 @@
         "director": "Craig Zobel",
         "genero": "Drama",
         "rating": "100",
-        "poster": ""
+        "poster": "https://pbs.twimg.com/media/Ex2W_6xVgAAZ3nD.jpg:large"
     },
     {
         "nombre": "Love & death",
@@ -181,7 +181,7 @@
         "director": "Jean-Marc Vallée",
         "genero": "Drama",
         "rating": "100",
-        "poster": ""
+        "poster": "https://conpochoclos.com/wp-content/uploads/2023/03/1080x1350_LOVE___DEATH_HBOMax_ORGANIC_LAT_PRELAUNCH-819x1024.webp"
     },
     {
         "nombre": "Barry",
@@ -189,7 +189,7 @@
         "director": "Bill Hader",
         "genero": "Drama",
         "rating": "100",
-        "poster": ""
+        "poster": "https://www.bolsamania.com/seriesadictos/wp-content/uploads/2019/02/unnamed-1-copy-450x800.jpg"
     },
     {
         "nombre": "Watchmen",
@@ -197,7 +197,7 @@
         "director": "Nicole Kassell",
         "genero": "DCEU",
         "rating": "100",
-        "poster": ""
+        "poster": "https://media.vogue.es/photos/5df8fe0a4f37d9000893f691/2:3/w_2560%2Cc_limit/HBO-Watchmen-Poster-Full.png"
     },
     {
         "nombre": "Euphoria",
@@ -205,7 +205,7 @@
         "director": "Sam Levinson",
         "genero": "Drama",
         "rating": "100",
-        "poster": ""
+        "poster": "https://i.pinimg.com/originals/18/a1/fb/18a1fbe06fdd4b2b32f4f605cb8d6bf9.jpg"
     },
     {
         "nombre": "The idol",
@@ -213,7 +213,7 @@
         "director": "Sam Levinson",
         "genero": "Drama",
         "rating": "100",
-        "poster": ""
+        "poster": "https://es.web.img3.acsta.net/pictures/23/04/13/14/13/3061616.jpg"
     },
     {
         "nombre": "Veneno",
@@ -221,15 +221,15 @@
         "director": "Jean-Marc Vallée",
         "genero": "Drama",
         "rating": "100",
-        "poster": ""
+        "poster": "https://es.web.img3.acsta.net/pictures/20/10/01/17/29/0294406.jpg"
     },
     {
-        "nombre": "i may destroy you",
+        "nombre": "I may destroy you",
         "año": 2020,
         "director": "Michaela Coel",
         "genero": "Drama",
         "rating": "100",
-        "poster": ""
+        "poster": "https://mx.web.img2.acsta.net/pictures/20/05/11/09/33/4621282.jpg"
     },
     {
         "nombre": "Salem's lot",
@@ -237,7 +237,7 @@
         "director": "Tobe Hooper",
         "genero": "horror",
         "rating": 75,
-        "poster": ""
+        "poster": "https://i.pinimg.com/originals/b2/39/c6/b239c64a8a4f118d20fbe6e80e4a739b.jpg"
     },
     {
         "nombre": "Salem's lot",
@@ -253,7 +253,7 @@
         "director": "Ben Affleck",
         "genero": "Drama",
         "rating": 85,
-        "poster": ""
+        "poster": "https://ih1.redbubble.net/image.3661819579.3836/flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
     },
     {
         "nombre": "Judas y el mesías negro",
@@ -261,7 +261,7 @@
         "director": "Shaka King",
         "genero": "Drama",
         "rating": 90,
-        "poster": ""
+        "poster": "https://www.themoviedb.org/t/p/original/iIgr75GoqFxe1X5Wz9siOODGe9u.jpg"
     },
     {
         "nombre": "Rey Richard",
@@ -269,7 +269,7 @@
         "director": "Reinaldo Marcus Green",
         "genero": "Drama",
         "rating": 80,
-        "poster": ""
+        "poster": "https://www.themoviedb.org/t/p/original/x00vke4nfZahwSKoSyfJlDwveTi.jpg"
     },
     {
         "nombre": "Aviador",
@@ -277,7 +277,7 @@
         "director": "Martin Scorsese",
         "genero": "Drama",
         "rating": 85,
-        "poster": ""
+        "poster": "https://i.pinimg.com/originals/bc/7a/12/bc7a1202dfe4450d7f09d346c0a868ba.jpg"
     },
     {
         "nombre": "War dogs",
@@ -285,7 +285,7 @@
         "director": "Todd Phillips",
         "genero": "Drama",
         "rating": 70,
-        "poster": ""
+        "poster": "https://i.pinimg.com/originals/b9/7d/a1/b97da19e4abd4c4af1f9dd26f61aee0b.jpg"
     },
     {
         "nombre": "The little things",
@@ -293,7 +293,7 @@
         "director": "John Lee Hancock",
         "genero": "Drama",
         "rating": 70,
-        "poster": ""
+        "poster": "https://www.themoviedb.org/t/p/original/tLO1aD1ghdtVMT32z2sRmzgYKYd.jpg"
     },
     {
         "nombre": "Rey Arturo",
@@ -301,7 +301,7 @@
         "director": "Antoine Fuqua",
         "genero": "Drama",
         "rating": 65,
-        "poster": ""
+        "poster": "https://www.ecartelera.com/carteles/11300/11344/004.jpg"
     },
     {
         "nombre": "El color púrpura",
@@ -309,7 +309,7 @@
         "director": "Steven Spielberg",
         "genero": "Drama",
         "rating": 85,
-        "poster": ""
+        "poster": "https://lh3.googleusercontent.com/a2fP0XJPQlnqkMHV5QcBypDZ4nULdv-Z4uIv_hJ4dnl1CtdEWMD2-TnVdYiQP5MDfBcF2C7OCPIjsCmSUWiEc33IuI4rrEmkpHH852cHDelAaPtSS3N7zo-9vOy0W9g4Vg8Zp0a5YdSao4-dc2xVskSySuqIrgch9T3q5NpRP-RIjKV-asMdZ-TFrG8YA3Or5lVa1tPiDtilzb89_-Eln0xycmwUKezkHI3jxduoI_wAzMNdANYgjkvliOJLfKRySd1hHE7Dy9YgGHWO-cO0KIlRgM6GApwP9hj2xblYD2Dxqaj5IJn39OhBEBcLaK6nJEWat-dzBeAekW0LlSPlX8nsEYRhhXQVeD3FwBL48FIWGxqLbnU8eLKl3ZhrdjQEbh77uwsN-s-x7Lffv2mhNdJ37mAIhwCtgdlkXsN_1_2MHg4AEidWJz9mdbJT-DMQMpuHesodzCsv1q3C43YVB425rBlWCNHXc8h7rPAtVZSSo9PYTphEMfbySvxF2A_HOLzmhL3a0Db4FQUMt6fMUxjpXf7Mw2mQzR6NhBEYXCY3Ndv_OhXQ2D6CvHujEc-s3jpeEwcu-4R579JqImBR1j11I7OxRaSK1YI7J-Bd86GFnz5kXA=w413-h583-no"
     },
     {
         "nombre": "No sudden move",
@@ -317,7 +317,7 @@
         "director": "Steven Soderbergh",
         "genero": "Crimen",
         "rating": 75,
-        "poster": ""
+        "poster": "https://www.funcinema.com.ar/wp-content/uploads/2021/06/ni-un-paso-en-falso.jpg"
     },
     {
         "nombre": "Kimi",
@@ -325,7 +325,7 @@
         "director": "Steven Soderbergh",
         "genero": "Crimen",
         "rating": 75,
-        "poster": ""
+        "poster": "https://cineargentinohoy.com.ar/wp-content/uploads/2022/02/KA_KIMI_9x16_DATE_LAT.jpg"
     },
     {
         "nombre": "Let them all talk",
@@ -333,7 +333,7 @@
         "director": "Steven Soderbergh",
         "genero": "Drama",
         "rating": 70,
-        "poster": ""
+        "poster": "https://m.media-amazon.com/images/I/81SqbOIB9rL._RI_.jpg"
     },
     {
         "nombre": "The goldfinch",
@@ -349,7 +349,7 @@
         "director": "Denis Villeneuve",
         "genero": "Ciencia ficción",
         "rating": 100,
-        "poster": ""
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjFkM2RhZjUtN2U0MC00NTMxLTk1MjktZDkwNjg3MjI0NmYxXkEyXkFqcGdeQXVyNTA3MTU2MjE@._V1_FMjpg_UX1000_.jpg"
     },
     {
         "nombre": "300",
@@ -357,7 +357,7 @@
         "director": "Zack Snyder",
         "genero": "Drama",
         "rating": 80,
-        "poster": ""
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_708781-MLA41908969856_052020-O.jpg"
     },
     {
         "nombre": "Cry macho",
@@ -365,7 +365,7 @@
         "director": "Clint Eastwood",
         "genero": "Drama",
         "rating": 75,
-        "poster": ""
+        "poster": "https://www.lahiguera.net/cinemania/pelicula/9935/cry_macho-cartel-10033.jpg"
     },
     {
         "nombre": "Naranja mecánica",
@@ -373,7 +373,7 @@
         "director": "Stanley Kubrick",
         "genero": "Ciencia ficción",
         "rating": 89,
-        "poster": ""
+        "poster": "https://m.media-amazon.com/images/I/513gCOPwYkL._AC_SL1024_.jpg"
     },
     {
         "nombre": "Heat",
@@ -381,7 +381,7 @@
         "director": "Michael Mann",
         "genero": "Drama",
         "rating": 87,
-        "poster": ""
+        "poster": "https://i.pinimg.com/736x/da/d8/fc/dad8fc2db1f4d158206d4d94a6ac3957.jpg"
     },
     {
         "nombre": "Her",
@@ -389,7 +389,7 @@
         "director": "Spike Jonze",
         "genero": "Drama",
         "rating": 90,
-        "poster": ""
+        "poster": "https://m.media-amazon.com/images/I/41Eb7WxmYNL.jpg"
     },
     {
         "nombre": "Zodiaco",
@@ -397,15 +397,15 @@
         "director": "David Fincher",
         "genero": "Drama",
         "rating": 82,
-        "poster": ""
+        "poster": "https://i.pinimg.com/736x/be/53/68/be53688dce7a60bf6032033ae23b707e.jpg"
     },
     {
-        "nombre": "Dunkerke",
+        "nombre": "Dunkerque",
         "año": 2017,
         "director": "Christopher Nolan",
         "genero": "Drama",
         "rating": 82,
-        "poster": ""
+        "poster": "https://i.blogs.es/478712/dunkirk-teaser-poster-nolan/450_1000.jpg"
     },
     {
         "nombre": "Charm City Kings",
@@ -413,7 +413,7 @@
         "director": "Angel Manuel Soto",
         "genero": "Drama",
         "rating": 75,
-        "poster": ""
+        "poster": "https://cineplex.cpxstoreimages.com/cineplex?set=imageSize[large550],imageURL[http%3A%2F%2Fcineplex-cdn5.dmlib.com%2Fu%2FAssets%2FCineplex%2FT2797354%2FV1782956%2FA14180743%2Feng%2F800_1200_jpg%2FPrimary_BoxCover_800_1200.jpg]&call=url[file:web/sizing]&sink"
     },
     {
         "nombre": "Sully",
@@ -421,7 +421,7 @@
         "director": "Clint Eastwood",
         "genero": "Drama",
         "rating": 78,
-        "poster": ""
+        "poster": "https://i.pinimg.com/originals/fb/78/29/fb7829f58d9090428c0d33b71a0fd08c.jpg"
     },
     {
         "nombre": "Focus",
@@ -429,7 +429,7 @@
         "director": "Glenn Ficarra, John Requa",
         "genero": "Drama",
         "rating": 63,
-        "poster": ""
+        "poster": "https://static.wikia.nocookie.net/warner-bros-entertainment/images/b/bf/2015_Focus_film_poster.png/revision/latest?cb=20180916200256"
     },
     {
         "nombre": "La animatrix",
@@ -437,7 +437,7 @@
         "director": "Varios",
         "genero": "Ciencia ficción",
         "rating": 80,
-        "poster": ""
+        "poster": "https://m.media-amazon.com/images/I/51go0wlLWRL._AC_.jpg"
     },
     {
         "nombre": "Ocean's Eleven",
@@ -445,7 +445,7 @@
         "director": "Steven Soderbergh",
         "genero": "Drama",
         "rating": 80,
-        "poster": ""
+        "poster": "https://criticasdecinesinspoilers.files.wordpress.com/2014/10/oceans1-10fa80f776e4.jpg"
     },
     {
         "nombre": "Ocean's Twelve",
@@ -453,7 +453,7 @@
         "director": "Steven Soderbergh",
         "genero": "Drama",
         "rating": 70,
-        "poster": ""
+        "poster": "https://pics.filmaffinity.com/Ocean_s_Twelve-602374088-large.jpg"
     },
     {
         "nombre": "Ocean's Thirteen",
@@ -461,7 +461,7 @@
         "director": "Steven Soderbergh",
         "genero": "Drama",
         "rating": 68,
-        "poster": ""
+        "poster": "https://i.blogs.es/dc4f7f/oceans_thirteen_ver3/450_1000.jpg"
     },
     {
         "nombre": "Ocean's Eight",
@@ -469,7 +469,7 @@
         "director": "Gary Ross",
         "genero": "Drama",
         "rating": 65,
-        "poster": ""
+        "poster": "https://i0.wp.com/cuatrobastardos.com/wp-content/uploads/2017/12/25311013_1529308870470985_4122520792902062952_o.jpg?resize=1382%2C2048&ssl=1"
     },
     {
         "nombre": "Gravedad",
