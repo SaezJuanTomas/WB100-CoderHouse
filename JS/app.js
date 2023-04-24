@@ -100,46 +100,5 @@ formulario.addEventListener('submit', function(evento) {
     `).join('');
     })
 });
+
 //CARRITO
-
-// Cargar datos de películas desde data.json
-fetch('json/data.json')
-  .then(response => response.json())
-  .then(data => {
-    const categoryItems = data;
-
-    // Crear array para almacenar películas seleccionadas
-    const peliculasSeleccionadas = [];
-
-    // Obtener elementos HTML necesarios
-    const cartItemsEl = document.querySelector('#cart-items');
-
-    // Función para actualizar el listado de compras en el navbar
-    const actualizarListadoCompras = () => {
-      // Vaciar el contenido actual del listado de compras
-      cartItemsEl.innerHTML = '';
-
-      // Crear un nuevo elemento HTML para cada película seleccionada
-      peliculasSeleccionadas.forEach(pelicula => {
-        const peliculaEl = document.createElement('div');
-        peliculaEl.innerHTML = `<strong>${pelicula.nombre}</strong> (${pelicula.año}) <em>${pelicula.director}</em>`;
-        cartItemsEl.appendChild(peliculaEl);
-      });
-    };
-
-    // Agregar evento "click" al botón "Agregar al listado" en cada caja de película
-    const boxEls = document.querySelectorAll('.box');
-    boxEls.forEach((boxEl, index) => {
-      const buttonEl = boxEl.querySelector('.button1');
-      buttonEl.addEventListener('click', () => {
-        // Obtener la película correspondiente al índice de la caja de película
-        const peliculaSeleccionada = categoryItems[index];
-
-        // Agregar la película al array de películas seleccionadas
-        peliculasSeleccionadas.push(peliculaSeleccionada);
-
-        // Actualizar el listado de compras en el navbar
-        actualizarListadoCompras();
-      });
-    });
-  });
