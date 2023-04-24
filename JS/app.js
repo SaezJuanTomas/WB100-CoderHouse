@@ -51,10 +51,9 @@ fetch('json/data.json')
       categoryItems = data.filter(item => parseInt(item.año) >= currentYear);
     }
 
-    // Crear el HTML
     const categoryHtml = categoryItems.map(item => `
-      <div class="box">${item.nombre}</div>
-    `).join('');
+    <div class="box" style="background-image: url(${item.poster})">${item.nombre}</div>
+  `).join('');
 
     // Mostrar el HTML en una grid de 4 objetos por fila
     const container = document.querySelector('.grid-container');

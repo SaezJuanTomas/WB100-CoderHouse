@@ -192,7 +192,7 @@
         "poster": "https://www.bolsamania.com/seriesadictos/wp-content/uploads/2019/02/unnamed-1-copy-450x800.jpg"
     },
     {
-        "nombre": "Watchmen",
+        "nombre": "Watchmen (HBO)",
         "año": 2019,
         "director": "Nicole Kassell",
         "genero": "DCEU",
@@ -240,12 +240,12 @@
         "poster": "https://i.pinimg.com/originals/b2/39/c6/b239c64a8a4f118d20fbe6e80e4a739b.jpg"
     },
     {
-        "nombre": "Salem's lot",
+        "nombre": "Salem's lot (2023)",
         "año": 2023,
         "director": "Gary Dauberman",
         "genero": "horror",
         "rating": 75,
-        "poster": ""
+        "poster": "https://posterspy.com/wp-content/uploads/2022/03/salems-lot-twitter.jpg"
     },
     {
         "nombre": "Argo",
@@ -341,7 +341,7 @@
         "director": "John Crowley",
         "genero": "Drama",
         "rating": 65,
-        "poster": ""
+        "poster": "https://www.comingsoon.net/wp-content/uploads/sites/3/gallery/the-goldfinch/goldfinch.jpg"
     },
     {
         "nombre": "Dune parte 2",
@@ -387,9 +387,9 @@
         "nombre": "Her",
         "año": 2013,
         "director": "Spike Jonze",
-        "genero": "Drama",
+        "genero": "Ciencia ficción",
         "rating": 90,
-        "poster": "https://m.media-amazon.com/images/I/41Eb7WxmYNL.jpg"
+        "poster": "https://i.pinimg.com/originals/cf/13/37/cf133738b0f7fb340763f832d226ff3e.jpg"
     },
     {
         "nombre": "Zodiaco",
@@ -429,7 +429,7 @@
         "director": "Glenn Ficarra, John Requa",
         "genero": "Drama",
         "rating": 63,
-        "poster": "https://static.wikia.nocookie.net/warner-bros-entertainment/images/b/bf/2015_Focus_film_poster.png/revision/latest?cb=20180916200256"
+        "poster": "https://3.bp.blogspot.com/-HnC5pK9qz-8/VQXKxfucuaI/AAAAAAAAHGE/L2W9nxH5-TE/s1600/focus%2Bposter.jpg"
     },
     {
         "nombre": "La animatrix",
@@ -477,7 +477,7 @@
         "director": "Alfonso Cuarón",
         "genero": "Ciencia ficción",
         "rating": 85,
-        "poster": ""
+        "poster": "https://conexioncausal.files.wordpress.com/2013/11/gravity.jpg"
     },
     {
         "nombre": "Casablanca",
@@ -822,6 +822,14 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://assets-prd.ignimgs.com/2021/08/09/dune-insta-vert-main-dom-1638x2048-1628522913715.jpg"
+    },
+    {
+        "nombre": "Duna la hermandad",
+        "año": 2024,
+        "director": "Denis Villeneuve",
+        "genero": "Ciencia ficción",
+        "rating": 100,
+        "poster": "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/11/Dune-The-Sisterhood-Poster.jpg"
     },
     {
         "nombre": "Blade Runner",
