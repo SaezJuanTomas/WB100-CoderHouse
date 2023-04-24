@@ -11,20 +11,30 @@
 <header>
 	<nav>
 		<a href="index.html">
-			<h3>WB100</h3>
+		  <h3>WB100</h3>
 		</a>
 		<a href="categoria-drama.html">Drama</a>
-		<a href="/pages/categoria-ciencia_ficcion.html">Ciencia ficción</a>
+		<a href="categoria-ciencia_ficcion.html">Ciencia ficción</a>
 		<a href="categoria-dc.html">DC</a>
 		<a href="categoria-fantasia.html">Fantasia</a>
 		<a href="categoria-horror.html">Horror</a>
 		<a href="categoria-proximamente.html">Proximamente</a>
 		<form>
-			<input type="text" placeholder="Buscar">
-			<button type="submit">Buscar</button>
+		  <input type="text" placeholder="Buscar">
+		  <button type="submit">Buscar</button>
 		</form>
-	</nav>
+		<div id="category-container"></div>
+		<div id="cart">
+		  <button id="cart-button">
+			<i class="fa fa-shopping-cart"></i>
+			<span>Listado de películas</span>
+		  </button>
+		  <div id="cart-items"></div>
+		</div>
+	  </nav>
 </header>
+
+
 
 <body>
 	<script src="JS/app.js"></script>

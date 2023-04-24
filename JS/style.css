@@ -78,7 +78,7 @@ nav button[type="submit"] {
 
 .box:hover {
 	transform: scale(0.95);
-  }
+}
 
 /* Estilos para cada imagen de fondo */
 .box-1 {
@@ -119,27 +119,27 @@ nav button[type="submit"] {
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-.boxs-1{
+.boxs-1 {
 	background-image: url('https://external-preview.redd.it/succession-season-4-a-promising-start-to-another-great-v0-Ylq-6mA-H9R540RmxE63qdHmGcI77SJuFms7Nn2Pn-E.jpg?auto=webp&s=91349866c90297b5d4a767582226ba1ab7d148f6');
 }
 
-.boxs-2{
+.boxs-2 {
 	background-image: url('https://i.postimg.cc/yxFfLWKg/cat-cf.png')
 }
 
-.boxs-3{
+.boxs-3 {
 	background-image: url('https://i.postimg.cc/sD46SBKb/cat-dc.png');
 }
 
-.boxs-4{
+.boxs-4 {
 	background-image: url('https://i.postimg.cc/rFkZKGGS/cat-f.png');
 }
 
-.boxs-5{
+.boxs-5 {
 	background-image: url('https://wallpaper-house.com/data/out/12/wallpaper2you_480844.jpg');
 }
 
-.boxs-6{
+.boxs-6 {
 	background-image: url('https://i.postimg.cc/SQ8tS19S/cat-p.png');
 }
 
@@ -148,13 +148,36 @@ nav button[type="submit"] {
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 20px;
 	margin: 20px;
-  }
-  
-  .grid-item {
+}
+
+.grid-item {
 	background-color: #f2f2f2;
 	padding: 20px;
 	height: 300px;
 	font-size: 30px;
 	text-align: center;
 	border: 1px solid #ccc;
-  }
+}
+
+
+.box .overlay {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.box:hover .overlay {
+	opacity: 1;
+}
+
+.box .overlay .button1 {
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.box:hover .overlay .button1 {
+	opacity: 1;
+}
