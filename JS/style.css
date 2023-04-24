@@ -143,7 +143,7 @@ nav button[type="submit"] {
 	background-image: url('https://i.postimg.cc/SQ8tS19S/cat-p.png');
 }
 
-  .grid-container {
+.grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 20px;

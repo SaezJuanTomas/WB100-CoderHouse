@@ -53,7 +53,9 @@ fetch('json/data.json')
 
     // Crear el HTML
     const categoryHtml = categoryItems.map(item => `
-      <div class="box">${item.nombre}</div>
+      <div class="box">
+      ${item.nombre}
+      </div>
     `).join('');
 
     // Mostrar el HTML en una grid de 4 objetos por fila
