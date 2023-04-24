@@ -4,643 +4,735 @@
         "año": "1942",
         "director": "Michael Curtiz",
         "genero": "Drama",
-        "rating": 100
+        "rating": 100,
+        "poster": ""
     },
     {
         "nombre": "Creed",
         "año": "2015",
         "director": "Ryan Coogler",
         "genero": "Drama",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/I/61rcZZn-HfL._AC_UF894,1000_QL80_.jpg"
     },
     {
         "nombre": "Creed II",
         "año": "2018",
         "director": "Steven Caple Jr.",
         "genero": "Drama",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://cineseriesaccion.files.wordpress.com/2018/09/nuevo-trailer-y-poster-de-creed-ii-original.jpg?w=748"
     },
     {
         "nombre": "Creed III",
         "año": "2023",
         "director": "Michael B. Jordan",
         "genero": "Drama",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://pxb.cdn.ciudadano.news/ciudadano/102022/1666044124009/XT4NJVUBQRBKXPZEOQN4MWZNFA.jpg"
     },
     {
         "nombre": "A star is born",
         "año": "2018",
         "director": "Bradley Cooper",
         "genero": "Drama",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNmE5ZmE3OGItNTdlNC00YmMxLWEzNjctYzAwOGQ5ODg0OTI0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
     },
     {
         "nombre": "Elvis",
         "año": "2021",
         "director": "Baz Luhrmann",
         "genero": "Biografía",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://preview.redd.it/zuhw41v372091.jpg?width=640&crop=smart&auto=webp&s=28f3758f2d008c9b79e61208f383e74c08f4bead"
     },
     {
         "nombre": "El Gran Gatsby",
         "año": "2013",
         "director": "Baz Luhrmann",
         "genero": "Drama",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://www.slantmagazine.com/wp-content/uploads/2013/04/film_posterlabgreatgatsby_14.jpg"
     },
     {
         "nombre": "El mago de oz",
         "año": "1939",
         "director": "Victor Fleming",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://i.pinimg.com/736x/9c/4a/4d/9c4a4dcdfc3989937eb35ded5b54029a.jpg"
     },
     {
         "nombre": "Harry Potter y la piedra filosofal",
         "año": "2001",
         "director": "Chris Columbus",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://media.harrypotterfanzone.com/philosophers-stone-wizarding-world-poster.jpg"
     },
     {
         "nombre": "Harry Potter y la cámara secreta",
         "año": "2002",
         "director": "Chris Columbus",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://media.harrypotterfanzone.com/chamber-of-secrets-wizarding-world-poster.jpg"
     },
     {
         "nombre": "Harry Potter y el prisionero de Azkaban",
         "año": "2004",
         "director": "Alfonso Cuarón",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://media.harrypotterfanzone.com/prisoner-of-azkaban-wizarding-world-poster.jpg"
     },
     {
         "nombre": "Harry Potter y el cáliz de fuego",
         "año": "2005",
         "director": "Mike Newell",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://media.harrypotterfanzone.com/goblet-of-fire-wizarding-world-poster.jpg"
     },
     {
         "nombre": "Harry Potter y la Orden del Fénix",
         "año": "2007",
         "director": "David Yates",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://media.harrypotterfanzone.com/order-of-the-phoenix-wizarding-world-poster.jpg"
     },
     {
         "nombre": "Harry Potter y el misterio del príncipe",
         "año": "2009",
         "director": "David Yates",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://media.harrypotterfanzone.com/half-blood-prince-wizarding-world-poster.jpg"
     },
     {
         "nombre": "Harry Potter y las reliquias de la muerte parte 1",
         "año": "2011",
         "director": "David Yates",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://media.harrypotterfanzone.com/deathly-hallows-part-1-wizarding-world-poster.jpg"
     },
     {
         "nombre": "Harry Potter y las reliquias de la muerte parte 2",
         "año": "2012",
         "director": "David Yates",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://media.harrypotterfanzone.com/deathly-hallows-part-2-wizarding-world-poster.jpg"
     },
     {
         "nombre": "Animales fantasticos y donde encontrarlos",
         "año": "2016",
         "director": "David Yates",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/I/71IJprrGokL._AC_UF894,1000_QL80_.jpg"
     },
     {
         "nombre": "Animales fantasticos: Los crimenes de Grindelwald",
         "año": "2018",
         "director": "David Yates",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://i5.walmartimages.com/asr/0034ae2f-de54-4e9c-909b-10166bab9fba_1.5c48b7824d7c05c73ef5524554e0e577.jpeg"
     },
     {
         "nombre": "Animales fantasticos: Los secretos de Dumbledore",
         "año": "2022",
         "director": "David Yates",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/I/71RTJdcWgoL._AC_SY679_.jpg"
     },
     {
         "nombre": "El señor de los anillos: La comunidad del anillo",
         "año": "2001",
         "director": "Peter Jackson",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/I/71TZ8BmoZqL.jpg"
     },
     {
         "nombre": "El señor de los anillos: Las dos torres",
         "año": "2002",
         "director": "Peter Jackson",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://cdn.shopify.com/s/files/1/1057/4964/products/The-Lord-of-the-Rings-The-Two-Towers-Vintage-Movie-Poster-Original-1-Sheet-27x41_e5e045cb-d082-4c27-8a54-24563bc9d3b4_300x@2x.jpg?v=1663223737"
     },
     {
         "nombre": "El señor de los anillos: El retorno del rey",
         "año": "2003",
         "director": "Peter Jackson",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://cdn.shopify.com/s/files/1/1057/4964/products/The-Lord-of-the-Rings-The-Return-of-the-King-Vintage-Movie-Poster-Original-1-Sheet-27x41.jpg?v=1665735682"
     },
     {
         "nombre": "El hobbit: Un viaje inesperado",
         "año": "2012",
         "director": "Peter Jackson",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2012%2F07%2Fhobbit-poster.jpg&q=60"
     },
     {
         "nombre": "El hobbit: La desolacion de Smaug",
         "año": "2013",
         "director": "Peter Jackson",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/I/510aF0WVSRL._AC_UF894,1000_QL80_.jpg"
     },
     {
         "nombre": "El hobbit: La batalla de los cinco ejercitos",
         "año": "2014",
         "director": "Peter Jackson",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://i.ebayimg.com/images/g/0EAAAOSwc3ZUoZ2d/s-l500.jpg"
     },
     {
         "nombre": "Juego de tronos",
         "año": "2011",
         "director": "David Benioff, D. B. Weiss",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/I/615ufemMkgL._AC_UF894,1000_QL80_.jpg"
     },
     {
         "nombre": "La casa del dragon",
         "año": "2022",
         "director": "Ryan Condal",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://mr.comingsoon.it/imgdb/serietv/serie/3085/3085.jpg"
     },
     {
         "nombre": "La materia oscura",
         "año": "2019",
         "director": "Tom Hooper",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://de10.com.mx/sites/default/files/styles/imagen_body/public/2021/05/21/his_dark_materials_1.jpg?itok=ObxYSt8C"
     },
     {
         "nombre": "Los nevers",
         "año": "2021",
         "director": "Joss Whedon",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/M/MV5BN2UyNTdhOGEtMzczYS00YzI0LTg0ZGQtODYzYTdmMjcwNjFhXkEyXkFqcGdeQXVyNDI3NjU1NzQ@._V1_.jpg"
     },
     {
         "nombre": "Más alla del jardin",
         "año": "2014",
         "director": "Patrick McHale",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzhjNzI0NWEtMzEyYy00OGViLThhMjctMWQxNGQ3Y2IzOTY4XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"
     },
     {
         "nombre": "Godzilla",
         "año": "2012",
         "director": "",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://www.comingsoon.net/wp-content/uploads/sites/3/2014/03/file_740151_hr_Godzilla_21.jpg"
     },
     {
         "nombre": "Kong",
         "año": "2014",
         "director": "",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/11/kong-skull-island-poster.jpg?itok=GWifKsrf"
     },
     {
         "nombre": "Godzilla rey de los monstruos",
         "año": "2016",
         "director": "",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://www.funcinema.com.ar/wp-content/uploads/2018/12/godzilla_2.jpg"
     },
     {
         "nombre": "Godzilla vs Kong",
         "año": "2021",
         "director": "",
         "genero": "Fantasia",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/godzilla-vs-kong-poster-fotogramas-1611267098.jpeg?resize=480:*"
     },
     {
         "nombre": "Memento",
         "año": 2000,
         "director": "Christopher Nolan",
         "genero": "Drama",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_640875-MLA43656739025_102020-O.jpg"
     },
     {
         "nombre": "El origen (Inception)",
         "año": 2010,
         "director": "Christopher Nolan",
         "genero": "Ciencia ficción",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://1.bp.blogspot.com/_2rsi6gSyIw8/S9mjx1PSX1I/AAAAAAAAHH0/yprbxaQb498/s1600/inception.jpg"
     },
     {
         "nombre": "Interestelar (Interstellar)",
         "año": 2014,
         "director": "Christopher Nolan",
         "genero": "Ciencia ficción",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://culturageek.com.ar/wp-content/uploads/2014/09/interstellar_cultura-geek2.jpg"
     },
     {
         "nombre": "Tenet",
         "año": 2020,
         "director": "Christopher Nolan",
         "genero": "Ciencia ficción",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_932825-MLA41908833790_052020-O.jpg"
     },
     {
         "nombre": "Westworld",
         "año": 2014,
         "director": "Christopher Nolan",
         "genero": "Ciencia ficción",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/westworldposters3main-1581694808.jpg?resize=480:*"
     },
     {
         "nombre": "Raised by wolves",
         "año": 2020,
         "director": "Ridley Scott",
         "genero": "Ciencia ficción",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://i0.wp.com/cuatrobastardos.com/wp-content/uploads/2020/08/raised-by-wolves-poster.jpg?resize=800%2C1185&ssl=1"
     },
     {
         "nombre": "The Last of Us",
         "año": 2023,
         "director": "Craig Mazin",
         "genero": "Ciencia ficción",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/ILPHUU4CWBCNDNPG4EVLMFBW3Y.jfif"
     },
     {
         "nombre": "Chernobyl",
         "año": 2018,
         "director": "Craig Mazin",
         "genero": "Drama",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://es.web.img2.acsta.net/r_1280_720/pictures/19/04/29/08/21/1692162.jpg?coixp=45&coiyp=73"
     },
     {
-        "nombre": "Duna (2021)",
+        "nombre": "Duna",
         "año": 2021,
         "director": "Denis Villeneuve",
         "genero": "Ciencia ficción",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://assets-prd.ignimgs.com/2021/08/09/dune-insta-vert-main-dom-1638x2048-1628522913715.jpg"
     },
     {
         "nombre": "Blade Runner",
         "año": 1982,
         "director": "Ridley Scott",
         "genero": "Ciencia ficción",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_882964-MLA40512815145_012020-O.jpg"
     },
     {
         "nombre": "Blade Runner 2049",
         "año": 2017,
         "director": "Denis Villeneuve",
         "genero": "Ciencia ficción",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_867664-MLA54339495207_032023-O.jpg"
     },
     {
         "nombre": "The Matrix",
         "año": 1999,
         "director": "Hermanas Wachowski",
         "genero": "Ciencia ficción",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_697021-MLA27860565072_072018-O.jpg"
     },
     {
         "nombre": "The Matrix recargado",
         "año": 2003,
         "director": "Hermanas Wachowski",
         "genero": "Ciencia ficción",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/I/41DQOPG+boL._AC_.jpg"
     },
     {
         "nombre": "The Matrix revoluciones",
         "año": 2003,
         "director": "Hermanas Wachowski",
         "genero": "Ciencia ficción",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://i.pinimg.com/originals/45/68/84/456884018019425dd45dd5f822274ca2.jpg"
     },
     {
         "nombre": "The Matrix resurrecciones",
         "año": 2021,
         "director": "Hermanas Wachowski",
         "genero": "Ciencia ficción",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_813941-MLA52267490434_112022-O.jpg"
     },
     {
         "nombre": "Mad Max: Fury Road",
         "año": 2015,
         "director": "George Miller",
         "genero": "Ciencia ficción",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_617866-MLA40633072144_022020-O.jpg"
     },
     {
         "nombre": "Lovecraft Country",
         "año": 2020,
         "director": "Masha Green",
         "genero": "horror, drama",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDliM2ZhZWMtM2YwMy00NjAzLTk1YmEtODJmZDhhMTIxOGRmXkEyXkFqcGdeQXVyNTc4MjczMTM@._V1_.jpg"
     },
     {
         "nombre": "It capitulo 1",
         "año": 2016,
         "director": "Andy Muschietti",
         "genero": "horror",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_809718-MLA41881336198_052020-V.jpg"
     },
     {
         "nombre": "It capitulo 2",
         "año": 2018,
         "director": "Andy Muschietti",
         "genero": "horror",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_939309-MLA48710231036_122021-W.jpg"
     },
     {
         "nombre": "El Conjuro",
         "año": 2013,
         "director": "James Wan",
         "genero": "horror",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://i.pinimg.com/originals/b1/7d/78/b17d78ce00a99c9f32d0d286943d8a58.jpg"
     },
     {
         "nombre": "El Conjuro 2",
         "año": 2016,
         "director": "James Wan",
         "genero": "horror",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/I/81+6HO7AnkL._AC_UF894,1000_QL80_.jpg"
     },
     {
         "nombre": "El Conjuro 3",
         "año": 2021,
         "director": "Michael Chaves",
         "genero": "horror",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/M/MV5BOWRkOTYzZTQtMzQwNi00NDYwLTk4NjUtN2FjYTI4Y2UzM2RjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"
     },
     {
         "nombre": "Annabelle",
         "año": 2014,
         "director": "Gary Dauberman",
         "genero": "horror",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/I/614rium+zxL.jpg"
     },
     {
         "nombre": "Annabelle creación",
         "año": 2017,
         "director": "David S. Sandberg",
         "genero": "horror",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://amc-theatres-res.cloudinary.com/image/upload/f_auto,fl_lossy,h_465,q_auto,w_310/v1579120022/amc-cdn/production/2/movies/50600/50647/Poster/p_800x1200_AnnabelleCreattion_En_091917.jpg"
     },
     {
         "nombre": "Annabelle vuelve a casa",
         "año": 2019,
         "director": "Gary Dauberman",
         "genero": "horror",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/annabelle-vuelve-casa-poster-1558075914.jpg?crop=1xw:1xh;center,top&resize=480:*"
     },
     {
         "nombre": "La monja",
         "año": 2018,
         "director": "Michael Chaves",
         "genero": "horror",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/I/41dD6YQmPOL._AC_.jpg"
     },
     {
         "nombre": "La monja 2",
         "año": 2023,
         "director": "Michael Chaves",
         "genero": "horror",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://screenrant.com/wp-content/uploads/2022/12/the-nun-2-movie-poster.jpg"
     },
     {
         "nombre": "La maldición de la llorona",
         "año": 2019,
         "director": "Michael Chaves",
         "genero": "horror",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://i.ebayimg.com/images/g/YGYAAOSw-45gfV39/s-l1600.jpg"
     },
     {
         "nombre": "El resplandor",
         "año": 1980,
         "director": "Stanley Kubrick",
         "genero": "horror",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://www.slashfilm.com/wp/wp-content/images/EGcyUtPWoAEn-0m-700x1051.jpg"
     },
     {
         "nombre": "Doctor sueño",
         "año": 2019,
         "director": "Stanley Kubrick",
         "genero": "horror",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://collider.com/wp-content/uploads/2019/10/doctor-sleep-poster-danny-torrance.jpg"
     },
     {
         "nombre": "Evil Dead Rise",
         "año": 2023,
         "director": "Lee Cronin",
         "genero": "horror",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://sportshub.cbsistatic.com/i/2023/01/03/732d9bb0-00b5-42b0-86c9-87e7928c9f9c/evil-dead-rise-poster-2022.jpg?auto=webp&width=1382&height=2048&crop=0.675:1,smart"
     },
     {
         "nombre": "Wonder woman",
         "director": "Patty Jenkins",
         "año": "2017",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_983870-MLA29058836567_122018-O.jpg"
     },
     {
         "nombre": "Aquaman",
         "director": "James Wan",
         "año": "2018",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://64.media.tumblr.com/a761c8011320f107e194f036004b5cf3/tumblr_pq2bfjCNhT1rgq1rvo1_1280.jpg"
     },
     {
         "nombre": "Peacemaker",
         "director": "James Gunn",
         "año": "2021",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://preview.redd.it/cgw8h8gzmi381.jpg?auto=webp&s=884a748fba06e9fa7cc3aa728f7afc5a94a548eb"
     },
     {
         "nombre": "The penguin",
         "director": "Matt Reeves",
         "año": "2024",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://pbs.twimg.com/media/FK_wrAgacAApJJc?format=jpg&name=4096x4096"
     },
     {
         "nombre": "Wonder woman 1984",
         "director": "Patty Jenkins",
         "año": "2020",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_689687-MLA44273180758_122020-O.jpg"
     },
     {
         "nombre": "Suicide squad",
         "director": "David Ayer",
         "año": "2016",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://www.limitedruns.com/media/cache/9e/52/9e52055d0598fce2d5a180940d10c84a.jpg"
     },
     {
         "nombre": "The suicide squad",
         "director": "James Gunn",
         "año": "2021",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTg1YWFiMjgtOWE0NC00ZTdhLWI3M2UtNjRjMGY0ODkzZWM4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
     },
     {
         "nombre": "Shazam!",
         "director": "David S. Sandberg",
         "año": "2019",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://images6.fanpop.com/image/photos/43800000/Shazam-2019-Poster-dceu-dc-extended-universe-43814979-300-450.jpg"
     },
     {
-        "nombre": "Shazam! fury of the gods",
+        "nombre": "Shazam! furia de los dioses",
         "director": "David S. Sandberg",
         "año": "2022",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://pbs.twimg.com/media/FpGs39ZXwAIAaim.jpg:large"
     },
     {
-        "nombre": "Birds of prey",
+        "nombre": "Aves de presa",
         "director": "Cathty Yan",
         "año": "2020",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsP466yRS1frdqHZ4bHUk7vcujwQo_KvhU63iltk2K21sY1yBJzjyRfd7RhLnFXmA4kjI&usqp=CAU"
     },
     {
         "nombre": "Black adam",
         "director": "David S. Sandberg",
         "año": "2022",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dddb8beb-7509-4c66-bc59-5e64fc25d614/dfd67tr-45bb34f1-95e6-4464-9b38-d544a8e05504.jpg/v1/fill/w_400,h_623,q_75,strp/black_adam_textless_with_complete_head_by_sachso74_by_sachso74_dfd67tr-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjIzIiwicGF0aCI6IlwvZlwvZGRkYjhiZWItNzUwOS00YzY2LWJjNTktNWU2NGZjMjVkNjE0XC9kZmQ2N3RyLTQ1YmIzNGYxLTk1ZTYtNDQ2NC05YjM4LWQ1NDRhOGUwNTUwNC5qcGciLCJ3aWR0aCI6Ijw9NDAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.DBb013bBxy28Tmk0Zo40SsRQ_V0PPRq4JWmDp-TzasE"
     },
     {
         "nombre": "Joker",
         "director": "Todd Phillips",
         "año": "2019",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://external-preview.redd.it/aZz1aqC2UZJ2GZT--hGAyZbwhHKOSKV8hexPZ2r6S00.jpg?width=640&crop=smart&auto=webp&s=a11145b8d813c30a3ca96ed0f74ace648240343a"
     },
     {
         "nombre": "Joker folie e deux",
         "director": "Todd Phillips",
         "año": "2023",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://i.pinimg.com/550x/2f/3a/af/2f3aaf959372c28c03f65e9dd63e0548.jpg"
     },
     {
         "nombre": "The batman part 2",
         "director": "Matt Reeves",
         "año": "2025",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://external-preview.redd.it/shpsSllBqBhT1VDizcCdtgJyzTOvVVERzxBvM9oy3A0.jpg?width=640&crop=smart&auto=webp&s=56690781876a28615ddb5027579530872eb5760b"
     },
     {
         "nombre": "The batman",
         "director": "Matt Reeves",
         "año": "2022",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://preview.redd.it/8k-textless-japanese-poster-for-the-batman-v0-5fotjjzot7h81.jpg?width=640&crop=smart&auto=webp&s=53de967c5f8dac0883ea50fe50e20b3f787c18e3"
     },
     {
         "nombre": "Superman",
         "director": "Richard Donner",
         "año": "1978",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://2.bp.blogspot.com/-QCyVjp5hvGY/ULDwFLK2DUI/AAAAAAAACjc/0dHT_rT1NSg/s1600/superman-the-movie-movie-poster-1978-1020466243.jpg"
     },
     {
         "nombre": "Superman 2 de Richard Donner",
         "director": "Richard Donner",
         "año": "2006",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://i.pinimg.com/736x/ed/dd/cc/edddcc4a08a4270e0d67eb6110cc80b9--dc-comics-characters-comic-character.jpg"
     },
     {
         "nombre": "Superman regresa",
         "director": "Richard Donner",
         "año": "2006",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://i.pinimg.com/originals/13/d3/02/13d302839da70710b19985c7fbca6531.jpg"
     },
     {
         "nombre": "Batman",
         "director": "Tim Burton",
         "año": "1989",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://i.pinimg.com/originals/89/64/3c/89643cabda3e7506d96daafe189e69ea.jpg"
     },
     {
         "nombre": "Batman regresa",
         "director": "Tim Burton",
         "año": "1992",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://i.ebayimg.com/images/g/oEEAAOSwXqZbRmN8/s-l1600.jpg"
     },
     {
         "nombre": "Batman comienza",
         "director": "Christopher Nolan",
         "año": "2005",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://i.ebayimg.com/images/g/aZMAAOSwFe5Xz~uR/s-l500.jpg"
     },
     {
         "nombre": "El caballero de la noche",
         "director": "Christopher Nolan",
         "año": "2007",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://i.pinimg.com/originals/97/c2/f0/97c2f020ccf48e87fa53f2c21e529d05.jpg"
     },
     {
         "nombre": "El caballero de la noche asciende",
         "director": "Christopher Nolan",
         "año": "2011",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://static.squarespace.com/static/51b3dc8ee4b051b96ceb10de/51ce6099e4b0d911b4489b79/51ce61cce4b0d911b44a15d3/1338165425027/1000w/darkknightrises-textless1.jpg"
     },
     {
         "nombre": "Watchmen",
         "director": "Zack Snyder",
         "año": "2009",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51+D+vfg4eL._AC_.jpg"
     },
     {
         "nombre": "Hombre de acero",
         "director": "Zack Snyder",
         "año": "2013",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://preview.redd.it/vwqvhkbbf4q81.png?width=640&crop=smart&auto=webp&s=cbd980024b596a5f9d7882be6f9a5f1c6651596c"
     },
     {
         "nombre": "Batman v Superman",
         "director": "Zack Snyder",
         "año": "2016",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://external-preview.redd.it/ctJJw2caXtnIUIuKB_JPLDrwNsT0S713XRLnf0_tVqA.jpg?width=640&crop=smart&auto=webp&s=b69d99a6c856935fe57615de250f251041cfcf1b"
     },
     {
         "nombre": "La Liga de la Justicia de Zack Snyder",
         "director": "Zack Snyder",
         "año": "2021",
         "genero": "DCEU",
-        "rating": 100
+        "rating": 100,
+        "poster": "https://pbs.twimg.com/media/EvfmD9iXMAA6to5.jpg"
     }
 ]
