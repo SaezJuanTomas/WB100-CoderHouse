@@ -345,6 +345,30 @@
         "poster": "https://i.pinimg.com/originals/bc/7a/12/bc7a1202dfe4450d7f09d346c0a868ba.jpg"
     },
     {
+        "nombre": "A star is born (1937)",
+        "año": 1937,
+        "director": "null",
+        "genero": "Drama",
+        "rating": 100,
+        "poster": "https://upload.wikimedia.org/wikipedia/commons/5/5c/A_Star_Is_Born_%281937_film_poster%29.jpg"
+    },
+    {
+        "nombre": "A star is born (1954)",
+        "año": 1954,
+        "director": "null",
+        "genero": "Drama",
+        "rating": 100,
+        "poster": "https://rochester.beyondthenest.com/sites/default/files/a%20star%20is%20born%20poster.jpg"
+    },
+    {
+        "nombre": "A star is born (1976)",
+        "año": 1976,
+        "director": "null",
+        "genero": "Drama",
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/I/71VpD3a63rL._AC_SL1500_.jpg"
+    },
+    {
         "nombre": "War dogs",
         "año": 2016,
         "director": "Todd Phillips",
@@ -787,7 +811,7 @@
     {
         "nombre": "Godzilla",
         "año": "2012",
-        "director": "",
+        "director": "null",
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://www.comingsoon.net/wp-content/uploads/sites/3/2014/03/file_740151_hr_Godzilla_21.jpg"
@@ -795,7 +819,7 @@
     {
         "nombre": "Kong",
         "año": "2014",
-        "director": "",
+        "director": "null",
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/11/kong-skull-island-poster.jpg?itok=GWifKsrf"
@@ -803,7 +827,7 @@
     {
         "nombre": "Godzilla rey de los monstruos",
         "año": "2016",
-        "director": "",
+        "director": "null",
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://www.funcinema.com.ar/wp-content/uploads/2018/12/godzilla_2.jpg"
@@ -811,7 +835,7 @@
     {
         "nombre": "Godzilla vs Kong",
         "año": "2021",
-        "director": "",
+        "director": "null",
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/godzilla-vs-kong-poster-fotogramas-1611267098.jpeg?resize=480:*"
