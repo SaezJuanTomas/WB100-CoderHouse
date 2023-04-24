@@ -14,3 +14,5 @@ Quiero que de fondo de cada box poner el poster de cada pelicula que esta cargad
 Los otros box de cada html los cargue manualmente, pero para las peliculas no lo pude resolver
 
 Tambien cuando queria meter los html que no son el index en una carpeta perdian todo el estilo y no se bien porque
+
+No se porque no se muestran los proximos estrenos, en el primer entrgable realice el mismo metodo y si funcionaba
