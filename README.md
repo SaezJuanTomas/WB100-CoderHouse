@@ -10,8 +10,6 @@ Falta programar las siguientes funcionalidades:
 4) no se si me va a salir pero si el mouse hace un hover a cada box aparecería esa caja con la info de la pelicula Y si apretás lo subrayado haría un search con la info de esa pelicula (año o director)
 
 Problema que no se resolver:
-Quiero que de fondo de cada box poner el poster de cada pelicula que esta cargado en el json
-Los otros box de cada html los cargue manualmente, pero para las peliculas no lo pude resolver
 
 Tambien cuando queria meter los html que no son el index en una carpeta perdian todo el estilo y no se bien porque
 
