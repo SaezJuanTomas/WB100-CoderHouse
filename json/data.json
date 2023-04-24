@@ -1,5 +1,485 @@
 [
     {
+        "nombre": "No te preocupes cariño",
+        "año": 2021,
+        "director": "Olivia Wilde",
+        "genero": "Ciencia ficción",
+        "rating": 100,
+        "poster": ""
+    },
+    {
+        "nombre": "Ready player one",
+        "año": 2018,
+        "director": "Steven Spielberg",
+        "genero": "Ciencia ficción",
+        "rating": 100,
+        "poster": ""
+    },
+    {
+        "nombre": "Edge of tomorrow",
+        "año": 2014,
+        "director": "Doug Liman",
+        "genero": "Ciencia ficción",
+        "rating": 100,
+        "poster": ""
+    },
+    {
+        "nombre": "Contagion",
+        "año": 2011,
+        "director": "Steven Soderbergh",
+        "genero": "Ciencia ficción",
+        "rating": 100,
+        "poster": ""
+    },
+    {
+        "nombre": "Furiosa",
+        "año": 2023,
+        "director": "George Miller",
+        "genero": "Ciencia ficción",
+        "rating": 100,
+        "poster": ""
+    },
+    {
+        "nombre": "Mickey 17",
+        "año": 2023,
+        "director": "Bong Joon Ho",
+        "genero": "Ciencia ficción",
+        "rating": 100,
+        "poster": ""
+    },
+    {
+        "nombre": "Meg",
+        "año": 2018,
+        "director": "Jon Turteltaub",
+        "genero": "Ciencia ficción",
+        "rating": 100,
+        "poster": ""
+    },
+    {
+        "nombre": "Cadaver de la novia",
+        "año": 2005,
+        "director": "Tim Burton",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": ""
+    },
+    {
+        "nombre": "Las brujas",
+        "año": 2020,
+        "director": "Robert Zemeckis",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": ""
+    },
+    {
+        "nombre": "Tarzan",
+        "año": 2016,
+        "director": "David Yates",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": ""
+    },
+    {
+        "nombre": "Choque de titanes",
+        "año": 2010,
+        "director": "Louis Leterrier",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": ""
+    },
+    {
+        "nombre": "Pan",
+        "año": 2015,
+        "director": "Joe Wright",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": ""
+    },
+    {
+        "nombre": "The war of Rohirrim",
+        "año": 2023,
+        "director": "Peter Jackson",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": ""
+    },
+    {
+        "nombre": "Succession",
+        "año": 2018,
+        "director": "Adam McKay",
+        "genero": "Drama",
+        "rating": "100",
+        "poster": ""
+    },
+    {
+        "nombre": "The sopranos",
+        "año": 1999,
+        "director": "David Chase",
+        "genero": "Drama",
+        "rating": "100",
+        "poster": ""
+    },
+    {
+        "nombre": "The wire",
+        "año": 2002,
+        "director": "Clark Johnson",
+        "genero": "Drama",
+        "rating": "100",
+        "poster": ""
+    },
+    {
+        "nombre": "True detective",
+        "año": 2014,
+        "director": "Cary Joji Fukunaga",
+        "genero": "Drama",
+        "rating": "100",
+        "poster": ""
+    },
+    {
+        "nombre": "The white lotus",
+        "año": 2021,
+        "director": "Mike White",
+        "genero": "Drama",
+        "rating": "100",
+        "poster": ""
+    },
+    {
+        "nombre": "Big little lies",
+        "año": 2017,
+        "director": "Jean-Marc Vallée",
+        "genero": "Drama",
+        "rating": "100",
+        "poster": ""
+    },
+    {
+        "nombre": "Sharp objects",
+        "año": 2018,
+        "director": "Jean-Marc Vallée",
+        "genero": "Drama",
+        "rating": "100",
+        "poster": ""
+    },
+    {
+        "nombre": "The undoing",
+        "año": 2020,
+        "director": "Susanne Bier",
+        "genero": "Drama",
+        "rating": "100",
+        "poster": ""
+    },
+    {
+        "nombre": "Mare of easttown",
+        "año": 2021,
+        "director": "Craig Zobel",
+        "genero": "Drama",
+        "rating": "100",
+        "poster": ""
+    },
+    {
+        "nombre": "Love & death",
+        "año": 2023,
+        "director": "Jean-Marc Vallée",
+        "genero": "Drama",
+        "rating": "100",
+        "poster": ""
+    },
+    {
+        "nombre": "Barry",
+        "año": 2018,
+        "director": "Bill Hader",
+        "genero": "Drama",
+        "rating": "100",
+        "poster": ""
+    },
+    {
+        "nombre": "Watchmen",
+        "año": 2019,
+        "director": "Nicole Kassell",
+        "genero": "DCEU",
+        "rating": "100",
+        "poster": ""
+    },
+    {
+        "nombre": "Euphoria",
+        "año": 2019,
+        "director": "Sam Levinson",
+        "genero": "Drama",
+        "rating": "100",
+        "poster": ""
+    },
+    {
+        "nombre": "The idol",
+        "año": 2023,
+        "director": "Sam Levinson",
+        "genero": "Drama",
+        "rating": "100",
+        "poster": ""
+    },
+    {
+        "nombre": "Veneno",
+        "año": 2020,
+        "director": "Jean-Marc Vallée",
+        "genero": "Drama",
+        "rating": "100",
+        "poster": ""
+    },
+    {
+        "nombre": "i may destroy you",
+        "año": 2020,
+        "director": "Michaela Coel",
+        "genero": "Drama",
+        "rating": "100",
+        "poster": ""
+    },
+    {
+        "nombre": "Salem's lot",
+        "año": 1979,
+        "director": "Tobe Hooper",
+        "genero": "horror",
+        "rating": 75,
+        "poster": ""
+    },
+    {
+        "nombre": "Salem's lot",
+        "año": 2023,
+        "director": "Gary Dauberman",
+        "genero": "horror",
+        "rating": 75,
+        "poster": ""
+    },
+    {
+        "nombre": "Argo",
+        "año": 2012,
+        "director": "Ben Affleck",
+        "genero": "Drama",
+        "rating": 85,
+        "poster": ""
+    },
+    {
+        "nombre": "Judas y el mesías negro",
+        "año": 2021,
+        "director": "Shaka King",
+        "genero": "Drama",
+        "rating": 90,
+        "poster": ""
+    },
+    {
+        "nombre": "Rey Richard",
+        "año": 2021,
+        "director": "Reinaldo Marcus Green",
+        "genero": "Drama",
+        "rating": 80,
+        "poster": ""
+    },
+    {
+        "nombre": "Aviador",
+        "año": 2004,
+        "director": "Martin Scorsese",
+        "genero": "Drama",
+        "rating": 85,
+        "poster": ""
+    },
+    {
+        "nombre": "War dogs",
+        "año": 2016,
+        "director": "Todd Phillips",
+        "genero": "Drama",
+        "rating": 70,
+        "poster": ""
+    },
+    {
+        "nombre": "The little things",
+        "año": 2021,
+        "director": "John Lee Hancock",
+        "genero": "Drama",
+        "rating": 70,
+        "poster": ""
+    },
+    {
+        "nombre": "Rey Arturo",
+        "año": 2004,
+        "director": "Antoine Fuqua",
+        "genero": "Drama",
+        "rating": 65,
+        "poster": ""
+    },
+    {
+        "nombre": "El color púrpura",
+        "año": 1985,
+        "director": "Steven Spielberg",
+        "genero": "Drama",
+        "rating": 85,
+        "poster": ""
+    },
+    {
+        "nombre": "No sudden move",
+        "año": 2021,
+        "director": "Steven Soderbergh",
+        "genero": "Crimen",
+        "rating": 75,
+        "poster": ""
+    },
+    {
+        "nombre": "Kimi",
+        "año": 2021,
+        "director": "Steven Soderbergh",
+        "genero": "Crimen",
+        "rating": 75,
+        "poster": ""
+    },
+    {
+        "nombre": "Let them all talk",
+        "año": 2020,
+        "director": "Steven Soderbergh",
+        "genero": "Drama",
+        "rating": 70,
+        "poster": ""
+    },
+    {
+        "nombre": "The goldfinch",
+        "año": 2019,
+        "director": "John Crowley",
+        "genero": "Drama",
+        "rating": 65,
+        "poster": ""
+    },
+    {
+        "nombre": "Dune parte 2",
+        "año": 2023,
+        "director": "Denis Villeneuve",
+        "genero": "Ciencia ficción",
+        "rating": 100,
+        "poster": ""
+    },
+    {
+        "nombre": "300",
+        "año": 2006,
+        "director": "Zack Snyder",
+        "genero": "Drama",
+        "rating": 80,
+        "poster": ""
+    },
+    {
+        "nombre": "Cry macho",
+        "año": 2021,
+        "director": "Clint Eastwood",
+        "genero": "Drama",
+        "rating": 75,
+        "poster": ""
+    },
+    {
+        "nombre": "Naranja mecánica",
+        "año": 1971,
+        "director": "Stanley Kubrick",
+        "genero": "Ciencia ficción",
+        "rating": 89,
+        "poster": ""
+    },
+    {
+        "nombre": "Heat",
+        "año": 1995,
+        "director": "Michael Mann",
+        "genero": "Drama",
+        "rating": 87,
+        "poster": ""
+    },
+    {
+        "nombre": "Her",
+        "año": 2013,
+        "director": "Spike Jonze",
+        "genero": "Drama",
+        "rating": 90,
+        "poster": ""
+    },
+    {
+        "nombre": "Zodiaco",
+        "año": 2007,
+        "director": "David Fincher",
+        "genero": "Drama",
+        "rating": 82,
+        "poster": ""
+    },
+    {
+        "nombre": "Dunkerke",
+        "año": 2017,
+        "director": "Christopher Nolan",
+        "genero": "Drama",
+        "rating": 82,
+        "poster": ""
+    },
+    {
+        "nombre": "Charm City Kings",
+        "año": 2020,
+        "director": "Angel Manuel Soto",
+        "genero": "Drama",
+        "rating": 75,
+        "poster": ""
+    },
+    {
+        "nombre": "Sully",
+        "año": 2016,
+        "director": "Clint Eastwood",
+        "genero": "Drama",
+        "rating": 78,
+        "poster": ""
+    },
+    {
+        "nombre": "Focus",
+        "año": 2015,
+        "director": "Glenn Ficarra, John Requa",
+        "genero": "Drama",
+        "rating": 63,
+        "poster": ""
+    },
+    {
+        "nombre": "La animatrix",
+        "año": 2003,
+        "director": "Varios",
+        "genero": "Ciencia ficción",
+        "rating": 80,
+        "poster": ""
+    },
+    {
+        "nombre": "Ocean's Eleven",
+        "año": 2001,
+        "director": "Steven Soderbergh",
+        "genero": "Drama",
+        "rating": 80,
+        "poster": ""
+    },
+    {
+        "nombre": "Ocean's Twelve",
+        "año": 2004,
+        "director": "Steven Soderbergh",
+        "genero": "Drama",
+        "rating": 70,
+        "poster": ""
+    },
+    {
+        "nombre": "Ocean's Thirteen",
+        "año": 2007,
+        "director": "Steven Soderbergh",
+        "genero": "Drama",
+        "rating": 68,
+        "poster": ""
+    },
+    {
+        "nombre": "Ocean's Eight",
+        "año": 2018,
+        "director": "Gary Ross",
+        "genero": "Drama",
+        "rating": 65,
+        "poster": ""
+    },
+    {
+        "nombre": "Gravedad",
+        "año": 2013,
+        "director": "Alfonso Cuarón",
+        "genero": "Ciencia ficción",
+        "rating": 85,
+        "poster": ""
+    },
+    {
         "nombre": "Casablanca",
         "año": "1942",
         "director": "Michael Curtiz",
