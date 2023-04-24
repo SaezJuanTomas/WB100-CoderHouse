@@ -1,5 +1,70 @@
 [
     {
+        "nombre": "El exorcista",
+        "año": 1973,
+        "director": "William Friedkin",
+        "genero": "horror",
+        "rating": 90,
+        "poster": "https://play-lh.googleusercontent.com/qRTJMWuxniESeJDkFLlZ6sgPSA-sIvjOzMLL2hqXhJRXfhF-d23JK93lAHaRxwYGpy0F"
+    },
+    {
+        "nombre": "Malignant",
+        "año": 2021,
+        "director": "James Wan",
+        "genero": "horror",
+        "rating": 70,
+        "poster": "https://www.panteracine.com/wp-content/uploads/2021/09/malignant.jpg"
+    },
+    {
+        "nombre": "Christine",
+        "año": 1983,
+        "director": "John Carpenter",
+        "genero": "horror",
+        "rating": 75,
+        "poster": "https://i.pinimg.com/originals/0b/5d/cf/0b5dcf85aaba42163fa7b728d61eb238.jpg"
+    },
+    {
+        "nombre": "Misery",
+        "año": 1990,
+        "director": "Rob Reiner",
+        "genero": "horror",
+        "rating": 85,
+        "poster": "https://m.media-amazon.com/images/I/517I0Wy1y7L._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "nombre": "Lights Out",
+        "año": 2016,
+        "director": "David F. Sandberg",
+        "genero": "horror",
+        "rating": 70,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTg1OTkxNDgyMV5BMl5BanBnXkFtZTgwMjEzNTc0ODE@._V1_.jpg"
+    },
+    
+    {
+        "nombre": "Cujo",
+        "año": 1983,
+        "director": "Lewis Teague",
+        "genero": "horror",
+        "rating": 65,
+        "poster": "https://i.ebayimg.com/images/g/NogAAOSw81dZqJq0/s-l1600.jpg"
+    },
+    {
+        "nombre": "A Nightmare on Elm Street",
+        "año": 1984,
+        "director": "Wes Craven",
+        "genero": "horror",
+        "rating": 80,
+        "poster": "https://cdn.shopify.com/s/files/1/1057/4964/products/A-Nightmare-On-Elm-Street-Vintage-Movie-Poster-Original-1-Sheet-27x41-7316.jpg?v=1655240435"
+    },
+    {
+        "nombre": "La matanza de Texas",
+        "año": 1974,
+        "director": "Tobe Hooper",
+        "genero": "horror",
+        "rating": 85,
+        "poster": "https://upload.wikimedia.org/wikipedia/en/a/ad/Texas_chainsaw_massacre_the_beginning.jpg"
+    },
+    {
         "nombre": "No te preocupes cariño",
         "año": 2021,
         "director": "Olivia Wilde",
@@ -299,7 +364,7 @@
         "nombre": "Rey Arturo",
         "año": 2004,
         "director": "Antoine Fuqua",
-        "genero": "Drama",
+        "genero": "Fantasia",
         "rating": 65,
         "poster": "https://www.ecartelera.com/carteles/11300/11344/004.jpg"
     },
@@ -379,7 +444,7 @@
         "nombre": "Heat",
         "año": 1995,
         "director": "Michael Mann",
-        "genero": "Drama",
+        "genero": "Ciencia ficción",
         "rating": 87,
         "poster": "https://i.pinimg.com/736x/da/d8/fc/dad8fc2db1f4d158206d4d94a6ac3957.jpg"
     },
@@ -891,7 +956,7 @@
         "nombre": "Lovecraft Country",
         "año": 2020,
         "director": "Masha Green",
-        "genero": "horror, drama",
+        "genero": "horror",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/M/MV5BNDliM2ZhZWMtM2YwMy00NjAzLTk1YmEtODJmZDhhMTIxOGRmXkEyXkFqcGdeQXVyNTc4MjczMTM@._V1_.jpg"
     },
