@@ -12,3 +12,5 @@ Falta programar las siguientes funcionalidades:
 Problema que no se resolver:
 Quiero que de fondo de cada box poner el poster de cada pelicula que esta cargado en el json
 Los otros box de cada html los cargue manualmente, pero para las peliculas no lo pude resolver
+
+Tambien cuando queria meter los html que no son el index en una carpeta perdian todo el estilo y no se bien porque
