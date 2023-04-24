@@ -72,3 +72,26 @@ fetch('json/data.json')
     }
   });
 
+  const formulario = document.querySelector('form');
+const contenedorResultados = document.querySelector('#peliculas-encontradas');
+
+formulario.addEventListener('submit', function(evento) {
+  evento.preventDefault();
+  const criterioBusqueda = this.querySelector('input').value;
+  fetch('json/data.json')
+    .then(respuesta => respuesta.json())
+    .then(data => {
+      const peliculasEncontradas = data.filter(pelicula =>
+        pelicula.nombre.toLowerCase().includes(criterioBusqueda.toLowerCase()) ||
+        pelicula.director.toLowerCase().includes(criterioBusqueda.toLowerCase()) ||
+        pelicula.año.toString().includes(criterioBusqueda)
+      );
+      console.log(peliculasEncontradas);
+
+      const categoryHtml = peliculasEncontradas.map(item => `
+      <div class="box" style="background-image: url(${item.poster})">${item.nombre}</div>
+    `).join('');
+    })
+});
+
+  
