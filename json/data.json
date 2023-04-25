@@ -1,5 +1,37 @@
 [
     {
+        "nombre": "Hora de Aventura",
+        "director": "Larry Leichliter",
+        "año": "2010",
+        "genero": "Fantasia",
+        "rating": 93,
+        "poster": "https://pics.filmaffinity.com/Hora_de_aventura_Serie_de_TV-507797147-large.jpg"
+    },
+    {
+        "nombre": "Steven Universe",
+        "director": "Rebecca Sugar",
+        "año": "2013",
+        "genero": "Fantasia",
+        "rating": 97,
+        "poster": "https://es.web.img2.acsta.net/pictures/14/03/13/17/07/321235.jpg"
+    },
+    {
+        "nombre": "Steven Universe la Película",
+        "director": "Rebecca Sugar",
+        "año": "2019",
+        "genero": "Fantasia",
+        "rating": 97,
+        "poster": "https://m.media-amazon.com/images/M/MV5BOWUyNDJiNzMtYTFmOS00YmUxLTg2NGQtM2Q5MDEyOWQ0YmRiXkEyXkFqcGdeQXVyMTA0MTg4Njg4._V1_.jpg"
+    },
+    {
+        "nombre": "Infinity Train",
+        "director": "Owen Dennis",
+        "año": "2016",
+        "genero": "Fantasia",
+        "rating": 96,
+        "poster": "https://m.media-amazon.com/images/M/MV5BODMyNGMxZGEtY2RiZS00YTViLWIzYTctMmFhZDNmZTIyMTczXkEyXkFqcGdeQXVyOTk3NjY3NTM@._V1_.jpg"
+    },
+    {
         "nombre": "Barbie",
         "director": "Greta Gerwig",
         "año": "2023",
@@ -35,9 +67,9 @@
         "nombre": "Godzilla x Kong",
         "director": "Adam Wingard",
         "año": "2024",
-        "genero": "Acción",
+        "genero": "Fantasia",
         "rating": 90,
-        "poster": "https://images.static-bluray.com/products/20/129353_2_front.jpg"
+        "poster": "https://i.pinimg.com/550x/7a/ac/9a/7aac9a15325c142f2dd75c0b05a95b46.jpg"
     },
     {
         "nombre": "Superman Legacy",
@@ -95,7 +127,6 @@
         "rating": 80,
         "poster": "https://m.media-amazon.com/images/I/719CvT+UyBL.jpg"
     },
-
     {
         "nombre": "El exorcista",
         "año": 1973,
@@ -136,7 +167,6 @@
         "rating": 70,
         "poster": "https://m.media-amazon.com/images/M/MV5BMTg1OTkxNDgyMV5BMl5BanBnXkFtZTgwMjEzNTc0ODE@._V1_.jpg"
     },
-    
     {
         "nombre": "Cujo",
         "año": 1983,
