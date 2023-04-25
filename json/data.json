@@ -1,5 +1,102 @@
 [
     {
+        "nombre": "Barbie",
+        "director": "Greta Gerwig",
+        "año": "2023",
+        "genero": "Fantasia",
+        "rating": 0,
+        "poster": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/A33MP7GUTJC4TI5D7R4J2ZWNSU.jpeg"
+    },
+    {
+        "nombre": "Blue Beetle",
+        "director": "Ángel Manuel Soto",
+        "año": "2023",
+        "genero": "DCEU",
+        "rating": 0,
+        "poster": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2022/12/blue-beetle-2891370.jpg?itok=xBN-QRv1"
+    },
+    {
+        "nombre": "Wonka",
+        "director": "Paul King",
+        "año": "2023",
+        "genero": "Fantasia",
+        "rating": 0,
+        "poster": "https://www.themoviedb.org/t/p/w500/heynsw1ZcTTxkxZpO1nR8wJv4jh.jpg"
+    },
+    {
+        "nombre": "Aquaman: El Reino Perdido",
+        "director": "James Wan",
+        "año": "2023",
+        "genero": "DCEU",
+        "rating": 0,
+        "poster": "https://i.blogs.es/36305a/captura-de-pantalla-2022-09-06-a-las-13.08.10/450_1000.jpeg"
+    },
+    {
+        "nombre": "Godzilla x Kong",
+        "director": "Adam Wingard",
+        "año": "2024",
+        "genero": "Acción",
+        "rating": 90,
+        "poster": "https://images.static-bluray.com/products/20/129353_2_front.jpg"
+    },
+    {
+        "nombre": "Superman Legacy",
+        "director": "James Gunn",
+        "año": "2023",
+        "genero": "DCEU",
+        "rating": 0,
+        "poster": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/4X2T5XYG55CWJA5R5GBPITXFFM.jpg"
+    },
+    {
+        "nombre": "Beetlejuice",
+        "director": "Tim Burton",
+        "año": "1988",
+        "genero": "Fantasia",
+        "rating": 95,
+        "poster": "https://http2.mlstatic.com/D_NQ_NP_862386-MLA26404865031_112017-O.jpg"
+    },
+    {
+        "nombre": "Sherlock Holmes",
+        "director": "Guy Ritchie",
+        "año": "2009",
+        "genero": "Fantasia",
+        "rating": 85,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTg0NjEwNjUxM15BMl5BanBnXkFtZTcwMzk0MjQ5Mg@@._V1_.jpg"
+    },
+    {
+        "nombre": "Sherlock Holmes: Juego de sombras",
+        "director": "Guy Ritchie",
+        "año": "2011",
+        "genero": "Fantasia",
+        "rating": 80,
+        "poster": "https://collider.com/wp-content/uploads/sherlock-holmes-2-movie-poster-robert-downey-jr-02.jpg"
+    },
+    {
+        "nombre": "La película de LEGO",
+        "director": "Phil Lord, Christopher Miller",
+        "año": "2014",
+        "genero": "Fantasia",
+        "rating": 75,
+        "poster": "https://www.themoviedb.org/t/p/original/9klB7qKC9aCeGyyM4uU5hSA6xDV.jpg"
+    },
+    {
+        "nombre": "La película de LEGO 2",
+        "director": "Mike Mitchell",
+        "año": "2019",
+        "genero": "Fantasia",
+        "rating": 70,
+        "poster": "https://amc-theatres-res.cloudinary.com/v1579119721/amc-cdn/production/2/movies/46000/46028/Poster/p_800x1200_AMC_LegoMovie2TheSecondPartThe_07122018.jpg"
+    },
+    {
+        "nombre": "La película de LEGO Batman",
+        "director": "Chris McKay",
+        "año": "2017",
+        "genero": "DCEU",
+        "rating": 80,
+        "poster": "https://m.media-amazon.com/images/I/719CvT+UyBL.jpg"
+    },
+
+    {
         "nombre": "El exorcista",
         "año": 1973,
         "director": "William Friedkin",
@@ -462,7 +559,7 @@
         "director": "Stanley Kubrick",
         "genero": "Ciencia ficción",
         "rating": 89,
-        "poster": "https://m.media-amazon.com/images/I/513gCOPwYkL._AC_SL1024_.jpg"
+        "poster": "https://www.themoviedb.org/t/p/original/jKeb2dKT6klV8oLbfW0KlaSWp3N.jpg"
     },
     {
         "nombre": "Heat",
