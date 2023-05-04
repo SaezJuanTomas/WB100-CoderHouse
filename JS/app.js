@@ -51,8 +51,8 @@ fetch('json/data.json')
       categoryItems = data.filter(item => parseInt(item.año) >= currentYear);
     }
 
-    const categoryHtml = categoryItems.map(item => `
-    <div class="box" style="background-image: url(${item.poster})">
+const categoryHtml = categoryItems.map((item, index) => `
+    <div class="box" id="box-${index}" style="background-image: url(${item.poster})">
       ${item.nombre}
       <div class="overlay">
         <button class="button1">
@@ -61,6 +61,7 @@ fetch('json/data.json')
       </div>
     </div>
   `).join('');
+
 
     // Mostrar el HTML en una grid de 4 objetos por fila
     const container = document.querySelector('.grid-container');
@@ -102,3 +103,35 @@ formulario.addEventListener('submit', function(evento) {
 });
 
 //CARRITO
+
+const cartIcon = document.querySelector('.cart-icon');
+const cartList = document.querySelector('.cart-list');
+const cartCount = document.querySelector('.cart-count');
+const emptyCartMsg = document.querySelector('.empty-cart');
+const cartItems = [];
+
+cartIcon.addEventListener('click', () => {
+  cartList.classList.toggle('show');
+});
+
+function updateCart() {
+  cartCount.textContent = cartItems.length;
+  const cartListUl = cartList.querySelector('ul');
+  cartListUl.innerHTML = '';
+  cartItems.forEach(item => {
+    const li = document.createElement('li');
+    li.textContent = item;
+    cartListUl.appendChild(li);
+  });
+  if (cartItems.length === 0) {
+    emptyCartMsg.style.display = 'block';
+  } else {
+    emptyCartMsg.style.display = 'none';
+  }
+}
+
+updateCart();
+
+const cartBox = document.querySelector('.cart-box');
+
+
