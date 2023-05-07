@@ -6,6 +6,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="JS/style.css">
+
+	<!-- Importar jQuery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!-- Importar Handlebars.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+
 	<title>WB100 | Ciencia ficción</title>
 </head>
 <header>
@@ -19,28 +25,21 @@
 		<a href="categoria-fantasia.html">Fantasia</a>
 		<a href="categoria-horror.html">Horror</a>
 		<a href="categoria-proximamente.html">Proximamente</a>
-		<form>
-			<input type="text" placeholder="Buscar">
+
+		<form action="search.html">
+			<input type="text" name="q" placeholder="Buscar">
 			<button type="submit">Buscar</button>
 		</form>
-		</div>
-
-		<div class="cart-icon">
-			<div class="cart-box"></div>
-			<span class="cart-count">0</span>
-		  </div>
-		  <div class="cart-list">
-			<ul></ul>
-			<p class="empty-cart">No se han agregado productos aún</p>
-		  </div>
-
+		<form action="search.html" method="get">
+			<input type="text" name="searchTerm" placeholder="Buscar">
+			<button type="submit">Buscar</button>
+		</form>  
 	  </nav>
-</header>
-
-
+</header>  
 
 <body>
 	<script src="JS/app.js"></script>
+
 
 	<div class="boxs boxs-2">
 		<h2>Ciencia ficción</h2>
@@ -49,10 +48,7 @@
 
 	<main>
 		<div class="grid-container">
-			<div class="grid-item">Elemento 1</div>
-			<div class="grid-item">Elemento 2</div>
-			<div class="grid-item">Elemento 3</div>
-			<div class="grid-item">Elemento 4</div>
+
 		</div>
 	</main>
 </body>

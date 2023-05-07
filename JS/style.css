@@ -227,3 +227,14 @@ nav button[type="submit"] {
 	padding: 5px;
   }
   
+  .box {
+	width: 30%;
+	margin: 10px;
+	display: inline-block;
+	vertical-align: top;
+  }
+  
+  .row {
+	text-align: center;
+  }
+  

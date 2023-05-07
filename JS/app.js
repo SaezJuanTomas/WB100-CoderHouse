@@ -102,36 +102,41 @@ formulario.addEventListener('submit', function(evento) {
     })
 });
 
-//CARRITO
+//SEARCH 
+$(document).ready(function() {
+  // Obtén el término de búsqueda de la URL
+  const searchParams = new URLSearchParams(window.location.search);
+  const searchTerm = searchParams.get('searchTerm');
 
-const cartIcon = document.querySelector('.cart-icon');
-const cartList = document.querySelector('.cart-list');
-const cartCount = document.querySelector('.cart-count');
-const emptyCartMsg = document.querySelector('.empty-cart');
-const cartItems = [];
+  // Usa Ajax para obtener los datos del archivo JSON
+  $.ajax({
+    url: '/json/data.json',
+    dataType: 'json',
+    success: function(data) {
+      // Filtra los resultados para encontrar películas que coincidan con el término de búsqueda
+      const results = data.filter(function(movie) {
+        return movie.nombre.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          movie.director.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          movie.año.toString().includes(searchTerm);
+      });
 
-cartIcon.addEventListener('click', () => {
-  cartList.classList.toggle('show');
-});
+      // Crea los elementos HTML para los resultados
+      const categoryHtml = results.map((item, index) => `
+        <div class="box" id="box-${index}" style="background-image: url(${item.poster})">
+          ${item.nombre}
+          <div class="overlay">
+            <button class="button1">
+              <i class="fa fa-shopping-cart"></i> Agregar al listado
+            </button>
+          </div>
+        </div>
+      `).join('');
 
-function updateCart() {
-  cartCount.textContent = cartItems.length;
-  const cartListUl = cartList.querySelector('ul');
-  cartListUl.innerHTML = '';
-  cartItems.forEach(item => {
-    const li = document.createElement('li');
-    li.textContent = item;
-    cartListUl.appendChild(li);
+      // Agrega los elementos HTML al contenedor de resultados
+      $('#results').html(`<div class="row">${categoryHtml}</div>`);
+    },
+    error: function() {
+      alert('Error al cargar los datos.');
+    }
   });
-  if (cartItems.length === 0) {
-    emptyCartMsg.style.display = 'block';
-  } else {
-    emptyCartMsg.style.display = 'none';
-  }
-}
-
-updateCart();
-
-const cartBox = document.querySelector('.cart-box');
-
-
+});
