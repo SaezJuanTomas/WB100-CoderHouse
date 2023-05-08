@@ -136,7 +136,7 @@
         "poster": "https://play-lh.googleusercontent.com/qRTJMWuxniESeJDkFLlZ6sgPSA-sIvjOzMLL2hqXhJRXfhF-d23JK93lAHaRxwYGpy0F"
     },
     {
-        "nombre": "Malignant",
+        "nombre": "Maligno",
         "año": 2021,
         "director": "James Wan",
         "genero": "horror",
@@ -176,7 +176,7 @@
         "poster": "https://i.ebayimg.com/images/g/NogAAOSw81dZqJq0/s-l1600.jpg"
     },
     {
-        "nombre": "A Nightmare on Elm Street",
+        "nombre": "Pesadilla en Elm Street",
         "año": 1984,
         "director": "Wes Craven",
         "genero": "horror",
@@ -288,7 +288,7 @@
         "poster": "https://movieposters2.com/images/1300540-b.jpg"
     },
     {
-        "nombre": "The war of Rohirrim",
+        "nombre": "La guerra de Rohirrim",
         "año": 2023,
         "director": "Peter Jackson",
         "genero": "Fantasia",
@@ -304,7 +304,7 @@
         "poster": "https://i0.wp.com/hyperallergic-newspack.s3.amazonaws.com/uploads/2021/12/Succession-Key-Art-1200x1778.jpg?resize=780%2C1156&quality=100&ssl=1"
     },
     {
-        "nombre": "The sopranos",
+        "nombre": "Los sopranos",
         "año": 1999,
         "director": "David Chase",
         "genero": "Drama",
@@ -472,7 +472,7 @@
         "poster": "https://i.pinimg.com/originals/bc/7a/12/bc7a1202dfe4450d7f09d346c0a868ba.jpg"
     },
     {
-        "nombre": "A star is born (1937)",
+        "nombre": "Nace una estrella (1937)",
         "año": 1937,
         "director": "null",
         "genero": "Drama",
@@ -480,7 +480,7 @@
         "poster": "https://upload.wikimedia.org/wikipedia/commons/5/5c/A_Star_Is_Born_%281937_film_poster%29.jpg"
     },
     {
-        "nombre": "A star is born (1954)",
+        "nombre": "Nace una estrella (1954)",
         "año": 1954,
         "director": "null",
         "genero": "Drama",
@@ -488,7 +488,7 @@
         "poster": "https://rochester.beyondthenest.com/sites/default/files/a%20star%20is%20born%20poster.jpg"
     },
     {
-        "nombre": "A star is born (1976)",
+        "nombre": "Nace una estrella (1976)",
         "año": 1976,
         "director": "null",
         "genero": "Drama",
@@ -560,7 +560,7 @@
         "poster": "https://www.comingsoon.net/wp-content/uploads/sites/3/gallery/the-goldfinch/goldfinch.jpg"
     },
     {
-        "nombre": "Dune parte 2",
+        "nombre": "Duna parte 2",
         "año": 2023,
         "director": "Denis Villeneuve",
         "genero": "Ciencia ficción",
@@ -728,7 +728,7 @@
         "poster": "https://pxb.cdn.ciudadano.news/ciudadano/102022/1666044124009/XT4NJVUBQRBKXPZEOQN4MWZNFA.jpg"
     },
     {
-        "nombre": "A star is born",
+        "nombre": "Nace una estrella",
         "año": "2018",
         "director": "Bradley Cooper",
         "genero": "Drama",
@@ -1064,7 +1064,7 @@
         "poster": "https://http2.mlstatic.com/D_NQ_NP_867664-MLA54339495207_032023-O.jpg"
     },
     {
-        "nombre": "The Matrix",
+        "nombre": "Matrix",
         "año": 1999,
         "director": "Hermanas Wachowski",
         "genero": "Ciencia ficción",
@@ -1072,7 +1072,7 @@
         "poster": "https://http2.mlstatic.com/D_NQ_NP_697021-MLA27860565072_072018-O.jpg"
     },
     {
-        "nombre": "The Matrix recargado",
+        "nombre": "Matrix recargado",
         "año": 2003,
         "director": "Hermanas Wachowski",
         "genero": "Ciencia ficción",
@@ -1080,7 +1080,7 @@
         "poster": "https://m.media-amazon.com/images/I/41DQOPG+boL._AC_.jpg"
     },
     {
-        "nombre": "The Matrix revoluciones",
+        "nombre": "Matrix revoluciones",
         "año": 2003,
         "director": "Hermanas Wachowski",
         "genero": "Ciencia ficción",
@@ -1088,7 +1088,7 @@
         "poster": "https://i.pinimg.com/originals/45/68/84/456884018019425dd45dd5f822274ca2.jpg"
     },
     {
-        "nombre": "The Matrix resurrecciones",
+        "nombre": "Matrix resurrecciones",
         "año": 2021,
         "director": "Hermanas Wachowski",
         "genero": "Ciencia ficción",
