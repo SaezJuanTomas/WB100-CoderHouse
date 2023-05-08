@@ -13,7 +13,7 @@ if (currentPath.includes('categoria-dc')) {
   categoryName = 'horror';
 } else if (currentPath.includes('categoria-ciencia_ficcion')) {
   categoryName = 'ciencia_ficcion';
-} else if (currentPath.includes('categoria-proxiamamente')) {
+} else if (currentPath.includes('categoria-proximamente')) {
   categoryName = 'proximamente';
 }
 
@@ -25,14 +25,6 @@ fetch('json/data.json')
     let categoryItems = [];
     if (categoryName === 'dc') {
       categoryItems = data.filter(item => item.genero === 'DCEU');
-      data.forEach(item => {
-        if (item.poster) {
-          console.log(item.nombre + ': ' + item.poster);
-          
-          // aquí podrías mostrar la imagen en una página HTML usando <img src="{item.poster}" />
-        }
-      });
-      
 
     } else if (categoryName === 'drama') {
       categoryItems = data.filter(item => item.genero === 'Drama');
