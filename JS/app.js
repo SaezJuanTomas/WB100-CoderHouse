@@ -67,10 +67,10 @@ const categoryHtml = categoryItems.map((item, index) => `
     const container = document.querySelector('.grid-container');
     container.innerHTML = categoryHtml;
     const boxes = document.querySelectorAll('.box');
-    for (let i = 0; i < boxes.length; i += 4) {
+    for (let i = 0; i < boxes.length; i += 3) {
       const row = document.createElement('div');
       row.classList.add('grid-row');
-      for (let j = 0; j < 4; j++) {
+      for (let j = 0; j < 3; j++) {
         const box = boxes[i + j];
         if (box) {
           row.appendChild(box);
@@ -102,41 +102,43 @@ formulario.addEventListener('submit', function(evento) {
     })
 });
 
-//SEARCH 
+//SEARCH
 $(document).ready(function() {
   // Obtén el término de búsqueda de la URL
   const searchParams = new URLSearchParams(window.location.search);
   const searchTerm = searchParams.get('searchTerm');
 
-  // Usa Ajax para obtener los datos del archivo JSON
-  $.ajax({
-    url: '/json/data.json',
-    dataType: 'json',
-    success: function(data) {
-      // Filtra los resultados para encontrar películas que coincidan con el término de búsqueda
-      const results = data.filter(function(movie) {
-        return movie.nombre.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          movie.director.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          movie.año.toString().includes(searchTerm);
-      });
+  if (searchTerm !== null) { // Verifica si searchTerm no es nulo
+    // Usa Ajax para obtener los datos del archivo JSON
+    $.ajax({
+      url: '/json/data.json',
+      dataType: 'json',
+      success: function(data) {
+        // Filtra los resultados para encontrar películas que coincidan con el término de búsqueda
+        const results = data.filter(function(movie) {
+          return movie.nombre.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            movie.director.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            movie.año.toString().includes(searchTerm);
+        });
 
-      // Crea los elementos HTML para los resultados
-      const categoryHtml = results.map((item, index) => `
-        <div class="box" id="box-${index}" style="background-image: url(${item.poster})">
-          ${item.nombre}
-          <div class="overlay">
-            <button class="button1">
-              <i class="fa fa-shopping-cart"></i> Agregar al listado
-            </button>
+        // Crea los elementos HTML para los resultados
+        const categoryHtml = results.map((item, index) => `
+          <div class="box" id="box-${index}" style="background-image: url(${item.poster})">
+            ${item.nombre}
+            <div class="overlay">
+              <button class="button1">
+                <i class="fa fa-shopping-cart"></i> Agregar al listado
+              </button>
+            </div>
           </div>
-        </div>
-      `).join('');
+        `).join('');
 
-      // Agrega los elementos HTML al contenedor de resultados
-      $('#results').html(`<div class="row">${categoryHtml}</div>`);
-    },
-    error: function() {
-      alert('Error al cargar los datos.');
-    }
-  });
+        // Agrega los elementos HTML al contenedor de resultados
+        $('#results').html(`<div class="row">${categoryHtml}</div>`);
+      },
+      error: function() {
+        alert('Error al cargar los datos.');
+      }
+    });
+  }
 });
