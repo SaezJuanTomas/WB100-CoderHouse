@@ -172,8 +172,8 @@ nav button[type="submit"] {
 	background-size: cover;
 	background-position: center center;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-	display: grid;
-	height: 600px;
+	display: flex;
+	height: 550px;
 	width: 100%;
 	margin: 0; /* Eliminamos el margen */
 	flex-direction: column;

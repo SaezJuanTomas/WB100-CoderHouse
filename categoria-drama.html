@@ -6,6 +6,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="JS/style.css">
+	
+	<!-- Importar jQuery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!-- Importar Handlebars.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+
 	<title>WB100 | Drama</title>
 </head>
 <header>
@@ -19,10 +25,10 @@
 		<a href="categoria-fantasia.html">Fantasia</a>
 		<a href="categoria-horror.html">Horror</a>
 		<a href="categoria-proximamente.html">Proximamente</a>
-		<form>
-			<input type="text" placeholder="Buscar">
+        <form action="search.html" method="get">
+			<input type="text" name="searchTerm" placeholder="Buscar">
 			<button type="submit">Buscar</button>
-		</form>
+		  </form> 
 	</nav>
 </header>
 

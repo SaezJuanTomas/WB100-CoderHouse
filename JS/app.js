@@ -95,6 +95,12 @@ formulario.addEventListener('submit', function(evento) {
 });
 
 //SEARCH
+$('form').submit(function(event) {
+  event.preventDefault(); // detener el comportamiento predeterminado del formulario
+  const searchTerm = $('input[name="searchTerm"]').val(); // obtener el término de búsqueda
+  window.location.href = `search.html?searchTerm=${searchTerm}`; // redirigir a la página de resultados
+});
+
 $(document).ready(function() {
   // Obtén el término de búsqueda de la URL
   const searchParams = new URLSearchParams(window.location.search);

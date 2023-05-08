@@ -23,21 +23,20 @@
 		<a href="categoria-fantasia.html">Fantasia</a>
 		<a href="categoria-horror.html">Horror</a>
 		<a href="categoria-proximamente.html">Proximamente</a>
-		<form>
-			<input type="text" placeholder="Buscar">
+        <form action="search.html" method="get">
+			<input type="text" name="searchTerm" placeholder="Buscar">
 			<button type="submit">Buscar</button>
-		</form>
+		  </form> 
 	</nav>
 </header>
-<body>
-    <script src="JS/app.js"></script>
-	<form action="search.html" method="get">
-		<input type="text" name="searchTerm" placeholder="Buscar">
-		<button type="submit">Buscar</button>
-	  </form>
-	  <div id="results"></div>
 
-
-</body>	
+<main>
+	<h2>Resultados de búsqueda:</h2>
+	<div id="results"></div>
+  </main>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="JS/app.js"></script>
+</body>
 
 </html>
