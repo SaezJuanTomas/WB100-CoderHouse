@@ -94,6 +94,7 @@ formulario.addEventListener('submit', function(evento) {
     })
 });
 
+
 //SEARCH
 $('form').submit(function(event) {
   event.preventDefault(); // detener el comportamiento predeterminado del formulario

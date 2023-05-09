@@ -55,11 +55,11 @@ nav button[type="submit"] {
 	grid-template-columns: repeat(2, calc(50% - 20px)); /* Establecemos 2 columnas con un ancho del 50% menos el margen */
 	grid-gap: 20px; /* Aumentamos el espacio entre las cajas */
 	align-items: center;
+	text-align: center;
 	height: 1000px;
 	background-color: #f7f7f7;
 	padding: 0px;
 	margin: 5px auto; /* Centramos el contenedor horizontalmente */
-	
 }
 
 .indexbg {
@@ -265,5 +265,9 @@ nav button[type="submit"] {
   
   .row {
 	text-align: center;
+  }
+  
+  h2 {
+	color: #fff; /* Establece el color del texto a blanco */
   }
   

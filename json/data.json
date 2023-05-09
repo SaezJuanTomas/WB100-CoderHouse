@@ -8,6 +8,14 @@
         "poster": "https://pics.filmaffinity.com/Hora_de_aventura_Serie_de_TV-507797147-large.jpg"
     },
     {
+        "nombre": "Flash",
+        "año": 2023,
+        "director": "Andy Muschietti",
+        "genero": "DCEU",
+        "rating": 100,
+        "poster": "https://notify.com.ar/gamba/wp-content/uploads/sites/6/2023/04/poster.jpg"
+    },
+    {
         "nombre": "Steven Universe",
         "director": "Rebecca Sugar",
         "año": "2013",
@@ -189,7 +197,7 @@
         "director": "Tobe Hooper",
         "genero": "horror",
         "rating": 85,
-        "poster": "https://upload.wikimedia.org/wikipedia/en/a/ad/Texas_chainsaw_massacre_the_beginning.jpg"
+        "poster": "https://64.media.tumblr.com/tumblr_ma7t3uIIqG1rgvhcro1_1280.jpg"
     },
     {
         "nombre": "No te preocupes cariño",
@@ -208,12 +216,12 @@
         "poster": "https://www.sobretiza.com.ar/wp-content/uploads/2018/04/ready-player-one-poster.jpg"
     },
     {
-        "nombre": "Edge of tomorrow",
+        "nombre": "Al filo del mañana",
         "año": 2014,
         "director": "Doug Liman",
         "genero": "Ciencia ficción",
         "rating": 100,
-        "poster": "https://m.media-amazon.com/images/I/71C93vSwpIL._AC_UF894,1000_QL80_.jpg"
+        "poster": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0edd837b-eb3c-42fd-8f32-9a04c89d1619/d6yy77h-cd78d513-0650-4e87-b4ee-158427a4c451.jpg/v1/fill/w_1024,h_1518,q_75,strp/edge_of_tomorrow__hi_res_textless_poster__by_phetvanburton_d6yy77h-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTUxOCIsInBhdGgiOiJcL2ZcLzBlZGQ4MzdiLWViM2MtNDJmZC04ZjMyLTlhMDRjODlkMTYxOVwvZDZ5eTc3aC1jZDc4ZDUxMy0wNjUwLTRlODctYjRlZS0xNTg0MjdhNGM0NTEuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.m5fNP5VqW7BEbWtajkT0YvFWpluYdDS_1T1g-g3ZER4"
     },
     {
         "nombre": "Contagion",
@@ -221,7 +229,7 @@
         "director": "Steven Soderbergh",
         "genero": "Ciencia ficción",
         "rating": 100,
-        "poster": "https://img.ecartelera.com/noticias/fotos/8600/8616/1.jpg"
+        "poster": "https://www.themoviedb.org/t/p/original/qL0IooP0bjXy0KXl9KEyPo22ll0.jpg"
     },
     {
         "nombre": "Furiosa",
@@ -693,7 +701,7 @@
         "director": "Alfonso Cuarón",
         "genero": "Ciencia ficción",
         "rating": 85,
-        "poster": "https://conexioncausal.files.wordpress.com/2013/11/gravity.jpg"
+        "poster": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0edd837b-eb3c-42fd-8f32-9a04c89d1619/d66v6k9-57311757-5dfe-41b7-8abe-ea593d8990a4.jpg/v1/fill/w_1024,h_1513,q_75,strp/gravity__hi_res_textless_poster__by_phetvanburton_d66v6k9-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTUxMyIsInBhdGgiOiJcL2ZcLzBlZGQ4MzdiLWViM2MtNDJmZC04ZjMyLTlhMDRjODlkMTYxOVwvZDY2djZrOS01NzMxMTc1Ny01ZGZlLTQxYjctOGFiZS1lYTU5M2Q4OTkwYTQuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.RaFfin_iS4BxFkUYqwg7_FskqIQHklThcYAHw6CnYyM"
     },
     {
         "nombre": "Casablanca",
@@ -997,7 +1005,7 @@
         "director": "Christopher Nolan",
         "genero": "Ciencia ficción",
         "rating": 100,
-        "poster": "https://http2.mlstatic.com/D_NQ_NP_932825-MLA41908833790_052020-O.jpg"
+        "poster": "https://cdn.moviefone.com/image-assets/577922/k68nPLbIST6NP96JmTxmZijEvCA.jpg?d=360x540&q=60"
     },
     {
         "nombre": "Westworld",
@@ -1032,7 +1040,7 @@
         "poster": "https://es.web.img2.acsta.net/r_1280_720/pictures/19/04/29/08/21/1692162.jpg?coixp=45&coiyp=73"
     },
     {
-        "nombre": "Duna",
+        "nombre": "Duna parte 1",
         "año": 2021,
         "director": "Denis Villeneuve",
         "genero": "Ciencia ficción",
@@ -1062,6 +1070,14 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://http2.mlstatic.com/D_NQ_NP_867664-MLA54339495207_032023-O.jpg"
+    },
+    {
+        "nombre": "Blade Runner white lotus",
+        "año": 2018,
+        "director": "Denis Villeneuve",
+        "genero": "Ciencia ficción",
+        "rating": 100,
+        "poster": "https://as01.epimg.net/meristation/imagenes/2021/07/27/noticias/1627377219_981353_1627377294_sumario_normal.jpg"
     },
     {
         "nombre": "Matrix",
@@ -1117,7 +1133,7 @@
         "director": "Andy Muschietti",
         "genero": "horror",
         "rating": 100,
-        "poster": "https://http2.mlstatic.com/D_NQ_NP_809718-MLA41881336198_052020-V.jpg"
+        "poster": "https://t4.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/1nq4/image/WD1GxjfXATM2ihDxAygZD65SlY4.jpg"
     },
     {
         "nombre": "It capitulo 2",
@@ -1248,7 +1264,7 @@
         "poster": "https://preview.redd.it/cgw8h8gzmi381.jpg?auto=webp&s=884a748fba06e9fa7cc3aa728f7afc5a94a548eb"
     },
     {
-        "nombre": "The penguin",
+        "nombre": "El penguin",
         "director": "Matt Reeves",
         "año": "2024",
         "genero": "DCEU",
@@ -1264,7 +1280,7 @@
         "poster": "https://http2.mlstatic.com/D_NQ_NP_689687-MLA44273180758_122020-O.jpg"
     },
     {
-        "nombre": "Suicide squad",
+        "nombre": "Escuadrón suicida",
         "director": "David Ayer",
         "año": "2016",
         "genero": "DCEU",
@@ -1272,7 +1288,7 @@
         "poster": "https://www.limitedruns.com/media/cache/9e/52/9e52055d0598fce2d5a180940d10c84a.jpg"
     },
     {
-        "nombre": "The suicide squad",
+        "nombre": "El escuadrón suicida",
         "director": "James Gunn",
         "año": "2021",
         "genero": "DCEU",
@@ -1328,7 +1344,7 @@
         "poster": "https://i.pinimg.com/550x/2f/3a/af/2f3aaf959372c28c03f65e9dd63e0548.jpg"
     },
     {
-        "nombre": "The batman part 2",
+        "nombre": "Batman parte 2",
         "director": "Matt Reeves",
         "año": "2025",
         "genero": "DCEU",
@@ -1336,7 +1352,7 @@
         "poster": "https://external-preview.redd.it/shpsSllBqBhT1VDizcCdtgJyzTOvVVERzxBvM9oy3A0.jpg?width=640&crop=smart&auto=webp&s=56690781876a28615ddb5027579530872eb5760b"
     },
     {
-        "nombre": "The batman",
+        "nombre": "Batman",
         "director": "Matt Reeves",
         "año": "2022",
         "genero": "DCEU",
