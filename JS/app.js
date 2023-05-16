@@ -1,4 +1,4 @@
-console.log("Esto funciona!")
+console.log("Esto funciona")
 
 // Obtener la categoría de la página actual
 let categoryName = '';
