@@ -12,11 +12,15 @@
 	<!-- Importar Handlebars.js -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
 	<link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
 	<title>WB100 | Ciencia ficción</title>
 </head>
 <header>
-	<nav>
+	<nav class="navbar">
 		<a href="index.html">
 		  <h3>WB100</h3>
 		</a>
@@ -25,16 +29,16 @@
 		<a href="categoria-dc.html">DC</a>
 		<a href="categoria-fantasia.html">Fantasía</a>
 		<a href="categoria-horror.html">Horror</a>
-		<a href="categoria-proximamente.html">Proximamente</a>
-        <form action="search.html" method="get">
-			<input type="text" name="searchTerm" placeholder="Buscar">
-			<button type="submit">Buscar</button>
+		<a href="categoria-proximamente.html">Próximamente</a>
+		<form action="search.html" method="get">
+		  <input type="text" name="searchTerm" placeholder="Buscar">
+		  <button type="submit">Buscar</button>
 		</form>
 		<a href="listado.html">
-			<i class="fa fa-shopping-cart"></i>
-			<span id="carrito-count"></span>
-		  </a>
-	  </nav>
+		  <span id="carrito-count"></span>
+		  Listado
+		</a>
+	  </nav>	  
 </header>  
 
 <body>

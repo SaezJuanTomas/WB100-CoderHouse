@@ -43,17 +43,16 @@ fetch('json/data.json')
       categoryItems = data.filter(item => parseInt(item.año) >= currentYear);
     }
 
-const categoryHtml = categoryItems.map((item, index) => `
+    const categoryHtml = categoryItems.map((item, index) => `
     <div class="box" id="box-${index}" style="background-image: url(${item.poster})">
       ${item.nombre}
       <div class="overlay">
-        <button class="button1">
-          <i class="fa fa-shopping-cart"></i> Agregar al listado
+        <button class="btn btn-light">
+          Agregar al listado
         </button>
       </div>
     </div>
   `).join('');
-
 
     // Mostrar el HTML en una grid de 4 objetos por fila
     const container = document.querySelector('.grid-container');
@@ -125,8 +124,8 @@ $(document).ready(function() {
           <div class="box" id="box-${index}" style="background-image: url(${item.poster})">
             ${item.nombre}
             <div class="overlay">
-              <button class="button1">
-                <i class="fa fa-shopping-cart"></i> Agregar al listado
+              <button class="btn btn-light">
+                Agregar al listado
               </button>
             </div>
           </div>
@@ -143,3 +142,23 @@ $(document).ready(function() {
 });
 
 //LISTADO
+// Obtén una referencia a los elementos 'box' que contienen las películas
+const peliculaBoxes = document.getElementsByClassName('box');
+
+// Recorre cada elemento 'box' y asigna el evento de clic al botón correspondiente
+Array.from(peliculaBoxes).forEach((box, index) => {
+  const botonAgregar = box.querySelector('.button1');
+  
+  // Agrega el evento de clic al botón 'Agregar al listado'
+  botonAgregar.addEventListener('click', () => {
+    // Accede a los datos de la película
+    const nombrePelicula = box.textContent.trim();
+    const urlImagenPelicula = box.style.backgroundImage.slice(5, -2);
+    
+    // Guarda los datos en la consola
+    console.log('Nombre de la película:', nombrePelicula);
+    console.log('URL de la imagen:', urlImagenPelicula);
+    
+    // Aquí puedes agregar el código para guardar los datos en alguna estructura de datos o enviarlos a 'listado.html'
+  });
+});

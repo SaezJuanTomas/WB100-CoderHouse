@@ -4,6 +4,16 @@ body {
 	font-family: sans-serif;
 }
 
+.navbar {
+	display: flex;
+	align-items: center;
+  }
+  
+  .navbar a {
+	margin-right: 10px;
+  }
+  
+
 header {
 	background-color: #f7f7f7;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -29,6 +39,15 @@ nav a {
 nav a:hover {
 	color: #ff6600;
 }
+
+.navbar-left {
+	flex-grow: 1;
+  }
+  
+  .navbar-right {
+	display: flex;
+	gap: 10px;
+  }
 
 nav form {
 	display: flex;

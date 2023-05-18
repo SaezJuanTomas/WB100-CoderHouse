@@ -64,6 +64,174 @@
         "poster": "https://www.themoviedb.org/t/p/w500/heynsw1ZcTTxkxZpO1nR8wJv4jh.jpg"
     },
     {
+        "nombre": "Harry Potter y la piedra filosofal",
+        "año": "2001",
+        "director": "Chris Columbus",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://media.harrypotterfanzone.com/philosophers-stone-wizarding-world-poster.jpg"
+    },
+    {
+        "nombre": "Harry Potter y la cámara secreta",
+        "año": "2002",
+        "director": "Chris Columbus",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://media.harrypotterfanzone.com/chamber-of-secrets-wizarding-world-poster.jpg"
+    },
+    {
+        "nombre": "Harry Potter y el prisionero de Azkaban",
+        "año": "2004",
+        "director": "Alfonso Cuarón",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://media.harrypotterfanzone.com/prisoner-of-azkaban-wizarding-world-poster.jpg"
+    },
+    {
+        "nombre": "Harry Potter y el cáliz de fuego",
+        "año": "2005",
+        "director": "Mike Newell",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://media.harrypotterfanzone.com/goblet-of-fire-wizarding-world-poster.jpg"
+    },
+    {
+        "nombre": "Harry Potter y la Orden del Fénix",
+        "año": "2007",
+        "director": "David Yates",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://media.harrypotterfanzone.com/order-of-the-phoenix-wizarding-world-poster.jpg"
+    },
+    {
+        "nombre": "Harry Potter y el misterio del príncipe",
+        "año": "2009",
+        "director": "David Yates",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://media.harrypotterfanzone.com/half-blood-prince-wizarding-world-poster.jpg"
+    },
+    {
+        "nombre": "Harry Potter y las reliquias de la muerte parte 1",
+        "año": "2011",
+        "director": "David Yates",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://media.harrypotterfanzone.com/deathly-hallows-part-1-wizarding-world-poster.jpg"
+    },
+    {
+        "nombre": "Harry Potter y las reliquias de la muerte parte 2",
+        "año": "2012",
+        "director": "David Yates",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://media.harrypotterfanzone.com/deathly-hallows-part-2-wizarding-world-poster.jpg"
+    },
+    {
+        "nombre": "Animales fantasticos y donde encontrarlos",
+        "año": "2016",
+        "director": "David Yates",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/I/71IJprrGokL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "nombre": "Animales fantasticos: Los crimenes de Grindelwald",
+        "año": "2018",
+        "director": "David Yates",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://i5.walmartimages.com/asr/0034ae2f-de54-4e9c-909b-10166bab9fba_1.5c48b7824d7c05c73ef5524554e0e577.jpeg"
+    },
+    {
+        "nombre": "Animales fantasticos: Los secretos de Dumbledore",
+        "año": "2022",
+        "director": "David Yates",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/I/71RTJdcWgoL._AC_SY679_.jpg"
+    },
+    {
+        "nombre": "El señor de los anillos: La comunidad del anillo",
+        "año": "2001",
+        "director": "Peter Jackson",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/I/71TZ8BmoZqL.jpg"
+    },
+    {
+        "nombre": "El señor de los anillos: Las dos torres",
+        "año": "2002",
+        "director": "Peter Jackson",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://cdn.shopify.com/s/files/1/1057/4964/products/The-Lord-of-the-Rings-The-Two-Towers-Vintage-Movie-Poster-Original-1-Sheet-27x41_e5e045cb-d082-4c27-8a54-24563bc9d3b4_300x@2x.jpg?v=1663223737"
+    },
+    {
+        "nombre": "El señor de los anillos: El retorno del rey",
+        "año": "2003",
+        "director": "Peter Jackson",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://cdn.shopify.com/s/files/1/1057/4964/products/The-Lord-of-the-Rings-The-Return-of-the-King-Vintage-Movie-Poster-Original-1-Sheet-27x41.jpg?v=1665735682"
+    },
+    {
+        "nombre": "El hobbit: Un viaje inesperado",
+        "año": "2012",
+        "director": "Peter Jackson",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2012%2F07%2Fhobbit-poster.jpg&q=60"
+    },
+    {
+        "nombre": "El hobbit: La desolacion de Smaug",
+        "año": "2013",
+        "director": "Peter Jackson",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/I/510aF0WVSRL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "nombre": "El hobbit: La batalla de los cinco ejercitos",
+        "año": "2014",
+        "director": "Peter Jackson",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://i.ebayimg.com/images/g/0EAAAOSwc3ZUoZ2d/s-l500.jpg"
+    },
+    {
+        "nombre": "Juego de tronos",
+        "año": "2011",
+        "director": "David Benioff, D. B. Weiss",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/I/615ufemMkgL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+        "nombre": "La casa del dragon",
+        "año": "2022",
+        "director": "Ryan Condal",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://mr.comingsoon.it/imgdb/serietv/serie/3085/3085.jpg"
+    },
+    {
+        "nombre": "La materia oscura",
+        "año": "2019",
+        "director": "Tom Hooper",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://de10.com.mx/sites/default/files/styles/imagen_body/public/2021/05/21/his_dark_materials_1.jpg?itok=ObxYSt8C"
+    },
+    {
+        "nombre": "Más alla del jardin",
+        "año": "2014",
+        "director": "Patrick McHale",
+        "genero": "Fantasia",
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzhjNzI0NWEtMzEyYy00OGViLThhMjctMWQxNGQ3Y2IzOTY4XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"
+    },
+    {
         "nombre": "Aquaman: El Reino Perdido",
         "director": "James Wan",
         "año": "2023",
@@ -75,7 +243,7 @@
         "nombre": "Godzilla x Kong",
         "director": "Adam Wingard",
         "año": "2024",
-        "genero": "Fantasia",
+        "genero": "Ciencia ficción",
         "rating": 90,
         "poster": "https://i.pinimg.com/550x/7a/ac/9a/7aac9a15325c142f2dd75c0b05a95b46.jpg"
     },
@@ -568,22 +736,6 @@
         "poster": "https://www.comingsoon.net/wp-content/uploads/sites/3/gallery/the-goldfinch/goldfinch.jpg"
     },
     {
-        "nombre": "Duna parte 2",
-        "año": 2023,
-        "director": "Denis Villeneuve",
-        "genero": "Ciencia ficción",
-        "rating": 100,
-        "poster": "https://m.media-amazon.com/images/M/MV5BYjFkM2RhZjUtN2U0MC00NTMxLTk1MjktZDkwNjg3MjI0NmYxXkEyXkFqcGdeQXVyNTA3MTU2MjE@._V1_FMjpg_UX1000_.jpg"
-    },
-    {
-        "nombre": "300",
-        "año": 2006,
-        "director": "Zack Snyder",
-        "genero": "Fantasia",
-        "rating": 80,
-        "poster": "https://http2.mlstatic.com/D_NQ_NP_708781-MLA41908969856_052020-O.jpg"
-    },
-    {
         "nombre": "Cry macho",
         "año": 2021,
         "director": "Clint Eastwood",
@@ -664,7 +816,7 @@
         "poster": "https://m.media-amazon.com/images/I/51go0wlLWRL._AC_.jpg"
     },
     {
-        "nombre": "Ocean's Eleven",
+        "nombre": "Ocean's 8",
         "año": 2001,
         "director": "Steven Soderbergh",
         "genero": "Drama",
@@ -672,7 +824,7 @@
         "poster": "https://criticasdecinesinspoilers.files.wordpress.com/2014/10/oceans1-10fa80f776e4.jpg"
     },
     {
-        "nombre": "Ocean's Twelve",
+        "nombre": "Ocean's 12",
         "año": 2004,
         "director": "Steven Soderbergh",
         "genero": "Drama",
@@ -680,7 +832,7 @@
         "poster": "https://pics.filmaffinity.com/Ocean_s_Twelve-602374088-large.jpg"
     },
     {
-        "nombre": "Ocean's Thirteen",
+        "nombre": "Ocean's 13",
         "año": 2007,
         "director": "Steven Soderbergh",
         "genero": "Drama",
@@ -688,7 +840,7 @@
         "poster": "https://i.blogs.es/dc4f7f/oceans_thirteen_ver3/450_1000.jpg"
     },
     {
-        "nombre": "Ocean's Eight",
+        "nombre": "Ocean's 8",
         "año": 2018,
         "director": "Gary Ross",
         "genero": "Drama",
@@ -768,186 +920,10 @@
         "poster": "https://i.pinimg.com/736x/9c/4a/4d/9c4a4dcdfc3989937eb35ded5b54029a.jpg"
     },
     {
-        "nombre": "Harry Potter y la piedra filosofal",
-        "año": "2001",
-        "director": "Chris Columbus",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://media.harrypotterfanzone.com/philosophers-stone-wizarding-world-poster.jpg"
-    },
-    {
-        "nombre": "Harry Potter y la cámara secreta",
-        "año": "2002",
-        "director": "Chris Columbus",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://media.harrypotterfanzone.com/chamber-of-secrets-wizarding-world-poster.jpg"
-    },
-    {
-        "nombre": "Harry Potter y el prisionero de Azkaban",
-        "año": "2004",
-        "director": "Alfonso Cuarón",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://media.harrypotterfanzone.com/prisoner-of-azkaban-wizarding-world-poster.jpg"
-    },
-    {
-        "nombre": "Harry Potter y el cáliz de fuego",
-        "año": "2005",
-        "director": "Mike Newell",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://media.harrypotterfanzone.com/goblet-of-fire-wizarding-world-poster.jpg"
-    },
-    {
-        "nombre": "Harry Potter y la Orden del Fénix",
-        "año": "2007",
-        "director": "David Yates",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://media.harrypotterfanzone.com/order-of-the-phoenix-wizarding-world-poster.jpg"
-    },
-    {
-        "nombre": "Harry Potter y el misterio del príncipe",
-        "año": "2009",
-        "director": "David Yates",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://media.harrypotterfanzone.com/half-blood-prince-wizarding-world-poster.jpg"
-    },
-    {
-        "nombre": "Harry Potter y las reliquias de la muerte parte 1",
-        "año": "2011",
-        "director": "David Yates",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://media.harrypotterfanzone.com/deathly-hallows-part-1-wizarding-world-poster.jpg"
-    },
-    {
-        "nombre": "Harry Potter y las reliquias de la muerte parte 2",
-        "año": "2012",
-        "director": "David Yates",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://media.harrypotterfanzone.com/deathly-hallows-part-2-wizarding-world-poster.jpg"
-    },
-    {
-        "nombre": "Animales fantasticos y donde encontrarlos",
-        "año": "2016",
-        "director": "David Yates",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://m.media-amazon.com/images/I/71IJprrGokL._AC_UF894,1000_QL80_.jpg"
-    },
-    {
-        "nombre": "Animales fantasticos: Los crimenes de Grindelwald",
-        "año": "2018",
-        "director": "David Yates",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://i5.walmartimages.com/asr/0034ae2f-de54-4e9c-909b-10166bab9fba_1.5c48b7824d7c05c73ef5524554e0e577.jpeg"
-    },
-    {
-        "nombre": "Animales fantasticos: Los secretos de Dumbledore",
-        "año": "2022",
-        "director": "David Yates",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://m.media-amazon.com/images/I/71RTJdcWgoL._AC_SY679_.jpg"
-    },
-    {
-        "nombre": "El señor de los anillos: La comunidad del anillo",
-        "año": "2001",
-        "director": "Peter Jackson",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://m.media-amazon.com/images/I/71TZ8BmoZqL.jpg"
-    },
-    {
-        "nombre": "El señor de los anillos: Las dos torres",
-        "año": "2002",
-        "director": "Peter Jackson",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://cdn.shopify.com/s/files/1/1057/4964/products/The-Lord-of-the-Rings-The-Two-Towers-Vintage-Movie-Poster-Original-1-Sheet-27x41_e5e045cb-d082-4c27-8a54-24563bc9d3b4_300x@2x.jpg?v=1663223737"
-    },
-    {
-        "nombre": "El señor de los anillos: El retorno del rey",
-        "año": "2003",
-        "director": "Peter Jackson",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://cdn.shopify.com/s/files/1/1057/4964/products/The-Lord-of-the-Rings-The-Return-of-the-King-Vintage-Movie-Poster-Original-1-Sheet-27x41.jpg?v=1665735682"
-    },
-    {
-        "nombre": "El hobbit: Un viaje inesperado",
-        "año": "2012",
-        "director": "Peter Jackson",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2012%2F07%2Fhobbit-poster.jpg&q=60"
-    },
-    {
-        "nombre": "El hobbit: La desolacion de Smaug",
-        "año": "2013",
-        "director": "Peter Jackson",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://m.media-amazon.com/images/I/510aF0WVSRL._AC_UF894,1000_QL80_.jpg"
-    },
-    {
-        "nombre": "El hobbit: La batalla de los cinco ejercitos",
-        "año": "2014",
-        "director": "Peter Jackson",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://i.ebayimg.com/images/g/0EAAAOSwc3ZUoZ2d/s-l500.jpg"
-    },
-    {
-        "nombre": "Juego de tronos",
-        "año": "2011",
-        "director": "David Benioff, D. B. Weiss",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://m.media-amazon.com/images/I/615ufemMkgL._AC_UF894,1000_QL80_.jpg"
-    },
-    {
-        "nombre": "La casa del dragon",
-        "año": "2022",
-        "director": "Ryan Condal",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://mr.comingsoon.it/imgdb/serietv/serie/3085/3085.jpg"
-    },
-    {
-        "nombre": "La materia oscura",
-        "año": "2019",
-        "director": "Tom Hooper",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://de10.com.mx/sites/default/files/styles/imagen_body/public/2021/05/21/his_dark_materials_1.jpg?itok=ObxYSt8C"
-    },
-    {
-        "nombre": "Los nevers",
-        "año": "2021",
-        "director": "Joss Whedon",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://m.media-amazon.com/images/M/MV5BN2UyNTdhOGEtMzczYS00YzI0LTg0ZGQtODYzYTdmMjcwNjFhXkEyXkFqcGdeQXVyNDI3NjU1NzQ@._V1_.jpg"
-    },
-    {
-        "nombre": "Más alla del jardin",
-        "año": "2014",
-        "director": "Patrick McHale",
-        "genero": "Fantasia",
-        "rating": 100,
-        "poster": "https://m.media-amazon.com/images/M/MV5BYzhjNzI0NWEtMzEyYy00OGViLThhMjctMWQxNGQ3Y2IzOTY4XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"
-    },
-    {
         "nombre": "Godzilla",
         "año": "2012",
         "director": "null",
-        "genero": "Fantasia",
+        "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://www.comingsoon.net/wp-content/uploads/sites/3/2014/03/file_740151_hr_Godzilla_21.jpg"
     },
@@ -955,7 +931,7 @@
         "nombre": "Kong",
         "año": "2014",
         "director": "null",
-        "genero": "Fantasia",
+        "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/11/kong-skull-island-poster.jpg?itok=GWifKsrf"
     },
@@ -963,7 +939,7 @@
         "nombre": "Godzilla rey de los monstruos",
         "año": "2016",
         "director": "null",
-        "genero": "Fantasia",
+        "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://www.funcinema.com.ar/wp-content/uploads/2018/12/godzilla_2.jpg"
     },
@@ -971,7 +947,7 @@
         "nombre": "Godzilla vs Kong",
         "año": "2021",
         "director": "null",
-        "genero": "Fantasia",
+        "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/godzilla-vs-kong-poster-fotogramas-1611267098.jpeg?resize=480:*"
     },
@@ -1046,6 +1022,14 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://assets-prd.ignimgs.com/2021/08/09/dune-insta-vert-main-dom-1638x2048-1628522913715.jpg"
+    },
+    {
+        "nombre": "Duna parte 2",
+        "año": 2023,
+        "director": "Denis Villeneuve",
+        "genero": "Ciencia ficción",
+        "rating": 100,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjFkM2RhZjUtN2U0MC00NTMxLTk1MjktZDkwNjg3MjI0NmYxXkEyXkFqcGdeQXVyNTA3MTU2MjE@._V1_FMjpg_UX1000_.jpg"
     },
     {
         "nombre": "Duna la hermandad",
@@ -1264,7 +1248,7 @@
         "poster": "https://preview.redd.it/cgw8h8gzmi381.jpg?auto=webp&s=884a748fba06e9fa7cc3aa728f7afc5a94a548eb"
     },
     {
-        "nombre": "El penguin",
+        "nombre": "El penguino",
         "director": "Matt Reeves",
         "año": "2024",
         "genero": "DCEU",
@@ -1312,7 +1296,7 @@
         "poster": "https://pbs.twimg.com/media/FpGs39ZXwAIAaim.jpg:large"
     },
     {
-        "nombre": "Aves de presa",
+        "nombre": "Aves de presa y la fantabulosa emancipación de una Harley Quinn",
         "director": "Cathty Yan",
         "año": "2020",
         "genero": "DCEU",
@@ -1454,5 +1438,21 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://pbs.twimg.com/media/EvfmD9iXMAA6to5.jpg"
+    },
+    {
+    "nombre": "Los nevers",
+    "año": "2021",
+    "director": "Joss Whedon",
+    "genero": "Fantasia",
+    "rating": 100,
+    "poster": "https://m.media-amazon.com/images/M/MV5BN2UyNTdhOGEtMzczYS00YzI0LTg0ZGQtODYzYTdmMjcwNjFhXkEyXkFqcGdeQXVyNDI3NjU1NzQ@._V1_.jpg"
+    },
+    {
+    "nombre": "300",
+    "año": 2006,
+    "director": "Zack Snyder",
+    "genero": "Fantasia",
+    "rating": 80,
+    "poster": "https://http2.mlstatic.com/D_NQ_NP_708781-MLA41908969856_052020-O.jpg"
     }
 ]
