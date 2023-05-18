@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="JS/style.css">
-	
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="JS/style.css">
+
 	<!-- Importar jQuery -->
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<!-- Importar Handlebars.js -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
-	
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 	<link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
-    <title>WB100 | Busqueda</title>
+	<title>WB100 | Busqueda</title>
 </head>
 <header>
 	<nav class="navbar">
@@ -28,24 +29,24 @@
 		<a href="categoria-fantasia.html">Fantasía</a>
 		<a href="categoria-horror.html">Horror</a>
 		<a href="categoria-proximamente.html">Proximamente</a>
-        <form action="search.html" method="get">
+		<form action="search.html" method="get">
 			<input type="text" name="searchTerm" placeholder="Buscar">
 			<button type="submit">Buscar</button>
-		  </form> 
-		  <a href="listado.html">
+		</form>
+		<a href="listado.html">
 			<span id="carrito-count"></span>
 			Listado
-		  </a>
+		</a>
 	</nav>
 </header>
 
 <main>
 	<h2>Resultados de búsqueda:</h2>
 	<div id="results"></div>
-  </main>
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="JS/app.js"></script>
+</main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="JS/app.js"></script>
 </body>
 
 </html>
