@@ -1,5 +1,30 @@
-console.log("Esto funciona")
+console.log("Esto funciona") 
 
+function changeListado(index, data) {
+  // Cambiar el valor de "listado" a "true" en los datos locales
+  data[index].listado = true;
+
+  // Crear una solicitud PUT utilizando Ajax
+  const xhr = new XMLHttpRequest();
+  xhr.open('PUT', 'url_del_servidor/data.json', true);
+  xhr.setRequestHeader('Content-Type', 'application/json');
+
+  // Enviar los datos actualizados al servidor
+  xhr.send(JSON.stringify(data));
+
+  // Manejar la respuesta del servidor (opcional)
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      // La solicitud se completó con éxito
+      console.log('Los datos se han actualizado en el servidor.');
+    } else {
+      // Ocurrió un error durante la solicitud
+      console.error('No se pudo actualizar los datos en el servidor.');
+    }
+  };
+}
+
+let data;
 // Obtener la categoría de la página actual
 let categoryName = '';
 const currentPath = window.location.pathname;
@@ -52,7 +77,7 @@ fetch('json/data.json')
     <div class="box" id="box-${index}" style="background-image: url(${item.poster})">
       ${item.nombre}
       <div class="overlay">
-      <button onclick="changeListado(${index})">Agregar al listado</button>
+      <button onclick="changeListado(${index}, data)">Agregar al listado</button>
       </div>
     </div>
   `).join('');
@@ -73,29 +98,6 @@ fetch('json/data.json')
       container.appendChild(row);
     }
 
-    function changeListado(index) {
-      // Cambiar el valor de "listado" a "true" en los datos locales
-      data[index].listado = true;
-    
-      // Crear una solicitud PUT utilizando Ajax
-      const xhr = new XMLHttpRequest();
-      xhr.open('PUT', 'url_del_servidor/data.json', true);
-      xhr.setRequestHeader('Content-Type', 'application/json');
-    
-      // Enviar los datos actualizados al servidor
-      xhr.send(JSON.stringify(data));
-    
-      // Manejar la respuesta del servidor (opcional)
-      xhr.onreadystatechange = function() {
-        if (xhr.readyState === 4 && xhr.status === 200) {
-          // La solicitud se completó con éxito
-          console.log('Los datos se han actualizado en el servidor.');
-        } else {
-          // Ocurrió un error durante la solicitud
-          console.error('No se pudo actualizar los datos en el servidor.');
-        }
-      };
-    }
     
   });
 
