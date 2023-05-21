@@ -142,23 +142,91 @@ $(document).ready(function() {
 });
 
 //LISTADO
-// Obtén una referencia a los elementos 'box' que contienen las películas
-const peliculaBoxes = document.getElementsByClassName('box');
+$.ajax({
+  url: 'json/data.json', // Ajusta la URL según la ubicación de tu archivo JSON
+  dataType: 'json',
+  success: function(data) {
+    // Aquí puedes acceder a los datos de las películas en la variable 'data'
+    categoryItems = data; // Asigna los datos a la variable 'categoryItems'
+  },
+  error: function() {
+    alert('Error al cargar los datos de las películas.');
+  }
+});
 
-// Recorre cada elemento 'box' y asigna el evento de clic al botón correspondiente
-Array.from(peliculaBoxes).forEach((box, index) => {
-  const botonAgregar = box.querySelector('.button1');
-  
-  // Agrega el evento de clic al botón 'Agregar al listado'
-  botonAgregar.addEventListener('click', () => {
-    // Accede a los datos de la película
-    const nombrePelicula = box.textContent.trim();
-    const urlImagenPelicula = box.style.backgroundImage.slice(5, -2);
+
+$(document).ready(function() {
+  // Crear una lista para almacenar las películas agregadas
+  var peliculasAgregadas = [];
+
+  // Agrega el evento click a los botones "Agregar al listado"
+  $(document).on('click', '.btn.btn-light', function() {
+    // Obtener el índice del elemento clickeado
+    var index = $(this).closest('.box').attr('id').split('-')[1];
     
-    // Guarda los datos en la consola
-    console.log('Nombre de la película:', nombrePelicula);
-    console.log('URL de la imagen:', urlImagenPelicula);
+    // Obtener los datos de la película seleccionada
+    var pelicula = categoryItems[index];
     
-    // Aquí puedes agregar el código para guardar los datos en alguna estructura de datos o enviarlos a 'listado.html'
+    // Agregar la película a la lista de películas agregadas
+    peliculasAgregadas.push(pelicula);
+
+    // Actualizar el contenido de los contenedores de películas
+    actualizarContenedorPeliculas();
+
+    // Realizar la llamada AJAX para guardar los datos
+    $.ajax({
+      url: 'guardar_datos.php', // Cambia 'guardar_datos.php' por la URL correcta para guardar los datos en tu servidor
+      type: 'POST',
+      data: pelicula,
+      success: function(response) {
+        // Comprobar si la respuesta es exitosa
+        if (response === 'success') {
+          alert('Película agregada al listado.');
+        } else {
+          alert('Error al guardar los datos.');
+        }
+      },
+      error: function() {
+        alert('Error en la llamada AJAX.');
+      }
+    });
   });
+
+  // Función para actualizar el contenido de los contenedores de películas
+  function actualizarContenedorPeliculas() {
+    var contenedorPeliculas = $('#peliculas-agregadas');
+    var contenedorNoPeliculas = $('#no-peliculas-agregadas');
+
+    // Verificar si hay películas agregadas
+    if (peliculasAgregadas.length > 0) {
+      // Limpiar el contenido del contenedor de películas
+      contenedorPeliculas.empty();
+
+      // Generar los elementos HTML para las películas agregadas
+      var peliculasHtml = peliculasAgregadas.map(function(pelicula, index) {
+        return `
+          <div class="box" id="box-${index}" style="background-image: url(${pelicula.poster})">
+            ${pelicula.nombre}
+            <div class="overlay">
+              <button class="btn btn-light">
+                Agregar al listado
+              </button>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // Agregar los elementos HTML al contenedor de películas
+      contenedorPeliculas.html(`<div class="row">${peliculasHtml}</div>`);
+
+      // Ocultar el contenedor de "no hay películas agregadas" si está visible
+      contenedorNoPeliculas.hide();
+    } else {
+      // No hay películas agregadas, mostrar el mensaje correspondiente
+      contenedorNoPeliculas.show();
+
+      // Limpiar el contenido del contenedor de películas
+      contenedorPeliculas.empty();
+    }
+  }
 });
