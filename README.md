@@ -8,6 +8,6 @@ Queda programar 4 funciones:
 3-Exportar el listado
 4-Ordenar resultados (por fecha y nombre)
 
-nota: tengo que cambiar 5 posters que en console.log me marca por derechos de uso
+nota: tengo que cambiar posters que en console.log me marca por derechos de uso
 
 Deploy: https://wb-100-coder-house-saezjuantomas.vercel.app/index.html
