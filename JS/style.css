@@ -2,18 +2,18 @@ body {
 	margin: 15;
 	padding: 0;
 	font-family: sans-serif;
-}  
-  
+}
+
 
 .navbar {
 	display: flex;
 	align-items: center;
-  }
-  
-  .navbar a {
+}
+
+.navbar a {
 	margin-right: 10px;
-  }
-  
+}
+
 
 header {
 	background-color: #f7f7f7;
@@ -43,12 +43,12 @@ nav a:hover {
 
 .navbar-left {
 	flex-grow: 1;
-  }
-  
-  .navbar-right {
+}
+
+.navbar-right {
 	display: flex;
 	gap: 10px;
-  }
+}
 
 nav form {
 	display: flex;
@@ -71,20 +71,24 @@ nav button[type="submit"] {
 }
 
 .indexcontainer {
-	display: grid; /* Cambiamos display a grid */
-	grid-template-columns: repeat(2, calc(50% - 20px)); /* Establecemos 2 columnas con un ancho del 50% menos el margen */
-	grid-gap: 20px; /* Aumentamos el espacio entre las cajas */
+	display: grid;
+	/* Cambiamos display a grid */
+	grid-template-columns: repeat(2, calc(50% - 20px));
+	/* Establecemos 2 columnas con un ancho del 50% menos el margen */
+	grid-gap: 20px;
+	/* Aumentamos el espacio entre las cajas */
 	align-items: center;
 	text-align: center;
 	height: 1000px;
 	background-color: #f7f7f7;
 	padding: 0px;
-	margin: 5px auto; /* Centramos el contenedor horizontalmente */
+	margin: 5px auto;
+	/* Centramos el contenedor horizontalmente */
 }
 
 .indexbg {
 	background-color: #f7f7f7;
-}  
+}
 
 .indexbox {
 	background-size: cover;
@@ -93,7 +97,8 @@ nav button[type="submit"] {
 	display: grid;
 	height: 400px;
 	width: 100%;
-	margin: 0; /* Eliminamos el margen */
+	margin: 0;
+	/* Eliminamos el margen */
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -103,7 +108,7 @@ nav button[type="submit"] {
 	transition: transform 0.2s ease-in-out;
 }
 
-  
+
 
 .indexbox:hover {
 	transform: scale(0.95);
@@ -174,7 +179,7 @@ nav button[type="submit"] {
 
 .grid-container {
 	display: grid;
-	
+
 	grid-gap: 20px;
 	margin: 20px;
 }
@@ -188,14 +193,15 @@ nav button[type="submit"] {
 	border: 1px solid #ccc;
 }
 
-.box{
+.box {
 	background-size: cover;
 	background-position: center center;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	display: flex;
 	height: 550px;
 	width: 100%;
-	margin: 0; /* Eliminamos el margen */
+	margin: 0;
+	/* Eliminamos el margen */
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -234,15 +240,15 @@ nav button[type="submit"] {
 .cart-icon {
 	position: relative;
 	cursor: pointer;
-  }
-  
-  .cart-box {
+}
+
+.cart-box {
 	width: 30px;
 	height: 30px;
 	border: 2px solid green;
-  }
-  
-  .cart-count {
+}
+
+.cart-count {
 	position: absolute;
 	top: -10px;
 	right: -10px;
@@ -250,44 +256,44 @@ nav button[type="submit"] {
 	color: white;
 	padding: 5px;
 	border-radius: 50%;
-  }
-  
-  .cart-list {
+}
+
+.cart-list {
 	display: none;
 	position: absolute;
 	top: 100%;
 	right: 0;
 	background-color: white;
 	border: 1px solid black;
-  }
-  
-  .cart-list ul {
+}
+
+.cart-list ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-  }
-  
-  .cart-list li {
+}
+
+.cart-list li {
 	padding: 5px;
-  }
-  
-  .empty-cart {
+}
+
+.empty-cart {
 	display: none;
 	padding: 5px;
-  }
-  
-  .box {
+}
+
+.box {
 	width: 30%;
 	margin: 10px;
 	display: inline-block;
 	vertical-align: top;
-  }
-  
-  .row {
+}
+
+.row {
 	text-align: center;
-  }
-  
-  h2 {
-	color: #fff; /* Establece el color del texto a blanco */
-  }
-  
+}
+
+h2 {
+	color: #fff;
+	/* Establece el color del texto a blanco */
+}

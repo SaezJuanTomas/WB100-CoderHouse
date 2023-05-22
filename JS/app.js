@@ -1,4 +1,4 @@
-console.log("Esto funciona") 
+console.log("Esto funciona")
 
 function changeListado(id, data) {
   // Verificar si la película ya está en la lista
@@ -89,11 +89,11 @@ fetch('json/data.json')
     } else if (categoryName === 'proximamente') {
       const currentYear = new Date().getFullYear();
       categoryItems = data.filter(item => parseInt(item.año) >= currentYear);
-    
+
     } else if (categoryName === 'listado') {
       categoryItems = data.filter(item => item.listado === true);
 
-    } 
+    }
 
     const categoryHtml = categoryItems.map((item, index) => `
     <div class="box" data-id="${item.id}" style="background-image: url(${item.poster})">
@@ -122,10 +122,10 @@ fetch('json/data.json')
 
   });
 
-  const formulario = document.querySelector('form');
+const formulario = document.querySelector('form');
 const contenedorResultados = document.querySelector('#peliculas-encontradas');
 
-formulario.addEventListener('submit', function(evento) {
+formulario.addEventListener('submit', function (evento) {
   evento.preventDefault();
   const criterioBusqueda = this.querySelector('input').value;
   fetch('json/data.json')
@@ -151,13 +151,13 @@ formulario.addEventListener('submit', function(evento) {
 
 
 //SEARCH
-$('form').submit(function(event) {
+$('form').submit(function (event) {
   event.preventDefault(); // detener el comportamiento predeterminado del formulario
   const searchTerm = $('input[name="searchTerm"]').val(); // obtener el término de búsqueda
   window.location.href = `search.html?searchTerm=${searchTerm}`; // redirigir a la página de resultados
 });
 
-$(document).ready(function() {
+$(document).ready(function () {
   // Obtén el término de búsqueda de la URL
   const searchParams = new URLSearchParams(window.location.search);
   const searchTerm = searchParams.get('searchTerm');
@@ -167,9 +167,9 @@ $(document).ready(function() {
     $.ajax({
       url: '/json/data.json',
       dataType: 'json',
-      success: function(data) {
+      success: function (data) {
         // Filtra los resultados para encontrar películas que coincidan con el término de búsqueda
-        const results = data.filter(function(movie) {
+        const results = data.filter(function (movie) {
           return movie.nombre.toLowerCase().includes(searchTerm.toLowerCase()) ||
             movie.director.toLowerCase().includes(searchTerm.toLowerCase()) ||
             movie.año.toString().includes(searchTerm);
@@ -188,7 +188,7 @@ $(document).ready(function() {
         // Agrega los elementos HTML al contenedor de resultados
         $('#results').html(`<div class="row">${categoryHtml}</div>`);
       },
-      error: function() {
+      error: function () {
         alert('Error al cargar los datos.');
       }
     });
