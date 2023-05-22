@@ -88,7 +88,7 @@ fetch('json/data.json')
       categoryItems = data.filter(item => parseInt(item.año) >= currentYear);
     
     } else if (categoryName === 'listado') {
-      categoryItems = data.filter(item => item.listado === "true");
+      categoryItems = data.filter(item => item.listado === true);
 
     } 
 
@@ -136,8 +136,13 @@ formulario.addEventListener('submit', function(evento) {
       console.log(peliculasEncontradas);
 
       const categoryHtml = peliculasEncontradas.map(item => `
-      <div class="box" style="background-image: url(${item.poster})">${item.nombre}</div>
-    `).join('');
+      <div class="box" data-id="${item.id}" style="background-image: url(${item.poster})">
+      ${item.nombre}
+      <div class="overlay">
+      <button onclick="changeListado(${item.id}, data)">Agregar al listado</button>
+      </div>
+    </div>
+      `).join('');
     })
 });
 
@@ -186,3 +191,52 @@ $(document).ready(function() {
     });
   }
 });
+
+
+//BOTONES LISTADO
+function vaciar() {
+  Swal.fire({
+    title: 'Seguro que quiere vaciar el listado?',
+    text: "No se podra revertir",
+    icon: 'warning',
+    showCancelButton: true,
+    confirmButtonColor: '#3085d6',
+    cancelButtonColor: '#d33',
+    confirmButtonText: 'SI'
+  }).then((result) => {
+    if (result.isConfirmed) {
+      Swal.fire(
+        'Eliminado',
+      );
+    }
+  });
+}
+
+
+function exportar() {
+  Swal.fire({
+    title: 'Ingrese dirección de mail',
+    input: 'email',
+    inputPlaceholder: 'direccion@mail.com',
+    confirmButtonText: 'Enviar',
+    showLoaderOnConfirm: true,
+    preConfirm: (email) => {
+      if (email) {
+        return email;
+      } else {
+        Swal.showValidationMessage('Ingresar dirección valida');
+        return false;
+      }
+    }
+  }).then((result) => {
+    if (result.isConfirmed) {
+      const email = result.value;
+      Swal.fire(`Se va a mandar el listado a: ${email}`);
+      // Aquí puedes realizar la lógica adicional para exportar con el correo electrónico
+      console.log(`Correo electrónico ingresado: ${email}`);
+    }
+  });
+}
+
+
+
