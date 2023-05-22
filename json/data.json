@@ -6,16 +6,18 @@
         "genero": "Fantasia",
         "rating": 93,
         "poster": "https://pics.filmaffinity.com/Hora_de_aventura_Serie_de_TV-507797147-large.jpg",
-        "listado": "true"
+        "listado": "true",
+        "id":1
     },
     {
         "nombre": "Flash",
-        "año": 2023,
+        "año": "2023",
         "director": "Andy Muschietti",
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://notify.com.ar/gamba/wp-content/uploads/sites/6/2023/04/poster.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":2
     },
     {
         "nombre": "Steven Universe",
@@ -24,7 +26,8 @@
         "genero": "Fantasia",
         "rating": 97,
         "poster": "https://es.web.img2.acsta.net/pictures/14/03/13/17/07/321235.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":3
     },
     {
         "nombre": "Steven Universe la Película",
@@ -33,7 +36,8 @@
         "genero": "Fantasia",
         "rating": 97,
         "poster": "https://m.media-amazon.com/images/M/MV5BOWUyNDJiNzMtYTFmOS00YmUxLTg2NGQtM2Q5MDEyOWQ0YmRiXkEyXkFqcGdeQXVyMTA0MTg4Njg4._V1_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":4
     },
     {
         "nombre": "Infinity Train",
@@ -42,7 +46,8 @@
         "genero": "Fantasia",
         "rating": 96,
         "poster": "https://m.media-amazon.com/images/M/MV5BODMyNGMxZGEtY2RiZS00YTViLWIzYTctMmFhZDNmZTIyMTczXkEyXkFqcGdeQXVyOTk3NjY3NTM@._V1_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":5
     },
     {
         "nombre": "Barbie",
@@ -51,7 +56,8 @@
         "genero": "Fantasia",
         "rating": 0,
         "poster": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/A33MP7GUTJC4TI5D7R4J2ZWNSU.jpeg",
-        "listado": "false"
+        "listado": "false",
+        "id":6
     },
     {
         "nombre": "Blue Beetle",
@@ -60,7 +66,8 @@
         "genero": "DCEU",
         "rating": 0,
         "poster": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2022/12/blue-beetle-2891370.jpg?itok=xBN-QRv1",
-        "listado": "false"
+        "listado": "false",
+        "id":7
     },
     {
         "nombre": "Wonka",
@@ -69,7 +76,8 @@
         "genero": "Fantasia",
         "rating": 0,
         "poster": "https://www.themoviedb.org/t/p/w500/heynsw1ZcTTxkxZpO1nR8wJv4jh.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":8
     },
     {
         "nombre": "Harry Potter y la piedra filosofal",
@@ -78,7 +86,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://media.harrypotterfanzone.com/philosophers-stone-wizarding-world-poster.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":9
     },
     {
         "nombre": "Harry Potter y la cámara secreta",
@@ -87,7 +96,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://media.harrypotterfanzone.com/chamber-of-secrets-wizarding-world-poster.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":10
     },
     {
         "nombre": "Harry Potter y el prisionero de Azkaban",
@@ -96,7 +106,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://media.harrypotterfanzone.com/prisoner-of-azkaban-wizarding-world-poster.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":11
     },
     {
         "nombre": "Harry Potter y el cáliz de fuego",
@@ -105,7 +116,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://media.harrypotterfanzone.com/goblet-of-fire-wizarding-world-poster.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":12
     },
     {
         "nombre": "Harry Potter y la Orden del Fénix",
@@ -114,7 +126,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://media.harrypotterfanzone.com/order-of-the-phoenix-wizarding-world-poster.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":13
     },
     {
         "nombre": "Harry Potter y el misterio del príncipe",
@@ -123,7 +136,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://media.harrypotterfanzone.com/half-blood-prince-wizarding-world-poster.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":14
     },
     {
         "nombre": "Harry Potter y las reliquias de la muerte parte 1",
@@ -132,7 +146,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://media.harrypotterfanzone.com/deathly-hallows-part-1-wizarding-world-poster.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":15
     },
     {
         "nombre": "Harry Potter y las reliquias de la muerte parte 2",
@@ -141,7 +156,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://media.harrypotterfanzone.com/deathly-hallows-part-2-wizarding-world-poster.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":16
     },
     {
         "nombre": "Animales fantasticos y donde encontrarlos",
@@ -150,7 +166,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/I/71IJprrGokL._AC_UF894,1000_QL80_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":17
     },
     {
         "nombre": "Animales fantasticos: Los crimenes de Grindelwald",
@@ -159,7 +176,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://i5.walmartimages.com/asr/0034ae2f-de54-4e9c-909b-10166bab9fba_1.5c48b7824d7c05c73ef5524554e0e577.jpeg",
-        "listado": "false"
+        "listado": "false",
+        "id":18
     },
     {
         "nombre": "Animales fantasticos: Los secretos de Dumbledore",
@@ -168,7 +186,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/I/71RTJdcWgoL._AC_SY679_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":19
     },
     {
         "nombre": "El señor de los anillos: La comunidad del anillo",
@@ -177,7 +196,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/I/71TZ8BmoZqL.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":20
     },
     {
         "nombre": "El señor de los anillos: Las dos torres",
@@ -186,7 +206,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://cdn.shopify.com/s/files/1/1057/4964/products/The-Lord-of-the-Rings-The-Two-Towers-Vintage-Movie-Poster-Original-1-Sheet-27x41_e5e045cb-d082-4c27-8a54-24563bc9d3b4_300x@2x.jpg?v=1663223737",
-        "listado": "false"
+        "listado": "false",
+        "id":21
     },
     {
         "nombre": "El señor de los anillos: El retorno del rey",
@@ -195,7 +216,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://cdn.shopify.com/s/files/1/1057/4964/products/The-Lord-of-the-Rings-The-Return-of-the-King-Vintage-Movie-Poster-Original-1-Sheet-27x41.jpg?v=1665735682",
-        "listado": "false"
+        "listado": "false",
+        "id":22
     },
     {
         "nombre": "El hobbit: Un viaje inesperado",
@@ -204,7 +226,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2012%2F07%2Fhobbit-poster.jpg&q=60",
-        "listado": "false"
+        "listado": "false",
+        "id":23
     },
     {
         "nombre": "El hobbit: La desolacion de Smaug",
@@ -213,7 +236,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/I/510aF0WVSRL._AC_UF894,1000_QL80_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":24
     },
     {
         "nombre": "El hobbit: La batalla de los cinco ejercitos",
@@ -222,7 +246,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://i.ebayimg.com/images/g/0EAAAOSwc3ZUoZ2d/s-l500.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":25
     },
     {
         "nombre": "Juego de tronos",
@@ -231,7 +256,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/I/615ufemMkgL._AC_UF894,1000_QL80_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":26
     },
     {
         "nombre": "La casa del dragon",
@@ -240,7 +266,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://mr.comingsoon.it/imgdb/serietv/serie/3085/3085.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":27
     },
     {
         "nombre": "La materia oscura",
@@ -249,7 +276,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://de10.com.mx/sites/default/files/styles/imagen_body/public/2021/05/21/his_dark_materials_1.jpg?itok=ObxYSt8C",
-        "listado": "false"
+        "listado": "false",
+        "id":28
     },
     {
         "nombre": "Más alla del jardin",
@@ -258,7 +286,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/M/MV5BYzhjNzI0NWEtMzEyYy00OGViLThhMjctMWQxNGQ3Y2IzOTY4XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":29
     },
     {
         "nombre": "Aquaman: El Reino Perdido",
@@ -267,7 +296,8 @@
         "genero": "DCEU",
         "rating": 0,
         "poster": "https://i.blogs.es/36305a/captura-de-pantalla-2022-09-06-a-las-13.08.10/450_1000.jpeg",
-        "listado": "false"
+        "listado": "false",
+        "id":30
     },
     {
         "nombre": "Godzilla x Kong",
@@ -276,7 +306,8 @@
         "genero": "Ciencia ficción",
         "rating": 90,
         "poster": "https://i.pinimg.com/550x/7a/ac/9a/7aac9a15325c142f2dd75c0b05a95b46.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":31
     },
     {
         "nombre": "Superman Legacy",
@@ -285,7 +316,8 @@
         "genero": "DCEU",
         "rating": 0,
         "poster": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/4X2T5XYG55CWJA5R5GBPITXFFM.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":32
     },
     {
         "nombre": "Beetlejuice",
@@ -294,7 +326,8 @@
         "genero": "Fantasia",
         "rating": 95,
         "poster": "https://http2.mlstatic.com/D_NQ_NP_862386-MLA26404865031_112017-O.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":33
     },
     {
         "nombre": "Sherlock Holmes",
@@ -303,7 +336,8 @@
         "genero": "Fantasia",
         "rating": 85,
         "poster": "https://m.media-amazon.com/images/M/MV5BMTg0NjEwNjUxM15BMl5BanBnXkFtZTcwMzk0MjQ5Mg@@._V1_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":34
     },
     {
         "nombre": "Sherlock Holmes: Juego de sombras",
@@ -312,7 +346,8 @@
         "genero": "Fantasia",
         "rating": 80,
         "poster": "https://collider.com/wp-content/uploads/sherlock-holmes-2-movie-poster-robert-downey-jr-02.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":35
     },
     {
         "nombre": "La película de LEGO",
@@ -321,7 +356,8 @@
         "genero": "Fantasia",
         "rating": 75,
         "poster": "https://www.themoviedb.org/t/p/original/9klB7qKC9aCeGyyM4uU5hSA6xDV.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":36
     },
     {
         "nombre": "La película de LEGO 2",
@@ -330,7 +366,8 @@
         "genero": "Fantasia",
         "rating": 70,
         "poster": "https://amc-theatres-res.cloudinary.com/v1579119721/amc-cdn/production/2/movies/46000/46028/Poster/p_800x1200_AMC_LegoMovie2TheSecondPartThe_07122018.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":37
     },
     {
         "nombre": "La película de LEGO Batman",
@@ -339,7 +376,8 @@
         "genero": "DCEU",
         "rating": 80,
         "poster": "https://m.media-amazon.com/images/I/719CvT+UyBL.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":38
     },
     {
         "nombre": "El exorcista",
@@ -348,7 +386,8 @@
         "genero": "horror",
         "rating": 90,
         "poster": "https://play-lh.googleusercontent.com/qRTJMWuxniESeJDkFLlZ6sgPSA-sIvjOzMLL2hqXhJRXfhF-d23JK93lAHaRxwYGpy0F",
-        "listado": "false"
+        "listado": "false",
+        "id":39
     },
     {
         "nombre": "Maligno",
@@ -357,7 +396,8 @@
         "genero": "horror",
         "rating": 70,
         "poster": "https://www.panteracine.com/wp-content/uploads/2021/09/malignant.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":40
     },
     {
         "nombre": "Christine",
@@ -366,7 +406,8 @@
         "genero": "horror",
         "rating": 75,
         "poster": "https://i.pinimg.com/originals/0b/5d/cf/0b5dcf85aaba42163fa7b728d61eb238.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":41
     },
     {
         "nombre": "Misery",
@@ -375,7 +416,8 @@
         "genero": "horror",
         "rating": 85,
         "poster": "https://m.media-amazon.com/images/I/517I0Wy1y7L._AC_UF894,1000_QL80_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":42
     },
     {
         "nombre": "Lights Out",
@@ -384,7 +426,8 @@
         "genero": "horror",
         "rating": 70,
         "poster": "https://m.media-amazon.com/images/M/MV5BMTg1OTkxNDgyMV5BMl5BanBnXkFtZTgwMjEzNTc0ODE@._V1_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":43
     },
     {
         "nombre": "Cujo",
@@ -393,7 +436,8 @@
         "genero": "horror",
         "rating": 65,
         "poster": "https://i.ebayimg.com/images/g/NogAAOSw81dZqJq0/s-l1600.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":44
     },
     {
         "nombre": "Pesadilla en Elm Street",
@@ -402,7 +446,8 @@
         "genero": "horror",
         "rating": 80,
         "poster": "https://cdn.shopify.com/s/files/1/1057/4964/products/A-Nightmare-On-Elm-Street-Vintage-Movie-Poster-Original-1-Sheet-27x41-7316.jpg?v=1655240435",
-        "listado": "false"
+        "listado": "false",
+        "id":45
     },
     {
         "nombre": "La matanza de Texas",
@@ -411,7 +456,8 @@
         "genero": "horror",
         "rating": 85,
         "poster": "https://64.media.tumblr.com/tumblr_ma7t3uIIqG1rgvhcro1_1280.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":46
     },
     {
         "nombre": "No te preocupes cariño",
@@ -420,7 +466,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://wchsinsight.org/wp-content/uploads/2022/10/IMG_8266-636x900.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":47
     },
     {
         "nombre": "Ready player one",
@@ -429,7 +476,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://www.sobretiza.com.ar/wp-content/uploads/2018/04/ready-player-one-poster.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":48
     },
     {
         "nombre": "Al filo del mañana",
@@ -438,7 +486,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0edd837b-eb3c-42fd-8f32-9a04c89d1619/d6yy77h-cd78d513-0650-4e87-b4ee-158427a4c451.jpg/v1/fill/w_1024,h_1518,q_75,strp/edge_of_tomorrow__hi_res_textless_poster__by_phetvanburton_d6yy77h-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTUxOCIsInBhdGgiOiJcL2ZcLzBlZGQ4MzdiLWViM2MtNDJmZC04ZjMyLTlhMDRjODlkMTYxOVwvZDZ5eTc3aC1jZDc4ZDUxMy0wNjUwLTRlODctYjRlZS0xNTg0MjdhNGM0NTEuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.m5fNP5VqW7BEbWtajkT0YvFWpluYdDS_1T1g-g3ZER4",
-        "listado": "false"
+        "listado": "false",
+        "id":49
     },
     {
         "nombre": "Contagion",
@@ -447,7 +496,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://www.themoviedb.org/t/p/original/qL0IooP0bjXy0KXl9KEyPo22ll0.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":50
     },
     {
         "nombre": "Furiosa",
@@ -456,7 +506,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://posterspy.com/wp-content/uploads/2022/07/Furiosa_Poster.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":51
     },
     {
         "nombre": "Mickey 17",
@@ -465,7 +516,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://images.justwatch.com/poster/301972937/s718/mickey-17.%7Bformat%7D",
-        "listado": "false"
+        "listado": "false",
+        "id":52
     },
     {
         "nombre": "Meg",
@@ -474,7 +526,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://www.themoviedb.org/t/p/original/eyWICPcxOuTcDDDbTMOZawoOn8d.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":53
     },
     {
         "nombre": "Cadaver de la novia",
@@ -483,7 +536,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://www.themoviedb.org/t/p/original/isb2Qow76GpqYmsSyfdMfsYAjts.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":54
     },
     {
         "nombre": "Las brujas",
@@ -492,7 +546,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://palomaynacho.com/wp-content/uploads/2020/10/Las-brujas-2020-poster.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":55
     },
     {
         "nombre": "Tarzan",
@@ -501,7 +556,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://www.the-leaky-cauldron.org/wp-content/uploads/assets/CVzOIJWUAAAEfkb.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":56
     },
     {
         "nombre": "Furia de titanes",
@@ -510,7 +566,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://images.justwatch.com/poster/162204077/s592/furia-de-titanes",
-        "listado": "false"
+        "listado": "false",
+        "id":57
     },
     {
         "nombre": "Pan",
@@ -519,7 +576,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://movieposters2.com/images/1300540-b.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":58
     },
     {
         "nombre": "La guerra de Rohirrim",
@@ -528,7 +586,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://es.web.img3.acsta.net/pictures/21/06/11/09/55/5971700.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":59
     },
     {
         "nombre": "Succession",
@@ -537,7 +596,8 @@
         "genero": "Drama",
         "rating": "100",
         "poster": "https://i0.wp.com/hyperallergic-newspack.s3.amazonaws.com/uploads/2021/12/Succession-Key-Art-1200x1778.jpg?resize=780%2C1156&quality=100&ssl=1",
-        "listado": "false"
+        "listado": "false",
+        "id":60
     },
     {
         "nombre": "Los sopranos",
@@ -546,7 +606,8 @@
         "genero": "Drama",
         "rating": "100",
         "poster": "https://cdn.shopify.com/s/files/1/2356/1293/products/sopranos_ver21_xxlg_800x.jpg?v=1642762887",
-        "listado": "false"
+        "listado": "false",
+        "id":61
     },
     {
         "nombre": "The wire",
@@ -555,7 +616,8 @@
         "genero": "Drama",
         "rating": "100",
         "poster": "https://i.ebayimg.com/images/g/yYwAAOSwML9i7Guh/s-l500.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":62
     },
     {
         "nombre": "True detective",
@@ -564,7 +626,8 @@
         "genero": "Drama",
         "rating": "100",
         "poster": "https://pics.filmaffinity.com/True_Detective_III_Miniserie_de_TV-257181940-large.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":63
     },
     {
         "nombre": "The white lotus",
@@ -573,7 +636,8 @@
         "genero": "Drama",
         "rating": "100",
         "poster": "https://1.bp.blogspot.com/-DcZ0SUBHspY/YNQ38BDqPYI/AAAAAAABV6I/qjlq5EqOkdYOPuIeE0rju9pRX_OOjvVVQCLcBGAsYHQ/s640/white_lotus-poster-agua.jpeg",
-        "listado": "false"
+        "listado": "false",
+        "id":64
     },
     {
         "nombre": "Big little lies",
@@ -582,7 +646,8 @@
         "genero": "Drama",
         "rating": "100",
         "poster": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/poster-big-little-lies-1557598360.jpg?crop=1xw:1xh;center,top&resize=480:*",
-        "listado": "false"
+        "listado": "false",
+        "id":65
     },
     {
         "nombre": "Sharp objects",
@@ -591,7 +656,8 @@
         "genero": "Drama",
         "rating": "100",
         "poster": "https://i0.wp.com/netflixyseries.com/wp-content/uploads/2018/05/Sharp-Objects-01.jpg?fit=450%2C667&ssl=1",
-        "listado": "false"
+        "listado": "false",
+        "id":66
     },
     {
         "nombre": "The undoing",
@@ -600,7 +666,8 @@
         "genero": "Drama",
         "rating": "100",
         "poster": "https://www.kibit.cl/wp-content/uploads/2020/10/THE-UNDOING-KA-SPANISH-VERSION.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":67
     },
     {
         "nombre": "Mare of easttown",
@@ -609,7 +676,8 @@
         "genero": "Drama",
         "rating": "100",
         "poster": "https://pbs.twimg.com/media/Ex2W_6xVgAAZ3nD.jpg:large",
-        "listado": "false"
+        "listado": "false",
+        "id":68
     },
     {
         "nombre": "Love & death",
@@ -618,7 +686,8 @@
         "genero": "Drama",
         "rating": "100",
         "poster": "https://www.themoviedb.org/t/p/w500/8WchbT0UPQeo3PZ6G01fhccYaQB.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":69
     },
     {
         "nombre": "Barry",
@@ -627,7 +696,8 @@
         "genero": "Drama",
         "rating": "100",
         "poster": "https://www.bolsamania.com/seriesadictos/wp-content/uploads/2019/02/unnamed-1-copy-450x800.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":70
     },
     {
         "nombre": "Watchmen (HBO)",
@@ -636,7 +706,8 @@
         "genero": "DCEU",
         "rating": "100",
         "poster": "https://media.vogue.es/photos/5df8fe0a4f37d9000893f691/2:3/w_2560%2Cc_limit/HBO-Watchmen-Poster-Full.png",
-        "listado": "false"
+        "listado": "false",
+        "id":71
     },
     {
         "nombre": "Euphoria",
@@ -645,7 +716,8 @@
         "genero": "Drama",
         "rating": "100",
         "poster": "https://i.pinimg.com/originals/18/a1/fb/18a1fbe06fdd4b2b32f4f605cb8d6bf9.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":72
     },
     {
         "nombre": "The idol",
@@ -654,7 +726,8 @@
         "genero": "Drama",
         "rating": "100",
         "poster": "https://es.web.img3.acsta.net/pictures/23/04/13/14/13/3061616.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":73
     },
     {
         "nombre": "Veneno",
@@ -663,7 +736,8 @@
         "genero": "Drama",
         "rating": "100",
         "poster": "https://es.web.img3.acsta.net/pictures/20/10/01/17/29/0294406.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":74
     },
     {
         "nombre": "I may destroy you",
@@ -672,7 +746,8 @@
         "genero": "Drama",
         "rating": "100",
         "poster": "https://mx.web.img2.acsta.net/pictures/20/05/11/09/33/4621282.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":75
     },
     {
         "nombre": "Salem's lot",
@@ -681,7 +756,8 @@
         "genero": "horror",
         "rating": 75,
         "poster": "https://i.pinimg.com/originals/b2/39/c6/b239c64a8a4f118d20fbe6e80e4a739b.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":76
     },
     {
         "nombre": "Salem's lot (2023)",
@@ -690,7 +766,8 @@
         "genero": "horror",
         "rating": 75,
         "poster": "https://posterspy.com/wp-content/uploads/2022/03/salems-lot-twitter.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":77
     },
     {
         "nombre": "Argo",
@@ -699,7 +776,8 @@
         "genero": "Drama",
         "rating": 85,
         "poster": "https://ih1.redbubble.net/image.3661819579.3836/flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":78
     },
     {
         "nombre": "Judas y el mesías negro",
@@ -708,7 +786,8 @@
         "genero": "Drama",
         "rating": 90,
         "poster": "https://www.themoviedb.org/t/p/original/iIgr75GoqFxe1X5Wz9siOODGe9u.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":79
     },
     {
         "nombre": "Rey Richard",
@@ -717,7 +796,8 @@
         "genero": "Drama",
         "rating": 80,
         "poster": "https://www.themoviedb.org/t/p/original/x00vke4nfZahwSKoSyfJlDwveTi.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":80
     },
     {
         "nombre": "Aviador",
@@ -726,7 +806,8 @@
         "genero": "Drama",
         "rating": 85,
         "poster": "https://i.pinimg.com/originals/bc/7a/12/bc7a1202dfe4450d7f09d346c0a868ba.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":81
     },
     {
         "nombre": "Nace una estrella (1937)",
@@ -735,7 +816,8 @@
         "genero": "Drama",
         "rating": 100,
         "poster": "https://upload.wikimedia.org/wikipedia/commons/5/5c/A_Star_Is_Born_%281937_film_poster%29.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":82
     },
     {
         "nombre": "Nace una estrella (1954)",
@@ -744,7 +826,8 @@
         "genero": "Drama",
         "rating": 100,
         "poster": "https://rochester.beyondthenest.com/sites/default/files/a%20star%20is%20born%20poster.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":83
     },
     {
         "nombre": "Nace una estrella (1976)",
@@ -753,7 +836,8 @@
         "genero": "Drama",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/I/71VpD3a63rL._AC_SL1500_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":84
     },
     {
         "nombre": "War dogs",
@@ -762,7 +846,8 @@
         "genero": "Drama",
         "rating": 70,
         "poster": "https://i.pinimg.com/originals/b9/7d/a1/b97da19e4abd4c4af1f9dd26f61aee0b.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":85
     },
     {
         "nombre": "The little things",
@@ -771,7 +856,8 @@
         "genero": "Drama",
         "rating": 70,
         "poster": "https://www.themoviedb.org/t/p/original/tLO1aD1ghdtVMT32z2sRmzgYKYd.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":86
     },
     {
         "nombre": "Rey Arturo",
@@ -780,7 +866,8 @@
         "genero": "Fantasia",
         "rating": 65,
         "poster": "https://www.ecartelera.com/carteles/11300/11344/004.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":87
     },
     {
         "nombre": "El color púrpura",
@@ -789,7 +876,8 @@
         "genero": "Drama",
         "rating": 85,
         "poster": "https://lh3.googleusercontent.com/a2fP0XJPQlnqkMHV5QcBypDZ4nULdv-Z4uIv_hJ4dnl1CtdEWMD2-TnVdYiQP5MDfBcF2C7OCPIjsCmSUWiEc33IuI4rrEmkpHH852cHDelAaPtSS3N7zo-9vOy0W9g4Vg8Zp0a5YdSao4-dc2xVskSySuqIrgch9T3q5NpRP-RIjKV-asMdZ-TFrG8YA3Or5lVa1tPiDtilzb89_-Eln0xycmwUKezkHI3jxduoI_wAzMNdANYgjkvliOJLfKRySd1hHE7Dy9YgGHWO-cO0KIlRgM6GApwP9hj2xblYD2Dxqaj5IJn39OhBEBcLaK6nJEWat-dzBeAekW0LlSPlX8nsEYRhhXQVeD3FwBL48FIWGxqLbnU8eLKl3ZhrdjQEbh77uwsN-s-x7Lffv2mhNdJ37mAIhwCtgdlkXsN_1_2MHg4AEidWJz9mdbJT-DMQMpuHesodzCsv1q3C43YVB425rBlWCNHXc8h7rPAtVZSSo9PYTphEMfbySvxF2A_HOLzmhL3a0Db4FQUMt6fMUxjpXf7Mw2mQzR6NhBEYXCY3Ndv_OhXQ2D6CvHujEc-s3jpeEwcu-4R579JqImBR1j11I7OxRaSK1YI7J-Bd86GFnz5kXA=w413-h583-no",
-        "listado": "false"
+        "listado": "false",
+        "id":88
     },
     {
         "nombre": "No sudden move",
@@ -798,7 +886,8 @@
         "genero": "Crimen",
         "rating": 75,
         "poster": "https://www.funcinema.com.ar/wp-content/uploads/2021/06/ni-un-paso-en-falso.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":89
     },
     {
         "nombre": "Kimi",
@@ -807,7 +896,8 @@
         "genero": "Crimen",
         "rating": 75,
         "poster": "https://cineargentinohoy.com.ar/wp-content/uploads/2022/02/KA_KIMI_9x16_DATE_LAT.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":90
     },
     {
         "nombre": "Let them all talk",
@@ -816,7 +906,8 @@
         "genero": "Drama",
         "rating": 70,
         "poster": "https://m.media-amazon.com/images/I/81SqbOIB9rL._RI_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":91
     },
     {
         "nombre": "The goldfinch",
@@ -825,7 +916,8 @@
         "genero": "Drama",
         "rating": 65,
         "poster": "https://www.comingsoon.net/wp-content/uploads/sites/3/gallery/the-goldfinch/goldfinch.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":92
     },
     {
         "nombre": "Cry macho",
@@ -834,7 +926,8 @@
         "genero": "Drama",
         "rating": 75,
         "poster": "https://www.lahiguera.net/cinemania/pelicula/9935/cry_macho-cartel-10033.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":93
     },
     {
         "nombre": "Naranja mecánica",
@@ -843,7 +936,8 @@
         "genero": "Ciencia ficción",
         "rating": 89,
         "poster": "https://www.themoviedb.org/t/p/original/jKeb2dKT6klV8oLbfW0KlaSWp3N.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":94
     },
     {
         "nombre": "Heat",
@@ -852,7 +946,8 @@
         "genero": "Ciencia ficción",
         "rating": 87,
         "poster": "https://i.pinimg.com/736x/da/d8/fc/dad8fc2db1f4d158206d4d94a6ac3957.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":95
     },
     {
         "nombre": "Her",
@@ -861,7 +956,8 @@
         "genero": "Ciencia ficción",
         "rating": 90,
         "poster": "https://i.pinimg.com/originals/cf/13/37/cf133738b0f7fb340763f832d226ff3e.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":96
     },
     {
         "nombre": "Zodiaco",
@@ -870,7 +966,8 @@
         "genero": "Drama",
         "rating": 82,
         "poster": "https://i.pinimg.com/736x/be/53/68/be53688dce7a60bf6032033ae23b707e.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":97
     },
     {
         "nombre": "Dunkerque",
@@ -879,7 +976,8 @@
         "genero": "Drama",
         "rating": 82,
         "poster": "https://i.blogs.es/478712/dunkirk-teaser-poster-nolan/450_1000.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":98
     },
     {
         "nombre": "Charm City Kings",
@@ -888,7 +986,8 @@
         "genero": "Drama",
         "rating": 75,
         "poster": "https://cineplex.cpxstoreimages.com/cineplex?set=imageSize[large550],imageURL[http%3A%2F%2Fcineplex-cdn5.dmlib.com%2Fu%2FAssets%2FCineplex%2FT2797354%2FV1782956%2FA14180743%2Feng%2F800_1200_jpg%2FPrimary_BoxCover_800_1200.jpg]&call=url[file:web/sizing]&sink",
-        "listado": "false"
+        "listado": "false",
+        "id":99
     },
     {
         "nombre": "Sully",
@@ -897,7 +996,8 @@
         "genero": "Drama",
         "rating": 78,
         "poster": "https://i.pinimg.com/originals/fb/78/29/fb7829f58d9090428c0d33b71a0fd08c.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":100
     },
     {
         "nombre": "Focus",
@@ -906,7 +1006,8 @@
         "genero": "Drama",
         "rating": 63,
         "poster": "https://3.bp.blogspot.com/-HnC5pK9qz-8/VQXKxfucuaI/AAAAAAAAHGE/L2W9nxH5-TE/s1600/focus%2Bposter.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":102
     },
     {
         "nombre": "La animatrix",
@@ -915,7 +1016,8 @@
         "genero": "Ciencia ficción",
         "rating": 80,
         "poster": "https://m.media-amazon.com/images/I/51go0wlLWRL._AC_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":103
     },
     {
         "nombre": "Ocean's 8",
@@ -924,7 +1026,8 @@
         "genero": "Drama",
         "rating": 80,
         "poster": "https://criticasdecinesinspoilers.files.wordpress.com/2014/10/oceans1-10fa80f776e4.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":104
     },
     {
         "nombre": "Ocean's 12",
@@ -933,7 +1036,8 @@
         "genero": "Drama",
         "rating": 70,
         "poster": "https://pics.filmaffinity.com/Ocean_s_Twelve-602374088-large.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":105
     },
     {
         "nombre": "Ocean's 13",
@@ -942,7 +1046,8 @@
         "genero": "Drama",
         "rating": 68,
         "poster": "https://i.blogs.es/dc4f7f/oceans_thirteen_ver3/450_1000.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":106
     },
     {
         "nombre": "Ocean's 8",
@@ -951,7 +1056,8 @@
         "genero": "Drama",
         "rating": 65,
         "poster": "https://i0.wp.com/cuatrobastardos.com/wp-content/uploads/2017/12/25311013_1529308870470985_4122520792902062952_o.jpg?resize=1382%2C2048&ssl=1",
-        "listado": "false"
+        "listado": "false",
+        "id":107
     },
     {
         "nombre": "Gravedad",
@@ -960,7 +1066,8 @@
         "genero": "Ciencia ficción",
         "rating": 85,
         "poster": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0edd837b-eb3c-42fd-8f32-9a04c89d1619/d66v6k9-57311757-5dfe-41b7-8abe-ea593d8990a4.jpg/v1/fill/w_1024,h_1513,q_75,strp/gravity__hi_res_textless_poster__by_phetvanburton_d66v6k9-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTUxMyIsInBhdGgiOiJcL2ZcLzBlZGQ4MzdiLWViM2MtNDJmZC04ZjMyLTlhMDRjODlkMTYxOVwvZDY2djZrOS01NzMxMTc1Ny01ZGZlLTQxYjctOGFiZS1lYTU5M2Q4OTkwYTQuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.RaFfin_iS4BxFkUYqwg7_FskqIQHklThcYAHw6CnYyM",
-        "listado": "false"
+        "listado": "false",
+        "id":108
     },
     {
         "nombre": "Casablanca",
@@ -969,7 +1076,8 @@
         "genero": "Drama",
         "rating": 100,
         "poster": "https://http2.mlstatic.com/D_NQ_NP_718506-MLA40518313588_012020-O.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":109
     },
     {
         "nombre": "Creed",
@@ -978,7 +1086,8 @@
         "genero": "Drama",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/I/61rcZZn-HfL._AC_UF894,1000_QL80_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":110
     },
     {
         "nombre": "Creed II",
@@ -987,7 +1096,8 @@
         "genero": "Drama",
         "rating": 100,
         "poster": "https://cineseriesaccion.files.wordpress.com/2018/09/nuevo-trailer-y-poster-de-creed-ii-original.jpg?w=748",
-        "listado": "false"
+        "listado": "false",
+        "id":111
     },
     {
         "nombre": "Creed III",
@@ -996,7 +1106,8 @@
         "genero": "Drama",
         "rating": 100,
         "poster": "https://pxb.cdn.ciudadano.news/ciudadano/102022/1666044124009/XT4NJVUBQRBKXPZEOQN4MWZNFA.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":112
     },
     {
         "nombre": "Nace una estrella",
@@ -1005,7 +1116,8 @@
         "genero": "Drama",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/M/MV5BNmE5ZmE3OGItNTdlNC00YmMxLWEzNjctYzAwOGQ5ODg0OTI0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":113
     },
     {
         "nombre": "Elvis",
@@ -1014,7 +1126,8 @@
         "genero": "Biografía",
         "rating": 100,
         "poster": "https://preview.redd.it/zuhw41v372091.jpg?width=640&crop=smart&auto=webp&s=28f3758f2d008c9b79e61208f383e74c08f4bead",
-        "listado": "false"
+        "listado": "false",
+        "id":114
     },
     {
         "nombre": "El Gran Gatsby",
@@ -1023,7 +1136,8 @@
         "genero": "Drama",
         "rating": 100,
         "poster": "https://www.slantmagazine.com/wp-content/uploads/2013/04/film_posterlabgreatgatsby_14.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":115
     },
     {
         "nombre": "El mago de oz",
@@ -1032,7 +1146,8 @@
         "genero": "Fantasia",
         "rating": 100,
         "poster": "https://i.pinimg.com/736x/9c/4a/4d/9c4a4dcdfc3989937eb35ded5b54029a.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":116
     },
     {
         "nombre": "Godzilla",
@@ -1041,7 +1156,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://www.comingsoon.net/wp-content/uploads/sites/3/2014/03/file_740151_hr_Godzilla_21.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":117
     },
     {
         "nombre": "Kong",
@@ -1050,7 +1166,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/11/kong-skull-island-poster.jpg?itok=GWifKsrf",
-        "listado": "false"
+        "listado": "false",
+        "id":118
     },
     {
         "nombre": "Godzilla rey de los monstruos",
@@ -1059,7 +1176,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://www.funcinema.com.ar/wp-content/uploads/2018/12/godzilla_2.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":119
     },
     {
         "nombre": "Godzilla vs Kong",
@@ -1068,7 +1186,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/godzilla-vs-kong-poster-fotogramas-1611267098.jpeg?resize=480:*",
-        "listado": "false"
+        "listado": "false",
+        "id":120
     },
     {
         "nombre": "Memento",
@@ -1077,7 +1196,8 @@
         "genero": "Drama",
         "rating": 100,
         "poster": "https://http2.mlstatic.com/D_NQ_NP_640875-MLA43656739025_102020-O.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":121
     },
     {
         "nombre": "El origen (Inception)",
@@ -1086,7 +1206,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://1.bp.blogspot.com/_2rsi6gSyIw8/S9mjx1PSX1I/AAAAAAAAHH0/yprbxaQb498/s1600/inception.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":122
     },
     {
         "nombre": "Interestelar (Interstellar)",
@@ -1095,7 +1216,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://culturageek.com.ar/wp-content/uploads/2014/09/interstellar_cultura-geek2.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":123
     },
     {
         "nombre": "Tenet",
@@ -1104,7 +1226,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://cdn.moviefone.com/image-assets/577922/k68nPLbIST6NP96JmTxmZijEvCA.jpg?d=360x540&q=60",
-        "listado": "false"
+        "listado": "false",
+        "id":124
     },
     {
         "nombre": "Westworld",
@@ -1113,7 +1236,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/westworldposters3main-1581694808.jpg?resize=480:*",
-        "listado": "false"
+        "listado": "false",
+        "id":125
     },
     {
         "nombre": "Raised by wolves",
@@ -1122,7 +1246,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://i0.wp.com/cuatrobastardos.com/wp-content/uploads/2020/08/raised-by-wolves-poster.jpg?resize=800%2C1185&ssl=1",
-        "listado": "false"
+        "listado": "false",
+        "id":126
     },
     {
         "nombre": "The Last of Us",
@@ -1131,7 +1256,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/ILPHUU4CWBCNDNPG4EVLMFBW3Y.jfif",
-        "listado": "false"
+        "listado": "false",
+        "id":127
     },
     {
         "nombre": "Chernobyl",
@@ -1140,7 +1266,8 @@
         "genero": "Drama",
         "rating": 100,
         "poster": "https://es.web.img2.acsta.net/r_1280_720/pictures/19/04/29/08/21/1692162.jpg?coixp=45&coiyp=73",
-        "listado": "false"
+        "listado": "false",
+        "id":128
     },
     {
         "nombre": "Duna parte 1",
@@ -1149,7 +1276,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://assets-prd.ignimgs.com/2021/08/09/dune-insta-vert-main-dom-1638x2048-1628522913715.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":129
     },
     {
         "nombre": "Duna parte 2",
@@ -1158,7 +1286,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/M/MV5BYjFkM2RhZjUtN2U0MC00NTMxLTk1MjktZDkwNjg3MjI0NmYxXkEyXkFqcGdeQXVyNTA3MTU2MjE@._V1_FMjpg_UX1000_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":130
     },
     {
         "nombre": "Duna la hermandad",
@@ -1167,7 +1296,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/11/Dune-The-Sisterhood-Poster.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":131
     },
     {
         "nombre": "Blade Runner",
@@ -1176,7 +1306,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://http2.mlstatic.com/D_NQ_NP_882964-MLA40512815145_012020-O.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":132
     },
     {
         "nombre": "Blade Runner 2049",
@@ -1185,7 +1316,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://http2.mlstatic.com/D_NQ_NP_867664-MLA54339495207_032023-O.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":133
     },
     {
         "nombre": "Blade Runner white lotus",
@@ -1194,7 +1326,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://as01.epimg.net/meristation/imagenes/2021/07/27/noticias/1627377219_981353_1627377294_sumario_normal.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":134
     },
     {
         "nombre": "Matrix",
@@ -1203,7 +1336,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://http2.mlstatic.com/D_NQ_NP_697021-MLA27860565072_072018-O.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":135
     },
     {
         "nombre": "Matrix recargado",
@@ -1212,7 +1346,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/I/41DQOPG+boL._AC_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":136
     },
     {
         "nombre": "Matrix revoluciones",
@@ -1221,7 +1356,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://i.pinimg.com/originals/45/68/84/456884018019425dd45dd5f822274ca2.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":137
     },
     {
         "nombre": "Matrix resurrecciones",
@@ -1230,7 +1366,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://http2.mlstatic.com/D_NQ_NP_813941-MLA52267490434_112022-O.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":138
     },
     {
         "nombre": "Mad Max: Fury Road",
@@ -1239,7 +1376,8 @@
         "genero": "Ciencia ficción",
         "rating": 100,
         "poster": "https://http2.mlstatic.com/D_NQ_NP_617866-MLA40633072144_022020-O.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":139
     },
     {
         "nombre": "Lovecraft Country",
@@ -1248,7 +1386,8 @@
         "genero": "horror",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/M/MV5BNDliM2ZhZWMtM2YwMy00NjAzLTk1YmEtODJmZDhhMTIxOGRmXkEyXkFqcGdeQXVyNTc4MjczMTM@._V1_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":140
     },
     {
         "nombre": "It capitulo 1",
@@ -1257,7 +1396,8 @@
         "genero": "horror",
         "rating": 100,
         "poster": "https://t4.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/1nq4/image/WD1GxjfXATM2ihDxAygZD65SlY4.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":141
     },
     {
         "nombre": "It capitulo 2",
@@ -1266,7 +1406,8 @@
         "genero": "horror",
         "rating": 100,
         "poster": "https://http2.mlstatic.com/D_NQ_NP_939309-MLA48710231036_122021-W.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":142
     },
     {
         "nombre": "El Conjuro",
@@ -1275,7 +1416,8 @@
         "genero": "horror",
         "rating": 100,
         "poster": "https://i.pinimg.com/originals/b1/7d/78/b17d78ce00a99c9f32d0d286943d8a58.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":143
     },
     {
         "nombre": "El Conjuro 2",
@@ -1284,7 +1426,8 @@
         "genero": "horror",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/I/81+6HO7AnkL._AC_UF894,1000_QL80_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":144
     },
     {
         "nombre": "El Conjuro 3",
@@ -1293,7 +1436,8 @@
         "genero": "horror",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/M/MV5BOWRkOTYzZTQtMzQwNi00NDYwLTk4NjUtN2FjYTI4Y2UzM2RjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":145
     },
     {
         "nombre": "Annabelle",
@@ -1302,7 +1446,8 @@
         "genero": "horror",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/I/614rium+zxL.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":146
     },
     {
         "nombre": "Annabelle creación",
@@ -1311,7 +1456,8 @@
         "genero": "horror",
         "rating": 100,
         "poster": "https://amc-theatres-res.cloudinary.com/image/upload/f_auto,fl_lossy,h_465,q_auto,w_310/v1579120022/amc-cdn/production/2/movies/50600/50647/Poster/p_800x1200_AnnabelleCreattion_En_091917.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":147
     },
     {
         "nombre": "Annabelle vuelve a casa",
@@ -1320,7 +1466,8 @@
         "genero": "horror",
         "rating": 100,
         "poster": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/annabelle-vuelve-casa-poster-1558075914.jpg?crop=1xw:1xh;center,top&resize=480:*",
-        "listado": "false"
+        "listado": "false",
+        "id":148
     },
     {
         "nombre": "La monja",
@@ -1329,7 +1476,8 @@
         "genero": "horror",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/I/41dD6YQmPOL._AC_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":149
     },
     {
         "nombre": "La monja 2",
@@ -1338,7 +1486,8 @@
         "genero": "horror",
         "rating": 100,
         "poster": "https://screenrant.com/wp-content/uploads/2022/12/the-nun-2-movie-poster.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":150
     },
     {
         "nombre": "La maldición de la llorona",
@@ -1347,7 +1496,8 @@
         "genero": "horror",
         "rating": 100,
         "poster": "https://i.ebayimg.com/images/g/YGYAAOSw-45gfV39/s-l1600.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":151
     },
     {
         "nombre": "El resplandor",
@@ -1356,7 +1506,8 @@
         "genero": "horror",
         "rating": 100,
         "poster": "https://www.slashfilm.com/wp/wp-content/images/EGcyUtPWoAEn-0m-700x1051.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":152
     },
     {
         "nombre": "Doctor sueño",
@@ -1365,7 +1516,8 @@
         "genero": "horror",
         "rating": 100,
         "poster": "https://collider.com/wp-content/uploads/2019/10/doctor-sleep-poster-danny-torrance.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":153
     },
     {
         "nombre": "Evil Dead Rise",
@@ -1374,7 +1526,8 @@
         "genero": "horror",
         "rating": 100,
         "poster": "https://sportshub.cbsistatic.com/i/2023/01/03/732d9bb0-00b5-42b0-86c9-87e7928c9f9c/evil-dead-rise-poster-2022.jpg?auto=webp&width=1382&height=2048&crop=0.675:1,smart",
-        "listado": "false"
+        "listado": "false",
+        "id":154
     },
     {
         "nombre": "Wonder woman",
@@ -1383,7 +1536,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://http2.mlstatic.com/D_NQ_NP_983870-MLA29058836567_122018-O.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":155
     },
     {
         "nombre": "Aquaman",
@@ -1392,7 +1546,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://64.media.tumblr.com/a761c8011320f107e194f036004b5cf3/tumblr_pq2bfjCNhT1rgq1rvo1_1280.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":156
     },
     {
         "nombre": "Peacemaker",
@@ -1401,7 +1556,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://preview.redd.it/cgw8h8gzmi381.jpg?auto=webp&s=884a748fba06e9fa7cc3aa728f7afc5a94a548eb",
-        "listado": "false"
+        "listado": "false",
+        "id":157
     },
     {
         "nombre": "El penguino",
@@ -1410,7 +1566,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://pbs.twimg.com/media/FK_wrAgacAApJJc?format=jpg&name=4096x4096",
-        "listado": "false"
+        "listado": "false",
+        "id":158
     },
     {
         "nombre": "Wonder woman 1984",
@@ -1419,7 +1576,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://http2.mlstatic.com/D_NQ_NP_689687-MLA44273180758_122020-O.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":159
     },
     {
         "nombre": "Escuadrón suicida",
@@ -1428,7 +1586,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://www.limitedruns.com/media/cache/9e/52/9e52055d0598fce2d5a180940d10c84a.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":160
     },
     {
         "nombre": "El escuadrón suicida",
@@ -1437,7 +1596,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/M/MV5BOTg1YWFiMjgtOWE0NC00ZTdhLWI3M2UtNjRjMGY0ODkzZWM4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":161
     },
     {
         "nombre": "Shazam!",
@@ -1446,7 +1606,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://images6.fanpop.com/image/photos/43800000/Shazam-2019-Poster-dceu-dc-extended-universe-43814979-300-450.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":162
     },
     {
         "nombre": "Shazam! furia de los dioses",
@@ -1455,7 +1616,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://pbs.twimg.com/media/FpGs39ZXwAIAaim.jpg:large",
-        "listado": "false"
+        "listado": "false",
+        "id":163
     },
     {
         "nombre": "Aves de presa y la fantabulosa emancipación de una Harley Quinn",
@@ -1464,7 +1626,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://pbs.twimg.com/media/EG3BWTuWoAAB8a3.jpg:large",
-        "listado": "false"
+        "listado": "false",
+        "id":164
     },
     {
         "nombre": "Black adam",
@@ -1473,7 +1636,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dddb8beb-7509-4c66-bc59-5e64fc25d614/dfd67tr-45bb34f1-95e6-4464-9b38-d544a8e05504.jpg/v1/fill/w_400,h_623,q_75,strp/black_adam_textless_with_complete_head_by_sachso74_by_sachso74_dfd67tr-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjIzIiwicGF0aCI6IlwvZlwvZGRkYjhiZWItNzUwOS00YzY2LWJjNTktNWU2NGZjMjVkNjE0XC9kZmQ2N3RyLTQ1YmIzNGYxLTk1ZTYtNDQ2NC05YjM4LWQ1NDRhOGUwNTUwNC5qcGciLCJ3aWR0aCI6Ijw9NDAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.DBb013bBxy28Tmk0Zo40SsRQ_V0PPRq4JWmDp-TzasE",
-        "listado": "false"
+        "listado": "false",
+        "id":165
     },
     {
         "nombre": "Joker",
@@ -1482,7 +1646,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://external-preview.redd.it/aZz1aqC2UZJ2GZT--hGAyZbwhHKOSKV8hexPZ2r6S00.jpg?width=640&crop=smart&auto=webp&s=a11145b8d813c30a3ca96ed0f74ace648240343a",
-        "listado": "false"
+        "listado": "false",
+        "id":166
     },
     {
         "nombre": "Joker folie e deux",
@@ -1491,7 +1656,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://i.pinimg.com/550x/2f/3a/af/2f3aaf959372c28c03f65e9dd63e0548.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":167
     },
     {
         "nombre": "Batman parte 2",
@@ -1500,7 +1666,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://external-preview.redd.it/shpsSllBqBhT1VDizcCdtgJyzTOvVVERzxBvM9oy3A0.jpg?width=640&crop=smart&auto=webp&s=56690781876a28615ddb5027579530872eb5760b",
-        "listado": "false"
+        "listado": "false",
+        "id":168
     },
     {
         "nombre": "Batman",
@@ -1509,7 +1676,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://preview.redd.it/8k-textless-japanese-poster-for-the-batman-v0-5fotjjzot7h81.jpg?width=640&crop=smart&auto=webp&s=53de967c5f8dac0883ea50fe50e20b3f787c18e3",
-        "listado": "false"
+        "listado": "false",
+        "id":169
     },
     {
         "nombre": "Superman",
@@ -1518,7 +1686,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://2.bp.blogspot.com/-QCyVjp5hvGY/ULDwFLK2DUI/AAAAAAAACjc/0dHT_rT1NSg/s1600/superman-the-movie-movie-poster-1978-1020466243.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":170
     },
     {
         "nombre": "Superman 2 de Richard Donner",
@@ -1527,7 +1696,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://i.pinimg.com/736x/ed/dd/cc/edddcc4a08a4270e0d67eb6110cc80b9--dc-comics-characters-comic-character.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":171
     },
     {
         "nombre": "Superman regresa",
@@ -1536,7 +1706,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://i.pinimg.com/originals/13/d3/02/13d302839da70710b19985c7fbca6531.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":172
     },
     {
         "nombre": "Batman",
@@ -1545,7 +1716,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://i.pinimg.com/originals/89/64/3c/89643cabda3e7506d96daafe189e69ea.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":173
     },
     {
         "nombre": "Batman regresa",
@@ -1554,7 +1726,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://i.ebayimg.com/images/g/oEEAAOSwXqZbRmN8/s-l1600.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":174
     },
     {
         "nombre": "Batman comienza",
@@ -1563,7 +1736,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://i.ebayimg.com/images/g/aZMAAOSwFe5Xz~uR/s-l500.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":175
     },
     {
         "nombre": "El caballero de la noche",
@@ -1572,7 +1746,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://i.pinimg.com/originals/97/c2/f0/97c2f020ccf48e87fa53f2c21e529d05.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":176
     },
     {
         "nombre": "El caballero de la noche asciende",
@@ -1581,7 +1756,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://static.squarespace.com/static/51b3dc8ee4b051b96ceb10de/51ce6099e4b0d911b4489b79/51ce61cce4b0d911b44a15d3/1338165425027/1000w/darkknightrises-textless1.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":178
     },
     {
         "nombre": "Watchmen",
@@ -1590,7 +1766,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51+D+vfg4eL._AC_.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":179
     },
     {
         "nombre": "Hombre de acero",
@@ -1599,7 +1776,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://preview.redd.it/vwqvhkbbf4q81.png?width=640&crop=smart&auto=webp&s=cbd980024b596a5f9d7882be6f9a5f1c6651596c",
-        "listado": "false"
+        "listado": "false",
+        "id":180
     },
     {
         "nombre": "Batman v Superman",
@@ -1608,7 +1786,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://external-preview.redd.it/ctJJw2caXtnIUIuKB_JPLDrwNsT0S713XRLnf0_tVqA.jpg?width=640&crop=smart&auto=webp&s=b69d99a6c856935fe57615de250f251041cfcf1b",
-        "listado": "false"
+        "listado": "false",
+        "id":181
     },
     {
         "nombre": "La Liga de la Justicia de Zack Snyder",
@@ -1617,7 +1796,8 @@
         "genero": "DCEU",
         "rating": 100,
         "poster": "https://pbs.twimg.com/media/EvfmD9iXMAA6to5.jpg",
-        "listado": "false"
+        "listado": "false",
+        "id":182
     },
     {
     "nombre": "Los nevers",
@@ -1626,7 +1806,8 @@
     "genero": "Fantasia",
     "rating": 100,
     "poster": "https://m.media-amazon.com/images/M/MV5BN2UyNTdhOGEtMzczYS00YzI0LTg0ZGQtODYzYTdmMjcwNjFhXkEyXkFqcGdeQXVyNDI3NjU1NzQ@._V1_.jpg",
-    "listado": "false"
+    "listado": "false",
+    "id":183
     },
     {
     "nombre": "300",
@@ -1635,6 +1816,7 @@
     "genero": "Fantasia",
     "rating": 80,
     "poster": "https://http2.mlstatic.com/D_NQ_NP_708781-MLA41908969856_052020-O.jpg",
-    "listado": "false"
+    "listado": "false",
+    "id":184
     }
 ]

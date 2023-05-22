@@ -1,28 +1,25 @@
 console.log("Esto funciona") 
 
-function changeListado(index, data) {
-  // Cambiar el valor de "listado" a "true" en los datos locales
-  data[index].listado = true;
+function changeListado(id, data) {
+  // Encontrar el índice del elemento en el arreglo usando el "id" correspondiente
+  const index = data.findIndex(item => item.id === id);
 
-  // Crear una solicitud PUT utilizando Ajax
-  const xhr = new XMLHttpRequest();
-  xhr.open('PUT', 'url_del_servidor/data.json', true);
-  xhr.setRequestHeader('Content-Type', 'application/json');
+  if (index !== -1) {
+    // Cambiar el valor de "listado" a "true" en los datos locales
+    data[index].listado = true;
 
-  // Enviar los datos actualizados al servidor
-  xhr.send(JSON.stringify(data));
+    // Obtener los datos de la película
+    const pelicula = data[index];
 
-  // Manejar la respuesta del servidor (opcional)
-  xhr.onreadystatechange = function() {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-      // La solicitud se completó con éxito
-      console.log('Los datos se han actualizado en el servidor.');
-    } else {
-      // Ocurrió un error durante la solicitud
-      console.error('No se pudo actualizar los datos en el servidor.');
-    }
-  };
+    // Mostrar los datos de la película en la consola
+    console.log('Los datos se han actualizado localmente.');
+    console.log('Datos de la película:', pelicula);
+  } else {
+    console.log('No se encontró ninguna película con el ID proporcionado.');
+  }
 }
+
+
 
 let data;
 // Obtener la categoría de la página actual
@@ -46,7 +43,8 @@ if (currentPath.includes('categoria-dc')) {
 // Cargar el archivo JSON
 fetch('json/data.json')
   .then(response => response.json())
-  .then(data => {
+  .then(jsonData => {
+    data = jsonData;
     // Filtrar el JSON según la categoría de la página
     let categoryItems = [];
     if (categoryName === 'dc') {
@@ -74,10 +72,10 @@ fetch('json/data.json')
     } 
 
     const categoryHtml = categoryItems.map((item, index) => `
-    <div class="box" id="box-${index}" style="background-image: url(${item.poster})">
+    <div class="box" data-id="${item.id}" style="background-image: url(${item.poster})">
       ${item.nombre}
       <div class="overlay">
-      <button onclick="changeListado(${index}, data)">Agregar al listado</button>
+      <button onclick="changeListado(${item.id}, data)">Agregar al listado</button>
       </div>
     </div>
   `).join('');
@@ -98,7 +96,6 @@ fetch('json/data.json')
       container.appendChild(row);
     }
 
-    
   });
 
   const formulario = document.querySelector('form');
@@ -154,9 +151,7 @@ $(document).ready(function() {
           <div class="box" id="box-${index}" style="background-image: url(${item.poster})">
             ${item.nombre}
             <div class="overlay">
-              <button class="btn btn-light">
-                Agregar al listado
-              </button>
+            <button onclick="changeListado(${index}, data)">Agregar al listado</button>
             </div>
           </div>
         `).join('');
