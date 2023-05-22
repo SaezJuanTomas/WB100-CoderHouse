@@ -1,6 +1,19 @@
 console.log("Esto funciona") 
 
 function changeListado(id, data) {
+  // Verificar si la película ya está en la lista
+  const movieExists = data.some(item => item.id === id && item.listado === true);
+
+  if (movieExists) {
+    Toastify({
+      text: "¡Ya está en tu lista!",
+      duration: 3000,
+      gravity: "top",
+      className: "toastify",
+    }).showToast();
+    return; // Salir de la función si la película ya está en la lista
+  }
+
   // Encontrar el índice del elemento en el arreglo usando el "id" correspondiente
   const index = data.findIndex(item => item.id === id);
 
@@ -14,10 +27,18 @@ function changeListado(id, data) {
     // Mostrar los datos de la película en la consola
     console.log('Los datos se han actualizado localmente.');
     console.log('Datos de la película:', pelicula);
+
+    Toastify({
+      text: "¡Agregado a tu listado!",
+      duration: 3000,
+      gravity: "top",
+      className: "toastify",
+    }).showToast();
   } else {
     console.log('No se encontró ninguna película con el ID proporcionado.');
   }
 }
+
 
 
 
