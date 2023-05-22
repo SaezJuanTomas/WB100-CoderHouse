@@ -7,7 +7,7 @@ function changeListado(id, data) {
   if (movieExists) {
     Toastify({
       text: "¡Ya está en tu lista!",
-      duration: 3000,
+      duration: 1500,
       gravity: "top",
       className: "toastify",
     }).showToast();
@@ -21,6 +21,9 @@ function changeListado(id, data) {
     // Cambiar el valor de "listado" a "true" en los datos locales
     data[index].listado = true;
 
+    // Guardar los datos modificados en el almacenamiento local
+    localStorage.setItem('peliculas', JSON.stringify(data));
+
     // Obtener los datos de la película
     const pelicula = data[index];
 
@@ -30,7 +33,7 @@ function changeListado(id, data) {
 
     Toastify({
       text: "¡Agregado a tu listado!",
-      duration: 3000,
+      duration: 1500,
       gravity: "top",
       className: "toastify",
     }).showToast();
@@ -174,12 +177,12 @@ $(document).ready(function() {
 
         // Crea los elementos HTML para los resultados
         const categoryHtml = results.map((item, index) => `
-          <div class="box" id="box-${index}" style="background-image: url(${item.poster})">
-            ${item.nombre}
-            <div class="overlay">
-            <button onclick="changeListado(${index}, data)">Agregar al listado</button>
-            </div>
-          </div>
+        <div class="box" data-id="${item.id}" style="background-image: url(${item.poster})">
+        ${item.nombre}
+        <div class="overlay">
+        <button onclick="changeListado(${item.id}, data)">Agregar al listado</button>
+        </div>
+      </div>
         `).join('');
 
         // Agrega los elementos HTML al contenedor de resultados
