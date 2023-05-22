@@ -42,7 +42,47 @@ function changeListado(id, data) {
   }
 }
 
+function eliminarListado(id, data) {
+  // Verificar si la película ya está en la lista
+  const movieExists = data.some(item => item.id === id && item.listado === false);
 
+  if (movieExists) {
+    Toastify({
+      text: "¡Ya se eliminó de tu lista!",
+      duration: 1500,
+      gravity: "top",
+      className: "toastify",
+    }).showToast();
+    return; // Salir de la función si la película ya está eliminada de la lista
+  }
+
+  // Encontrar el índice del elemento en el arreglo usando el "id" correspondiente
+  const index = data.findIndex(item => item.id === id);
+
+  if (index !== -1) {
+    // Cambiar el valor de "listado" a "false" en los datos locales
+    data[index].listado = false;
+
+    // Guardar los datos modificados en el almacenamiento local
+    localStorage.setItem('peliculas', JSON.stringify(data));
+
+    // Obtener los datos de la película
+    const pelicula = data[index];
+
+    // Mostrar los datos de la película en la consola
+    console.log('Los datos se han actualizado localmente.');
+    console.log('Datos de la película:', pelicula);
+
+    Toastify({
+      text: "¡Eliminado de tu listado!",
+      duration: 1500,
+      gravity: "top",
+      className: "toastify",
+    }).showToast();
+  } else {
+    console.log('No se encontró ninguna película con el ID proporcionado.');
+  }
+}
 
 
 let data;
@@ -99,7 +139,9 @@ fetch('json/data.json')
     <div class="box" data-id="${item.id}" style="background-image: url(${item.poster})">
       ${item.nombre}
       <div class="overlay">
-      <button onclick="changeListado(${item.id}, data)">Agregar al listado</button>
+      <button onclick="${categoryName === 'listado' ? 'eliminarListado' : 'changeListado'}(${item.id}, data)">
+        ${categoryName === 'listado' ? 'Eliminar del listado' : 'Agregar al listado'}
+      </button>
       </div>
     </div>
   `).join('');
@@ -122,6 +164,8 @@ fetch('json/data.json')
 
   });
 
+
+  
 const formulario = document.querySelector('form');
 const contenedorResultados = document.querySelector('#peliculas-encontradas');
 
