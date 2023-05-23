@@ -95,6 +95,8 @@ function eliminarListado(id, data) {
   }
 }
 
+
+
 //BOTONES LISTADO
 function vaciar() {
   Swal.fire({
@@ -113,7 +115,7 @@ function vaciar() {
       if (storedData && storedData.length > 0) {
         // Recorrer todos los elementos en el almacenamiento local y cambiar su valor "listado" a "true"
         storedData.forEach((item) => {
-          item.listado = true;
+          item.listado = false;
         });
 
         // Guardar los datos modificados en el almacenamiento local
@@ -215,8 +217,12 @@ async function loadJSON() {
       categoryItems = data.filter(item => parseInt(item.año) >= currentYear);
     } else if (categoryName === 'listado') {
       const storedData = JSON.parse(localStorage.getItem('peliculas'));
-      categoryItems = storedData.filter(item => item.listado === true);
+        categoryItems = data.filter(item => {
+          const storedItem = storedData.find(storedItem => storedItem.id === item.id);
+          return storedItem && storedItem.listado;
+        });
     }
+
 
     const categoryHtml = categoryItems.map((item, index) => `
       <div class="box" data-id="${item.id}" style="background-image: url(${item.poster})">
