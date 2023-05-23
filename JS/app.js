@@ -95,8 +95,6 @@ function eliminarListado(id, data) {
   }
 }
 
-
-
 //BOTONES LISTADO
 function vaciar() {
   Swal.fire({
@@ -126,6 +124,9 @@ function vaciar() {
           'Se han modificado los elementos en el almacenamiento local',
           'success'
         );
+
+        // Refrescar la página listado.html
+        window.location.reload();
       } else {
         Swal.fire(
           'No hay elementos en el listado',
