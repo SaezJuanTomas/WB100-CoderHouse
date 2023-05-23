@@ -26,13 +26,13 @@ function changeListado(id, data) {
 
     // Obtener los datos almacenados en el almacenamiento local
     const storedData = JSON.parse(localStorage.getItem('peliculas')) || [];
-    
+
     if (storedData.length > index) {
       storedData[index].listado = true;
     } else {
       console.log('No se encontró ninguna película con el ID proporcionado en el almacenamiento local.');
     }
-    
+
     // Guardar los datos modificados en el almacenamiento local
     localStorage.setItem('peliculas', JSON.stringify(storedData));
 
@@ -96,7 +96,6 @@ function eliminarListado(id, data) {
 }
 
 
-//AGREGAR ASYNC Y AWAIT SICRONICO
 let data;
 // Obtener la categoría de la página actual
 let categoryName = '';
@@ -116,66 +115,71 @@ if (currentPath.includes('categoria-dc')) {
 } else if (currentPath.includes('listado')) {
   categoryName = 'listado';
 }
-// Cargar el archivo JSON
-fetch('json/data.json')
-  .then(response => response.json())
-  .then(jsonData => {
-    data = jsonData;
-    // Filtrar el JSON según la categoría de la página
+
+// Función para cargar el archivo JSON de forma sincrónica
+async function loadJSON() {
+  const response = await fetch('json/data.json');
+  const jsonData = await response.json();
+  return jsonData;
+}
+
+(async () => {
+  try {
+    data = await loadJSON();
     let categoryItems = [];
+
     if (categoryName === 'dc') {
       categoryItems = data.filter(item => item.genero === 'DCEU');
-
     } else if (categoryName === 'drama') {
       categoryItems = data.filter(item => item.genero === 'Drama');
-
     } else if (categoryName === 'fantasia') {
       categoryItems = data.filter(item => item.genero === 'Fantasia');
-
     } else if (categoryName === 'horror') {
       categoryItems = data.filter(item => item.genero === 'horror');
-
     } else if (categoryName === 'ciencia_ficcion') {
       categoryItems = data.filter(item => item.genero === 'Ciencia ficción');
-
     } else if (categoryName === 'proximamente') {
       const currentYear = new Date().getFullYear();
       categoryItems = data.filter(item => parseInt(item.año) >= currentYear);
-
     } else if (categoryName === 'listado') {
-      // Obtener los datos del local storage
       const storedData = JSON.parse(localStorage.getItem('peliculas'));
       categoryItems = storedData.filter(item => item.listado === true);
     }
 
     const categoryHtml = categoryItems.map((item, index) => `
-    <div class="box" data-id="${item.id}" style="background-image: url(${item.poster})">
-      ${item.nombre}
-      <div class="overlay">
-      <button onclick="${categoryName === 'listado' ? 'eliminarListado' : 'changeListado'}(${item.id}, data)">
-        ${categoryName === 'listado' ? 'Eliminar del listado' : 'Agregar al listado'}
-      </button>
+      <div class="box" data-id="${item.id}" style="background-image: url(${item.poster})">
+        ${item.nombre}
+        <div class="overlay">
+          <button onclick="${categoryName === 'listado' ? 'eliminarListado' : 'changeListado'}(${item.id}, data)">
+            ${categoryName === 'listado' ? 'Eliminar del listado' : 'Agregar al listado'}
+          </button>
+        </div>
       </div>
-    </div>
-  `).join('');
+    `).join('');
 
-    // Mostrar el HTML en una grid de 4 objetos por fila
     const container = document.querySelector('.grid-container');
     container.innerHTML = categoryHtml;
     const boxes = document.querySelectorAll('.box');
+
     for (let i = 0; i < boxes.length; i += 3) {
       const row = document.createElement('div');
       row.classList.add('grid-row');
+      
       for (let j = 0; j < 3; j++) {
         const box = boxes[i + j];
+        
         if (box) {
           row.appendChild(box);
         }
       }
+      
       container.appendChild(row);
     }
+  } catch (error) {
+    console.error('Error al cargar los datos:', error);
+  }
+})();
 
-  });
 
 
   
