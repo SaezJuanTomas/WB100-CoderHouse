@@ -21,11 +21,13 @@ function changeListado(id, data) {
     // Cambiar el valor de "listado" a "true" en los datos locales
     data[index].listado = true;
 
-    // Guardar los datos modificados en el almacenamiento local
-    localStorage.setItem('peliculas', JSON.stringify(data));
-
     // Obtener los datos de la película
     const pelicula = data[index];
+
+    // Guardar los datos modificados en el almacenamiento local
+    const storedData = JSON.parse(localStorage.getItem('peliculas'));
+    storedData[index].listado = true;
+    localStorage.setItem('peliculas', JSON.stringify(storedData));
 
     // Mostrar los datos de la película en la consola
     console.log('Los datos se han actualizado localmente.');
@@ -63,11 +65,13 @@ function eliminarListado(id, data) {
     // Cambiar el valor de "listado" a "false" en los datos locales
     data[index].listado = false;
 
-    // Guardar los datos modificados en el almacenamiento local
-    localStorage.setItem('peliculas', JSON.stringify(data));
-
     // Obtener los datos de la película
     const pelicula = data[index];
+
+    // Guardar los datos modificados en el almacenamiento local
+    const storedData = JSON.parse(localStorage.getItem('peliculas'));
+    storedData[index].listado = false;
+    localStorage.setItem('peliculas', JSON.stringify(storedData));
 
     // Mostrar los datos de la película en la consola
     console.log('Los datos se han actualizado localmente.');
@@ -85,6 +89,7 @@ function eliminarListado(id, data) {
 }
 
 
+//AGREGAR ASYNC Y AWAIT SICRONICO
 let data;
 // Obtener la categoría de la página actual
 let categoryName = '';
@@ -131,8 +136,8 @@ fetch('json/data.json')
       categoryItems = data.filter(item => parseInt(item.año) >= currentYear);
 
     } else if (categoryName === 'listado') {
-      categoryItems = data.filter(item => item.listado === true);
-
+      const storedData = JSON.parse(localStorage.getItem('peliculas'));
+      categoryItems = storedData.filter(item => item.listado === true);
     }
 
     const categoryHtml = categoryItems.map((item, index) => `
