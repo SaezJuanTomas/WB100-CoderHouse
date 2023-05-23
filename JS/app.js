@@ -74,8 +74,11 @@ function eliminarListado(id, data) {
   // Obtener los datos almacenados en el almacenamiento local
   const storedData = JSON.parse(localStorage.getItem('peliculas')) || [];
 
-  if (storedData.length > movieIndex) {
-    storedData[movieIndex].listado = false;
+  // Encontrar el índice del elemento en el almacenamiento local usando el "id" correspondiente
+  const storedMovieIndex = storedData.findIndex(item => item.id === id);
+
+  if (storedMovieIndex !== -1) {
+    storedData[storedMovieIndex].listado = false;
   } else {
     console.log('No se encontró ninguna película con el ID proporcionado en el almacenamiento local.');
   }
@@ -97,6 +100,7 @@ function eliminarListado(id, data) {
   // Refrescar la página listado.html
   window.location.reload();
 }
+
 
 
 
