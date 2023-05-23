@@ -96,36 +96,39 @@ function eliminarListado(id, data) {
 }
 
 
-let data;
-// Obtener la categoría de la página actual
-let categoryName = '';
-const currentPath = window.location.pathname;
-if (currentPath.includes('categoria-dc')) {
-  categoryName = 'dc';
-} else if (currentPath.includes('categoria-drama')) {
-  categoryName = 'drama';
-} else if (currentPath.includes('categoria-fantasia')) {
-  categoryName = 'fantasia';
-} else if (currentPath.includes('categoria-horror')) {
-  categoryName = 'horror';
-} else if (currentPath.includes('categoria-ciencia_ficcion')) {
-  categoryName = 'ciencia_ficcion';
-} else if (currentPath.includes('categoria-proximamente')) {
-  categoryName = 'proximamente';
-} else if (currentPath.includes('listado')) {
-  categoryName = 'listado';
-}
-
-// Función para cargar el archivo JSON de forma sincrónica
+// Función para cargar el archivo JSON de forma asíncrona
 async function loadJSON() {
-  const response = await fetch('json/data.json');
-  const jsonData = await response.json();
-  return jsonData;
+  try {
+    const response = await fetch('json/data.json');
+    const jsonData = await response.json();
+    return jsonData;
+  } catch (error) {
+    throw new Error('Error al cargar el archivo JSON');
+  }
 }
 
 (async () => {
   try {
     data = await loadJSON();
+    // Obtener la categoría de la página actual
+    let categoryName = '';
+    const currentPath = window.location.pathname;
+    if (currentPath.includes('categoria-dc')) {
+      categoryName = 'dc';
+    } else if (currentPath.includes('categoria-drama')) {
+      categoryName = 'drama';
+    } else if (currentPath.includes('categoria-fantasia')) {
+      categoryName = 'fantasia';
+    } else if (currentPath.includes('categoria-horror')) {
+      categoryName = 'horror';
+    } else if (currentPath.includes('categoria-ciencia_ficcion')) {
+      categoryName = 'ciencia_ficcion';
+    } else if (currentPath.includes('categoria-proximamente')) {
+      categoryName = 'proximamente';
+    } else if (currentPath.includes('listado')) {
+      categoryName = 'listado';
+    }
+
     let categoryItems = [];
 
     if (categoryName === 'dc') {
@@ -164,15 +167,15 @@ async function loadJSON() {
     for (let i = 0; i < boxes.length; i += 3) {
       const row = document.createElement('div');
       row.classList.add('grid-row');
-      
+
       for (let j = 0; j < 3; j++) {
         const box = boxes[i + j];
-        
+
         if (box) {
           row.appendChild(box);
         }
       }
-      
+
       container.appendChild(row);
     }
   } catch (error) {
