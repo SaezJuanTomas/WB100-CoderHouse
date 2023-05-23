@@ -95,6 +95,75 @@ function eliminarListado(id, data) {
   }
 }
 
+//BOTONES LISTADO
+function vaciar() {
+  Swal.fire({
+    title: '¿Seguro que quieres vaciar el listado?',
+    text: "Esta acción no se puede revertir",
+    icon: 'warning',
+    showCancelButton: true,
+    confirmButtonColor: '#3085d6',
+    cancelButtonColor: '#d33',
+    confirmButtonText: 'Sí'
+  }).then((result) => {
+    if (result.isConfirmed) {
+      // Obtener los datos almacenados en el almacenamiento local
+      const storedData = JSON.parse(localStorage.getItem('peliculas'));
+
+      if (storedData && storedData.length > 0) {
+        // Recorrer todos los elementos en el almacenamiento local y cambiar su valor "listado" a "true"
+        storedData.forEach((item) => {
+          item.listado = true;
+        });
+
+        // Guardar los datos modificados en el almacenamiento local
+        localStorage.setItem('peliculas', JSON.stringify(storedData));
+
+        Swal.fire(
+          'Listado vaciado',
+          'Se han modificado los elementos en el almacenamiento local',
+          'success'
+        );
+      } else {
+        Swal.fire(
+          'No hay elementos en el listado',
+          'No se han realizado cambios en el almacenamiento local',
+          'info'
+        );
+      }
+    }
+  });
+}
+
+
+
+function exportar() {
+  Swal.fire({
+    title: 'Ingrese dirección de mail',
+    input: 'email',
+    inputPlaceholder: 'direccion@mail.com',
+    confirmButtonText: 'Enviar',
+    showLoaderOnConfirm: true,
+    preConfirm: (email) => {
+      if (email) {
+        return email;
+      } else {
+        Swal.showValidationMessage('Ingresar dirección valida');
+        return false;
+      }
+    }
+  }).then((result) => {
+    if (result.isConfirmed) {
+      const email = result.value;
+      Swal.fire(`Se va a mandar el listado a: ${email}`);
+      // Aquí puedes realizar la lógica adicional para exportar con el correo electrónico
+      console.log(`Correo electrónico ingresado: ${email}`);
+    }
+  });
+}
+
+
+
 
 // Función para cargar el archivo JSON de forma asíncrona
 async function loadJSON() {
@@ -258,52 +327,3 @@ $(document).ready(function () {
     });
   }
 });
-
-
-//BOTONES LISTADO
-function vaciar() {
-  Swal.fire({
-    title: 'Seguro que quiere vaciar el listado?',
-    text: "No se podra revertir",
-    icon: 'warning',
-    showCancelButton: true,
-    confirmButtonColor: '#3085d6',
-    cancelButtonColor: '#d33',
-    confirmButtonText: 'SI'
-  }).then((result) => {
-    if (result.isConfirmed) {
-      Swal.fire(
-        'Eliminado',
-      );
-    }
-  });
-}
-
-
-function exportar() {
-  Swal.fire({
-    title: 'Ingrese dirección de mail',
-    input: 'email',
-    inputPlaceholder: 'direccion@mail.com',
-    confirmButtonText: 'Enviar',
-    showLoaderOnConfirm: true,
-    preConfirm: (email) => {
-      if (email) {
-        return email;
-      } else {
-        Swal.showValidationMessage('Ingresar dirección valida');
-        return false;
-      }
-    }
-  }).then((result) => {
-    if (result.isConfirmed) {
-      const email = result.value;
-      Swal.fire(`Se va a mandar el listado a: ${email}`);
-      // Aquí puedes realizar la lógica adicional para exportar con el correo electrónico
-      console.log(`Correo electrónico ingresado: ${email}`);
-    }
-  });
-}
-
-
-
