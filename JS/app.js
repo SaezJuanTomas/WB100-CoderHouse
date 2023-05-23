@@ -68,7 +68,7 @@ function eliminarListado(id, data) {
   // Obtener los datos de la película
   const pelicula = data[movieIndex];
 
-  // Cambiar el valor de "listado" a "false" en los datos locales
+  // Cambiar el valor de "listado" a "false" solo en el elemento correspondiente
   data[movieIndex].listado = false;
 
   // Obtener los datos almacenados en el almacenamiento local
@@ -78,6 +78,7 @@ function eliminarListado(id, data) {
   const storedMovieIndex = storedData.findIndex(item => item.id === id);
 
   if (storedMovieIndex !== -1) {
+    // Cambiar el valor de "listado" a "false" solo en el elemento correspondiente
     storedData[storedMovieIndex].listado = false;
   } else {
     console.log('No se encontró ninguna película con el ID proporcionado en el almacenamiento local.');
@@ -100,6 +101,7 @@ function eliminarListado(id, data) {
   // Refrescar la página listado.html
   window.location.reload();
 }
+
 
 
 
