@@ -52,10 +52,10 @@ function changeListado(id, data) {
 }
 
 function eliminarListado(id, data) {
-  // Verificar si la película ya está en la lista
-  const movieExists = data.some(item => item.id === id && item.listado === false);
+  // Verificar si la película está en la lista y tiene el valor "listado" establecido en "true"
+  const movieExists = data.some(item => item.id === id && item.listado === true);
 
-  if (movieExists) {
+  if (!movieExists) {
     Toastify({
       text: "¡Ya se eliminó de tu lista!",
       duration: 1500,
@@ -69,15 +69,22 @@ function eliminarListado(id, data) {
   const index = data.findIndex(item => item.id === id);
 
   if (index !== -1) {
-    // Cambiar el valor de "listado" a "false" en los datos locales
-    data[index].listado = false;
-
     // Obtener los datos de la película
     const pelicula = data[index];
 
+    // Cambiar el valor de "listado" a "false" en los datos locales
+    data[index].listado = false;
+
+    // Obtener los datos almacenados en el almacenamiento local
+    const storedData = JSON.parse(localStorage.getItem('peliculas')) || [];
+
+    if (storedData.length > index) {
+      storedData[index].listado = false;
+    } else {
+      console.log('No se encontró ninguna película con el ID proporcionado en el almacenamiento local.');
+    }
+
     // Guardar los datos modificados en el almacenamiento local
-    const storedData = JSON.parse(localStorage.getItem('peliculas'));
-    storedData[index].listado = false;
     localStorage.setItem('peliculas', JSON.stringify(storedData));
 
     // Mostrar los datos de la película en la consola
@@ -90,10 +97,14 @@ function eliminarListado(id, data) {
       gravity: "top",
       className: "toastify",
     }).showToast();
+
+    // Refrescar la página listado.html
+    window.location.reload();
   } else {
     console.log('No se encontró ninguna película con el ID proporcionado.');
   }
 }
+
 
 //BOTONES LISTADO
 function vaciar() {
