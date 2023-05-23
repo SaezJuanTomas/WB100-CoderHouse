@@ -289,6 +289,3 @@ function exportar() {
     }
   });
 }
-
-
-
