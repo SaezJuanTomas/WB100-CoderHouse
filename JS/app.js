@@ -143,6 +143,7 @@ fetch('json/data.json')
       categoryItems = data.filter(item => parseInt(item.año) >= currentYear);
 
     } else if (categoryName === 'listado') {
+      // Obtener los datos del local storage
       const storedData = JSON.parse(localStorage.getItem('peliculas'));
       categoryItems = storedData.filter(item => item.listado === true);
     }
