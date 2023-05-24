@@ -2,11 +2,8 @@
 
 Proyecto final JS CoderHouse. Catalogo de peliculas de Warner Bros Discovery por el aniversario 100. Solo con Javascript.
 
-Queda programar 4 funciones:
-1-Agregar al listado
-2-Vaciar el listado
-3-Exportar el listado
-4-Ordenar resultados (por fecha y nombre)
+Queda programar 1 función a futuro:
+1-Ordenar resultados (por fecha y nombre)
 
 nota: tengo que cambiar posters que en console.log me marca por derechos de uso
 
