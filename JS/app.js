@@ -52,55 +52,43 @@ function changeListado(id, data) {
 }
 
 function eliminarListado(id, data) {
-  // Verificar si la película está en la lista y tiene el valor "listado" establecido en "true"
-  const movieIndex = data.findIndex(item => item.id === id && item.listado === true);
+  // Encontrar el índice del elemento en el arreglo usando el "id" correspondiente
+  const index = data.findIndex(item => item.id === id);
 
-  if (movieIndex === -1) {
+  if (index !== -1) {
+    // Cambiar el valor de "listado" a "false" en los datos locales
+    data[index].listado = false;
+
+    // Obtener los datos almacenados en el almacenamiento local
+    const storedData = JSON.parse(localStorage.getItem('peliculas')) || [];
+
+    if (storedData.length > index) {
+      storedData[index].listado = false;
+    } else {
+      console.log('No se encontró ninguna película con el ID proporcionado en el almacenamiento local.');
+    }
+
+    // Guardar los datos modificados en el almacenamiento local
+    localStorage.setItem('peliculas', JSON.stringify(storedData));
+
+    // Mostrar los datos de la película en la consola
+    console.log('Los datos se han actualizado localmente.');
+    console.log('Datos de la película:', data[index]);
+
     Toastify({
-      text: "¡Ya se eliminó de tu lista!",
+      text: "¡Eliminado del listado!",
       duration: 1500,
       gravity: "top",
       className: "toastify",
     }).showToast();
-    return; // Salir de la función si la película ya está eliminada de la lista
-  }
 
-  // Obtener los datos de la película
-  const pelicula = data[movieIndex];
-
-  // Cambiar el valor de "listado" a "false" solo en el elemento correspondiente
-  data[movieIndex].listado = false;
-
-  // Obtener los datos almacenados en el almacenamiento local
-  const storedData = JSON.parse(localStorage.getItem('peliculas')) || [];
-
-  // Encontrar el índice del elemento en el almacenamiento local usando el "id" correspondiente
-  const storedMovieIndex = storedData.findIndex(item => item.id === id);
-
-  if (storedMovieIndex !== -1) {
-    // Cambiar el valor de "listado" a "false" solo en el elemento correspondiente
-    storedData[storedMovieIndex].listado = false;
+    // Actualizar la página listado.html
+    window.location.reload();
   } else {
-    console.log('No se encontró ninguna película con el ID proporcionado en el almacenamiento local.');
+    console.log('No se encontró ninguna película con el ID proporcionado.');
   }
-
-  // Guardar los datos modificados en el almacenamiento local
-  localStorage.setItem('peliculas', JSON.stringify(storedData));
-
-  // Mostrar los datos de la película en la consola
-  console.log('Los datos se han actualizado localmente.');
-  console.log('Datos de la película:', pelicula);
-
-  Toastify({
-    text: "¡Eliminado de tu listado!",
-    duration: 1500,
-    gravity: "top",
-    className: "toastify",
-  }).showToast();
-
-  // Refrescar la página listado.html
-  window.location.reload();
 }
+
 
 
 
