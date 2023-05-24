@@ -89,11 +89,6 @@ function eliminarListado(id, data) {
   }
 }
 
-
-
-
-
-
 //BOTONES LISTADO
 function vaciar() {
   Swal.fire({
@@ -137,8 +132,6 @@ function vaciar() {
   });
 }
 
-
-
 function exportar() {
   Swal.fire({
     title: 'Ingrese dirección de mail',
@@ -163,9 +156,6 @@ function exportar() {
     }
   });
 }
-
-
-
 
 // Función para cargar el archivo JSON de forma asíncrona
 async function loadJSON() {
@@ -217,12 +207,11 @@ async function loadJSON() {
       categoryItems = data.filter(item => parseInt(item.año) >= currentYear);
     } else if (categoryName === 'listado') {
       const storedData = JSON.parse(localStorage.getItem('peliculas'));
-        categoryItems = data.filter(item => {
-          const storedItem = storedData.find(storedItem => storedItem.id === item.id);
-          return storedItem && storedItem.listado;
-        });
+      categoryItems = data.filter(item => {
+        const storedItem = storedData.find(storedItem => storedItem.id === item.id);
+        return storedItem && storedItem.listado;
+      });
     }
-
 
     const categoryHtml = categoryItems.map((item, index) => `
       <div class="box" data-id="${item.id}" style="background-image: url(${item.poster})">
@@ -258,9 +247,6 @@ async function loadJSON() {
   }
 })();
 
-
-
-  
 const formulario = document.querySelector('form');
 const contenedorResultados = document.querySelector('#peliculas-encontradas');
 
@@ -287,7 +273,6 @@ formulario.addEventListener('submit', function (evento) {
       `).join('');
     })
 });
-
 
 //SEARCH
 $('form').submit(function (event) {
