@@ -27,11 +27,14 @@ function changeListado(id, data) {
     // Obtener los datos almacenados en el almacenamiento local
     const storedData = JSON.parse(localStorage.getItem('peliculas')) || [];
 
-    if (storedData.length > index) {
-      storedData[index].listado = true;
+    const storedMovieIndex = storedData.findIndex(item => item.id === id);
+
+    if (storedMovieIndex !== -1) {
+      storedData[storedMovieIndex].listado = true;
     } else {
-      console.log('No se encontró ninguna película con el ID proporcionado en el almacenamiento local.');
+      storedData.push({ id, listado: true });
     }
+    
 
     // Guardar los datos modificados en el almacenamiento local
     localStorage.setItem('peliculas', JSON.stringify(storedData));
