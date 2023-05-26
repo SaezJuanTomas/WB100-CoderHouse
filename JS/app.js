@@ -34,7 +34,7 @@ function changeListado(id, data) {
     } else {
       storedData.push({ id, listado: true });
     }
-    
+
 
     // Guardar los datos modificados en el almacenamiento local
     localStorage.setItem('peliculas', JSON.stringify(storedData));
@@ -65,11 +65,14 @@ function eliminarListado(id, data) {
     // Obtener los datos almacenados en el almacenamiento local
     const storedData = JSON.parse(localStorage.getItem('peliculas')) || [];
 
-    if (storedData.length > index) {
-      storedData[index].listado = false;
+    const storedMovieIndex = storedData.findIndex(item => item.id === id);
+
+    if (storedMovieIndex !== -1) {
+      storedData[storedMovieIndex].listado = false;
     } else {
       console.log('No se encontró ninguna película con el ID proporcionado en el almacenamiento local.');
     }
+
 
     // Guardar los datos modificados en el almacenamiento local
     localStorage.setItem('peliculas', JSON.stringify(storedData));
